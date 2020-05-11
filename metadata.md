@@ -9,7 +9,7 @@ tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-5-videos.html
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/experience-manager-65.en
-index: y
+index: n
 ---
 
 # Metadata for internal use
