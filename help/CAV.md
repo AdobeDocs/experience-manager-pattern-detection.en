@@ -33,7 +33,7 @@ snippet: y
 * it is even more restrictive for sling:resourceType. 
 */
 
-[granite:InternalArea] mixin</span> </pre> <pre><code class="code">/** 
+[granite:InternalArea] mixin</code> </pre> <pre><code class="code">/** 
 * Defines a node as final, so that it cannot be overlaid 
 * or inherited by sling:resourceSuperType. 
 */
