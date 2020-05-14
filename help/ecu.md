@@ -15,7 +15,7 @@ snippet: y
 
 # ECU{#ecu}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%">
+<table>
  <tbody>
   <tr>
    <td><strong>Pattern code</strong></td>
