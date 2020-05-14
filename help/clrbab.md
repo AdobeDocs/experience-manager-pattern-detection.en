@@ -8,7 +8,7 @@ contentOwner: sarchiz
 discoiquuid: 3beddc3d-59a6-4f6a-b9a8-a5e1667c78e8
 noindex: true
 nosnippets: true
-index: y
+index: n
 internal: n
 snippet: y
 ---

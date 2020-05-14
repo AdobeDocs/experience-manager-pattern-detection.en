@@ -8,34 +8,34 @@ contentOwner: sarchiz
 discoiquuid: 16cb96d7-7981-4df9-b1f5-07d2f20c167f
 noindex: true
 nosnippets: true
-index: y
+index: n
 internal: n
 snippet: y
 ---
 
 # OSGICM{#osgicm}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table border="1" cellpadding="1" cellspacing="0" width="100%">
  <tbody>
   <tr>
-   <td><strong>Pattern code</strong></td> 
-   <td>OSGICM<br /> </td> 
+   <td><strong>Pattern code</strong></td>
+   <td>OSGICM<br /> </td>
   </tr>
   <tr>
-   <td><strong>Pattern name</strong></td> 
-   <td>OSGi Config Misconfiguration</td> 
+   <td><strong>Pattern name</strong></td>
+   <td>OSGi Config Misconfiguration</td>
   </tr>
   <tr>
-   <td><strong>Background</strong></td> 
-   <td>Customer changed or removed some OSGi configs that are essential after upgrade</td> 
+   <td><strong>Background</strong></td>
+   <td>Customer changed or removed some OSGi configs that are essential after upgrade</td>
   </tr>
   <tr>
-   <td><strong>Possible implications and risks</strong></td> 
-   <td>Sample content that is insecure on production can be installed automatically on next upgrade due to runmode setting</td> 
+   <td><strong>Possible implications and risks</strong></td>
+   <td>Sample content that is insecure on production can be installed automatically on next upgrade due to runmode setting</td>
   </tr>
   <tr>
-   <td><strong>Possible solutions</strong></td> 
-   <td>Bring back the config and inform customers about a new strategy for paths generated for new users</td> 
+   <td><strong>Possible solutions</strong></td>
+   <td>Bring back the config and inform customers about a new strategy for paths generated for new users</td>
   </tr>
  </tbody>
 </table>

@@ -8,35 +8,35 @@ contentOwner: sarchiz
 discoiquuid: 12a82fbd-39ec-4690-aa34-bb3a53e89a03
 noindex: true
 nosnippets: true
-index: y
+index: n
 internal: n
 snippet: y
 ---
 
 # DOPI{#dopi}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table border="1" cellpadding="1" cellspacing="0" width="100%">
  <tbody>
   <tr>
-   <td><strong>Pattern code</strong></td> 
-   <td>DOPI</td> 
+   <td><strong>Pattern code</strong></td>
+   <td>DOPI</td>
   </tr>
   <tr>
-   <td><strong>Pattern name</strong></td> 
-   <td><strong>D</strong>eprecated "<strong>O</strong>rdered" <strong>P</strong>roperty <strong>I</strong>ndex</td> 
+   <td><strong>Pattern name</strong></td>
+   <td><strong>D</strong>eprecated "<strong>O</strong>rdered" <strong>P</strong>roperty <strong>I</strong>ndex</td>
   </tr>
   <tr>
-   <td><strong>Background</strong></td> 
-   <td><p>Ordered property index definitions (primaryType=oak:QueryIndexDefinition AND type="ordered") have been deprecated since 6.1 and were removed in 6.2.</p> <p>If such indices are used they need to be migrated to a supported (Lucene based) definition (by either modifying an existing definition OR by adding a new one) to address the queries that required that index.</p> </td> 
+   <td><strong>Background</strong></td>
+   <td><p>Ordered property index definitions (primaryType=oak:QueryIndexDefinition AND type="ordered") have been deprecated since 6.1 and were removed in 6.2.</p> <p>If such indices are used they need to be migrated to a supported (Lucene based) definition (by either modifying an existing definition OR by adding a new one) to address the queries that required that index.</p> </td>
   </tr>
   <tr>
-   <td><strong>Possible implications and risks</strong></td> 
+   <td><strong>Possible implications and risks</strong></td>
    <td>
-    <ul> 
-     <li>No response from some queries</li> 
-     <li>Customer functionality might work incorrectly</li> 
-     <li>Traversal warnings or even errors and a significant performance penalties as the indices cannot be used anymore<br /><br /> </li> 
-    </ul> </td> 
+    <ul>
+     <li>No response from some queries</li>
+     <li>Customer functionality might work incorrectly</li>
+     <li>Traversal warnings or even errors and a significant performance penalties as the indices cannot be used anymore<br /><br /> </li>
+    </ul> </td>
   </tr>
  </tbody>
 </table>
