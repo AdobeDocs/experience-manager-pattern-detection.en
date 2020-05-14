@@ -27,7 +27,7 @@ snippet: y
   </tr>
   <tr>
    <td><strong>Background</strong></td>
-   <td><p>The customer uses internal Oak packages importing them via OSGi. They are in majority exported without any particular version and they are intended to be consumed mostly by other Oak bundles or low level AEM services.</p> <p>Some of them are used by <span class="code">com.adobe.granite.repository</span> which sets up a repository for AEM during startup.</p> <p>The same example is for <span class="code">com.adobe.granite.maintenance.oak</span> Adobe bundle which wraps and provides Oak maintenance tasks</p> </td>
+   <td><p>The customer uses internal Oak packages importing them via OSGi. They are in majority exported without any particular version and they are intended to be consumed mostly by other Oak bundles or low level AEM services.</p> <p>Some of them are used by <code>com.adobe.granite.repository</code> which sets up a repository for AEM during startup.</p> <p>The same example is for <code>com.adobe.granite.maintenance.oak</code> Adobe bundle which wraps and provides Oak maintenance tasks</p> </td>
   </tr>
   <tr>
    <td><strong>Possible implications and risks</strong></td>

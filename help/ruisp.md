@@ -35,7 +35,7 @@ snippet: y
   </tr>
   <tr>
    <td><strong>Possible solutions</strong></td>
-   <td>Migrate and move components from <span class="code">/apps/foundation/components/primary</span> to <span class="code">/apps</span></td>
+   <td>Migrate and move components from <code>/apps/foundation/components/primary</code> to <code>/apps</code></td>
   </tr>
  </tbody>
 </table>
