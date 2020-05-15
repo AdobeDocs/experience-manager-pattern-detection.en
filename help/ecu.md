@@ -21,9 +21,12 @@ snippet: y
 <td><strong>Pattern code</strong></td>
 <td>ECU</td>
 </tr>
-<tr><td><strong>Pattern name</strong></td>
+<tr>
+<td><strong>Pattern name</strong></td>
 <td>Extraneous Content Usage</td>
-</tr><tr><td><strong>Background</strong></td>
+</tr>
+<tr>
+<td><strong>Background</strong></td>
 <td><p><strong>Extraneous Content Usage</strong> refers to the pattern where different content areas are used crossing safe boundaries.<br></br>
 Content Area Usages</p>
 <p>When it comes to <strong>usages</strong> there are many kinds of them:</p>
@@ -38,25 +41,25 @@ Content Area Usages</p>
 <p>This is crucial especially if pageTemplate node is a component and any other component or page references: aem/component/pageTemplate as <code>sling:resourceType</code> or <code>sling:superResourceType</code></p>
 <p><strong>Safe boundaries</strong></p>
 <p>The boundaries of content are indicated by mixin types. They are defined as follows:</p>
-<p><code>/**<br></br>
+<p><code>/**</code><br></br>
 * Defines a node as internal, so that it shouldn't be used as resourceType<br></br>
 * nowhere outside the parent path area. It has the same limitations as:<br></br>
 * granite:Final but it is even more restrictive for<br></br>
 * sling:resourceType.<br></br>
 */<br></br>
  <code>[granite:InternalArea] mixin</code></p>
-<p><code>/**<br></br>
+<p><code>/**</code><br></br>
 * Defines a node as final, so that it cannot be overlaid or inherited by<br></br>
 * sling:resourceSuperType.<br></br>
 */<br></br>
  <code>[granite:FinalArea] mixin</code></p>
-<p><code>/**<br></br>
+<p><code>/**</code><br></br>
 * Defines a node as abstract, so that it can only be overlaid or inherited by<br></br>
 * sling:resourceSuperType but it should not or cannot be used<br></br>
 * directly by sling:resourceType.<br></br>
 */<br></br>
  <code>[granite:AbstractArea] mixin</code></p>
-<p><code>/**<br></br>
+<p><code>/**</code><br></br>
 * Defines a node as public, so that it can be overlaid, inherited or used<br></br>
 * The node can be used in both:<br></br>
 * <br></br>
@@ -66,8 +69,10 @@ Content Area Usages</p>
 */<br></br>
  <code>[granite:PublicArea] mixin</code></p>
 </td>
-</tr><tr><td><strong>Possible implications and risks</strong></td>
-<td><ul>
+</tr>
+<tr><td><strong>Possible implications and risks</strong></td>
+<td>
+<ul>
 <li>Security updates are not effective<br></br>
 </li>
 <li>The functionality that depends on original component can be broken with shadowed functionality<br></br>
@@ -75,8 +80,11 @@ Content Area Usages</p>
 <li>The AEM upgrade leads to errors and page rendering problems (all or for selective content)</li>
 </ul>
 </td>
-</tr><tr><td><strong>Possible solutions</strong></td>
-<td><ul>
+</tr>
+<tr>
+<td><strong>Possible solutions</strong></td>
+<td>
+<ul>
 <li>Overlay only content that you&#39;re really changing.<br></br>
 </li>
 <li>Consider adapting changes coming from /libs after AEM upgrades, ServicePack or CumulativeFixPack installations<br></br>
