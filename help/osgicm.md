@@ -1,16 +1,9 @@
 ---
 title: OSGICM
-seo-title: OSGICM
 description: null
-seo-description: null
 uuid: c72dc46a-27da-4a54-a17f-449acb672c7f
 contentOwner: sarchiz
 discoiquuid: 16cb96d7-7981-4df9-b1f5-07d2f20c167f
-noindex: true
-nosnippets: true
-index: n
-internal: n
-snippet: y
 ---
 
 # OSGICM{#osgicm}

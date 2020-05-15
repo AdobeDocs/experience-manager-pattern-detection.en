@@ -1,16 +1,9 @@
 ---
 title: RUISP
-seo-title: RUISP
 description: null
-seo-description: null
 uuid: 6c1dc379-5613-475f-97fd-25feee89d4c2
 contentOwner: sarchiz
 discoiquuid: 35183b83-76c2-404b-b80f-8ec1d8c281aa
-noindex: true
-nosnippets: true
-index: n
-internal: n
-snippet: y
 ---
 
 # RUISP{#ruisp}

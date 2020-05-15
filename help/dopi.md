@@ -1,16 +1,9 @@
 ---
 title: DOPI
-seo-title: DOPI
 description: null
-seo-description: null
 uuid: 66a16462-11a2-483e-a5a0-b3405fa8fc20
 contentOwner: sarchiz
 discoiquuid: 12a82fbd-39ec-4690-aa34-bb3a53e89a03
-noindex: true
-nosnippets: true
-index: n
-internal: n
-snippet: y
 ---
 
 # DOPI{#dopi}

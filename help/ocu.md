@@ -1,16 +1,9 @@
 ---
 title: OCU
-seo-title: OCU
 description: null
-seo-description: null
 uuid: 4ea1b9ad-5161-4d08-83b9-fb42b9df9dfa
 contentOwner: sarchiz
 discoiquuid: 8338635d-7c98-4635-b64f-5fc98e500f51
-noindex: true
-nosnippets: true
-index: n
-internal: n
-snippet: y
 ---
 
 # OCU{#ocu}

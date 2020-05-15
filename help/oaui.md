@@ -1,15 +1,8 @@
 ---
 title: OAUI
-seo-title: OAUI
 description: null
-seo-description: null
 uuid: a33ac39c-8668-4526-8a5a-030d5302a616
 discoiquuid: 74c31255-ee10-4804-8f65-c472cef3442c
-noindex: true
-nosnippets: true
-index: n
-internal: n
-snippet: y
 ---
 
 # OAUI{#oaui}

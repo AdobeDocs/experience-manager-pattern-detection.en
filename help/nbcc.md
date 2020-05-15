@@ -1,16 +1,9 @@
 ---
 title: NBCC
-seo-title: NBCC
 description: null
-seo-description: null
 uuid: 0e920e8a-2cff-4d2d-8b3b-1e061c1a1be0
 contentOwner: sarchiz
 discoiquuid: a9f9a349-c287-4e1c-b1d4-4a59f6a782e7
-noindex: true
-nosnippets: true
-index: n
-internal: n
-snippet: y
 ---
 
 # NBCC{#nbcc}

@@ -1,16 +1,9 @@
 ---
 title: DOCF
-seo-title: DOCF
 description: null
-seo-description: null
 uuid: f8f108dd-f2d2-4837-ab3b-67a3ed16e507
 contentOwner: sarchiz
 discoiquuid: 3848f502-c03e-4f07-83cf-246c949f111a
-noindex: true
-nosnippets: true
-index: n
-internal: n
-snippet: y
 ---
 
 # DOCF{#docf}

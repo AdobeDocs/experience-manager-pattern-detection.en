@@ -1,16 +1,9 @@
 ---
 title: RM
-seo-title: RM
 description: null
-seo-description: null
 uuid: ccbe3d9c-017d-4446-a513-8e963dc836f7
 contentOwner: sarchiz
 discoiquuid: 57321704-6014-4319-8ead-0e555c25094a
-noindex: true
-nosnippets: true
-index: n
-internal: n
-snippet: y
 ---
 
 # RM{#rm}

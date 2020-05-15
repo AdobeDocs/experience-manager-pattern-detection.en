@@ -1,15 +1,8 @@
 ---
 title: CAV
-seo-title: CAV
 description: null
-seo-description: null
 uuid: 2b143dd5-c565-4f8e-a9aa-fbed3319c555
 discoiquuid: 74d1a471-e134-489f-a526-5c98755568b4
-noindex: true
-nosnippets: true
-index: n
-internal: n
-snippet: y
 ---
 
 # CAV{#cav}

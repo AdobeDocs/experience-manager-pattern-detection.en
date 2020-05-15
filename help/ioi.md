@@ -1,16 +1,9 @@
 ---
 title: IOI
-seo-title: IOI
 description: null
-seo-description: null
 uuid: d6c53c0d-c493-41f3-9345-76fc06266118
 contentOwner: sarchiz
 discoiquuid: 2d40b93e-e814-4129-b213-af692014b4f5
-noindex: true
-nosnippets: true
-index: n
-internal: n
-snippet: y
 ---
 
 # IOI{#ioi}

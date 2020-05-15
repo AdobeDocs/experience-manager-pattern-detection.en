@@ -1,16 +1,9 @@
 ---
 title: ECU
-seo-title: ECU
 description: null
-seo-description: null
 uuid: c4eb958c-08f6-4e1d-a6b0-3aad4c9319bf
 contentOwner: sarchiz
 discoiquuid: 4033b736-0640-416a-920f-888c3f41d70b
-noindex: true
-nosnippets: true
-index: n
-internal: n
-snippet: y
 ---
 
 # ECU{#ecu}

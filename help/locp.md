@@ -1,16 +1,9 @@
 ---
 title: LOCP
-seo-title: LOCP
 description: null
-seo-description: null
 uuid: 396fed3e-9938-4cd1-983c-68baba52c2f8
 contentOwner: sarchiz
 discoiquuid: ffeb6d3f-da85-4fce-8128-9a733001616b
-noindex: true
-nosnippets: true
-index: n
-internal: n
-snippet: y
 ---
 
 # LOCP{#locp}

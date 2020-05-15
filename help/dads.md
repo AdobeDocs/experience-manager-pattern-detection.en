@@ -1,16 +1,9 @@
 ---
 title: DADS
-seo-title: DADS
 description: null
-seo-description: null
 uuid: 17482f78-3d64-4bde-a0fc-4726cb0ddcdd
 contentOwner: sarchiz
 discoiquuid: 044ba956-d370-41e7-99db-21204836c427
-noindex: true
-nosnippets: true
-index: n
-internal: n
-snippet: y
 ---
 
 # DADS{#dads}

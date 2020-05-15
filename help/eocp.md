@@ -1,16 +1,9 @@
 ---
 title: EOCP
-seo-title: EOCP
 description: null
-seo-description: null
 uuid: d5148d06-a4d8-4961-884c-fbdeb0bf6cfa
 contentOwner: sarchiz
 discoiquuid: 97309437-073a-4558-b94f-dad8f343b39d
-noindex: true
-nosnippets: true
-index: n
-internal: n
-snippet: y
 ---
 
 # EOCP{#eocp}
