@@ -1,36 +1,23 @@
 ---
 title: DOPI
-description: null
-uuid: 66a16462-11a2-483e-a5a0-b3405fa8fc20
-contentOwner: sarchiz
-discoiquuid: 12a82fbd-39ec-4690-aa34-bb3a53e89a03
+description: Pattern Detector code help page
 ---
 
-# DOPI{#dopi}
+# DOPI {#dopi}
 
-<table>
- <tbody>
-  <tr>
-   <td><strong>Pattern code</strong></td>
-   <td>DOPI</td>
-  </tr>
-  <tr>
-   <td><strong>Pattern name</strong></td>
-   <td><strong>D</strong>eprecated "<strong>O</strong>rdered" <strong>P</strong>roperty <strong>I</strong>ndex</td>
-  </tr>
-  <tr>
-   <td><strong>Background</strong></td>
-   <td><p>Ordered property index definitions (primaryType=oak:QueryIndexDefinition AND type="ordered") have been deprecated since 6.1 and were removed in 6.2.</p> <p>If such indices are used they need to be migrated to a supported (Lucene based) definition (by either modifying an existing definition OR by adding a new one) to address the queries that required that index.</p> </td>
-  </tr>
-  <tr>
-   <td><strong>Possible implications and risks</strong></td>
-   <td>
-    <ul>
-     <li>No response from some queries</li>
-     <li>Customer functionality might work incorrectly</li>
-     <li>Traversal warnings or even errors and a significant performance penalties as the indices cannot be used anymore<br /><br /> </li>
-    </ul> </td>
-  </tr>
- </tbody>
-</table>
+Deprecated Ordered Property Index
 
+## Background {#background}
+
+`DOPI` identifies the use of ordered property index definitions (`primaryType=oak:QueryIndexDefinition` AND `type="ordered"`), which have been deprecated since 6.1 and were removed in 6.2.
+
+## Possible implications and risks {#implications-and-risks}
+
+* Some queries may not respond.
+* Customer functionality might work incorrectly.
+* Traversal warnings or even errors and significant performance penalties as the deprecated indexes have no effect.
+
+## Possible solutions {#solutions}
+
+* Modify the index definition to become, or replace the index with, a supported index definition. (See [Oak Queries and Indexing](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/queries-and-indexing.html)).
+* Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.

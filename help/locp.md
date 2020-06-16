@@ -1,35 +1,22 @@
 ---
 title: LOCP
-description: null
-uuid: 396fed3e-9938-4cd1-983c-68baba52c2f8
-contentOwner: sarchiz
-discoiquuid: ffeb6d3f-da85-4fce-8128-9a733001616b
+description: Pattern Detector code help page
 ---
 
-# LOCP{#locp}
+# LOCP {#locp}
 
-<table>
- <tbody>
-  <tr>
-   <td><strong>Pattern code</strong></td>
-   <td>LOCP</td>
-  </tr>
-  <tr>
-   <td><strong>Pattern name</strong></td>
-   <td>/libs Overwriting Custom Packages</td>
-  </tr>
-  <tr>
-   <td><strong>Background</strong></td>
-   <td>Custom packages that delivers content to /libs is anti-pattern (except ACLs). Customer should be able to deploy the same things under /apps.</td>
-  </tr>
-  <tr>
-   <td><strong>Possible implications and risks</strong></td>
-   <td>
-    <ul>
-     <li>The customer code might be deleted or replaced for any CFP, SP or major AEM upgrade.<br /> </li>
-     <li>In some cases the new content might not be installed properly.</li>
-    </ul> </td>
-  </tr>
- </tbody>
-</table>
+/libs Overwriting Custom Packages
 
+## Background {#background}
+
+`LOCP` identifies the detection of a custom package that delivers content to `/libs`, which is an anti-pattern (except in the case ACLs).
+
+## Possible implications and risks {#implications-and-risks}
+
+* The customer code might be deleted or replaced for any CFP, SP or major AEM upgrade.
+* In some cases the new content might not be installed properly.
+
+## Possible solutions {#solutions}
+
+* Customer packages should deploy content to `/apps` instead of `/libs`.
+* Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.

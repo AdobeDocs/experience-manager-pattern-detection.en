@@ -1,10 +1,16 @@
 ---
 title: NONE
-description: null
-uuid: 8e4d883b-4654-4cec-91f2-029d31ee3081
-contentOwner: sarchiz
-discoiquuid: c4f782cc-bd6d-4a49-b367-464577cccc68
+description: Pattern Detector code help page
 ---
 
-# NONE{#none}
+# NONE {#none}
 
+None
+
+## Background {#background}
+
+The page should not have been reached.
+
+## Possible solutions {#solutions}
+
+* Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to report the error.
