@@ -1,11 +1,13 @@
 ---
 cloud: experience-cloud
 product: adobe
-archtype: end-user
-user-guide: null
+audience: end-user
+user-guide-title: Experience Manager Pattern Detection Guide
+breadcrumb-title: AEM Pattern Detection
+user-guide-description: Learn about Adobe Experience Manager Pattern Detection.
 ---
 
-# Table of Contents {#table-of-contents}
+# Experience Manager Pattern Detection Guide {#table-of-contents}
 
 + [ASO](aso.md)
 + [CAV](cav.md)
