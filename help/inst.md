@@ -9,7 +9,7 @@ Installed Artifact
 
 ## Background {#background}
 
-`INST` identifies custom and third-party packages and bundles that have been installed in AEM by the customer. These are reported to help you understand the general scope of the upgrade task.
+`INST` identifies custom and third-party packages and bundles that have been installed in AEM by the customer. These are reported to help characterize the state of the system the general scope of an upgrade effort.
 
 When multiple versions of a package have been installed, only the latest version is reported.
 
@@ -28,7 +28,7 @@ Subtypes are used to identify different types of information:
 
 ## Possible solutions {#solutions}
 
-* Third-party packages should be deployed to AEM as a part of the project using the Cloud Manager [deployment process](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html#deployment-process).
-* Review how to [embed third-party packages](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#embedding-3rd-party-packages) in your project for AEM as a Cloud Service.
-* Third-party packages must adhere to the AEM as a Cloud Service [development](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/development-guidelines.html) and [packaging](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/repository-structure-package.html) guidelines.
+* Third-party packages should be deployed to AEM as a part of the project using the Cloud Manager [deployment process](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html#deployment-process).
+* Review how to [embed third-party packages](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#embedding-3rd-party-packages) in your project for AEM as a Cloud Service.
+* Third-party packages must adhere to the AEM as a Cloud Service [development](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html) and [packaging](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html) guidelines.
 * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
