@@ -11,6 +11,11 @@ Page Complexity
 
 `PCX` identifies pages that contain a large number of nodes in their structure.
 
+Subtypes are used to identify the different types of information:
+
+* `page.complexity.medium`: A page contains a moderately high number of nodes that may affect rendering performance.
+* `page.complexity.high`: A page contains a very high number of nodes that will likely affect rendering performance.
+
 ## Possible implications and risks {#implications-and-risks}
 
 * A large number of nodes within a page may affect its rendering performance.

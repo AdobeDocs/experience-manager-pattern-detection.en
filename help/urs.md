@@ -28,6 +28,6 @@ Subtypes are used to identify the specific types of repository issues that shoul
 
 ## Possible solutions {#solutions}
 
-* Refer to [Repository Restructuring](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/restructuring/repository-restructuring.html) for guidance to prepare for AEM as a Cloud Service.
-* Also refer to [AEM Project Structure](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) to learn more about mutable and immutable areas of the repository.
+* Refer to [Repository Restructuring](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html) for guidance to prepare for AEM as a Cloud Service.
+* Also refer to [AEM Project Structure](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) to learn more about mutable and immutable areas of the repository.
 * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.

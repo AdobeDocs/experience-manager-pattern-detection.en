@@ -22,7 +22,7 @@ AEM as a Cloud Service uses [Sling Content Distribution](https://sling.apache.or
 
 ## Possible solutions {#solutions}
 
-* See the AEM as a Cloud Service [Development Guidelines](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/development-guidelines.html#no-reverse-replication-agents) and release notes for [replication agents](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#replication-agents).
+* See the AEM as a Cloud Service [Development Guidelines](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#no-reverse-replication-agents) and release notes for [replication agents](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#replication-agents).
 * Review, refactor, and optimize functionality directly dependent on replication agents to perform business tasks.
-* See how [replication](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/overview.html#replication) is affected by deployment in AEM as a Cloud Service.
+* See how [replication](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#replication) is affected by deployment in AEM as a Cloud Service.
 * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.

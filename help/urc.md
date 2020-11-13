@@ -19,5 +19,5 @@ Unsupported Runmode Configuration
 ## Possible solutions {#solutions}
 
 * Review the use of this configuration to determine if it is necessary.
-* Rename the configuration to use one of the supported [runmode names](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#custom-runmodes) and follow [runmode resolution guidelines](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#runmode-resolution).
+* Rename the configuration to use one of the supported [runmode names](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#custom-runmodes) and follow [runmode resolution guidelines](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#runmode-resolution).
 * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.

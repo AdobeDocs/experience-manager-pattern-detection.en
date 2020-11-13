@@ -19,5 +19,5 @@ Deprecated Ordered Property Index
 
 ## Possible solutions {#solutions}
 
-* Modify the index definition to become, or replace the index with, a supported index definition. (See [Oak Queries and Indexing](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/queries-and-indexing.html)).
+* Modify the index definition to become, or replace the index with, a supported index definition. (See [Oak Queries and Indexing](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html)).
 * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
