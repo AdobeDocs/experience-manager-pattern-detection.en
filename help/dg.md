@@ -32,7 +32,7 @@ Subtypes are used to identify the different types of detected violations:
 
 ## Possible solutions {#solutions}
 
-* `maintenance.task.configuration`
+* `java.io.inputstream`
   * Use a direct-binary upload approach in which the binary is added to the datastore directly.
   * For assets use cases, please use [aem-upload](https://github.com/adobe/aem-upload). For other types of binaries, custom upload logic can be modeled after this same pattern.
 
