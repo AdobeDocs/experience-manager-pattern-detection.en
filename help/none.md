@@ -3,7 +3,7 @@ title: NONE
 description: Pattern Detector code help page
 ---
 
-# NONE {#none}
+# [!DNL NONE] {#none}
 
 None
 
