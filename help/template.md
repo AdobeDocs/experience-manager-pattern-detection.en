@@ -3,7 +3,7 @@ title: TEMPLATE
 description: Template for Pattern Detector code help page
 ---
 
-# TEMPLATE {#template}
+# [!DNL TEMPLATE] {#template}
 
 Template
 
