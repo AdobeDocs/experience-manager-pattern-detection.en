@@ -3,7 +3,7 @@ title: REP
 description: Pattern Detector code help page
 ---
 
-# REP {#rep}
+# [!DNL REP] {#rep}
 
 Replication Agent
 
