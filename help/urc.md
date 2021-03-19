@@ -20,4 +20,5 @@ Unsupported Runmode Configuration
 
 * Review the use of this configuration to determine if it is necessary.
 * Rename the configuration to use one of the supported [runmode names](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#custom-runmodes) and follow [runmode resolution guidelines](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#runmode-resolution).
+* Review [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc) project and understand how [URC violations](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc) can be corrected and made compatible with AEM as a Cloud Service.
 * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
