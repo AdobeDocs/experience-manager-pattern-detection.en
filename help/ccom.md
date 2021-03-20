@@ -1,6 +1,8 @@
 ---
 title: CCOM
 description: Pattern Detector code help page
+feature: Developer Tools
+role: Developer
 ---
 
 # CCOM {#ccom}

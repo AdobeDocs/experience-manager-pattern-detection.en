@@ -1,6 +1,8 @@
 ---
 title: DG
 description: Pattern Detector code help page
+feature: Developer Tools
+role: Developer
 ---
 
 # DG {#dg}

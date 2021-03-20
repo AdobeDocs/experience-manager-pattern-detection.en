@@ -1,6 +1,8 @@
 ---
 title: OAUI
 description: Pattern Detector code help page
+feature: Developer Tools
+role: Developer
 ---
 
 # OAUI {#oaui}

@@ -1,6 +1,8 @@
 ---
 title: INST
 description: Pattern Detector code help page
+feature: Developer Tools
+role: Developer
 ---
 
 # INST {#inst}

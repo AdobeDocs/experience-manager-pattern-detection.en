@@ -1,6 +1,8 @@
 ---
 title: URC
 description: Pattern Detector code help page
+feature: Developer Tools
+role: Developer
 ---
 
 # URC {#urc}

@@ -1,6 +1,8 @@
 ---
 title: OCU
 description: Pattern Detector code help page
+feature: Developer Tools
+role: Developer
 ---
 
 # OCU {#ocu}
