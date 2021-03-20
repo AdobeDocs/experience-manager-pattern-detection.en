@@ -1,8 +1,6 @@
 ---
 title: PCX
 description: Pattern Detector code help page
-feature: Developer Tools
-role: Developer
 ---
 
 # PCX {#pcx}

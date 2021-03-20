@@ -1,8 +1,6 @@
 ---
 title: REP
 description: Pattern Detector code help page
-feature: Developer Tools
-role: Developer
 ---
 
 # [!DNL REP] {#rep}

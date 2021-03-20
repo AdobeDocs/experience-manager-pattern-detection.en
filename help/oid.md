@@ -1,8 +1,6 @@
 ---
 title: OID
 description: Pattern Detector code help page
-feature: Developer Tools
-role: Developer
 ---
 
 # OID {#oid}

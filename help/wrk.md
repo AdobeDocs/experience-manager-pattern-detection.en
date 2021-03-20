@@ -1,8 +1,6 @@
 ---
 title: WRK
 description: Pattern Detector code help page
-feature: Developer Tools
-role: Developer
 ---
 
 # WRK {#wrk}

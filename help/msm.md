@@ -1,8 +1,6 @@
 ---
 title: MSM
 description: Pattern Detector code help page
-feature: Developer Tools
-role: Developer
 ---
 
 # MSM {#msm}

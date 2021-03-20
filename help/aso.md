@@ -1,8 +1,6 @@
 ---
 title: ASO
 description: Pattern Detector code help page
-feature: Developer Tools
-role: Developer
 ---
 
 # ASO {#aso}
