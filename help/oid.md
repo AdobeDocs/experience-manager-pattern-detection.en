@@ -27,4 +27,5 @@ Subtypes are used to identify the different types of information:
 * Resolve the index rule violations identified in the message.
 * Follow AEM as a Cloud Service [packaging guidelines](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) to deploy new or custom Oak index definitions.
 * Customized AEM standard indexes and new custom Oak index definitions should follow the [content indexing guidelines](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html#preparing-the-new-index-definition) for AEM as Cloud Service.
+* Review [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid) project and understand how [OID violations](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid) can be corrected and made compatible with AEM as a Cloud Service.
 * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
