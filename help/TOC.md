@@ -1,11 +1,11 @@
 ---
-cloud: experience-cloud
-product: adobe
-audience: end-user
 hide: yes
 user-guide-title: Experience Manager Pattern Detection Guide
 breadcrumb-title: AEM Pattern Detection
 user-guide-description: Learn about Adobe Experience Manager Pattern Detection.
+feature-set: Experience Manager
+feature: Developer Tools
+role: Developer
 ---
 
 # Experience Manager Pattern Detection Guide {#table-of-contents}
