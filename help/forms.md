@@ -1,15 +1,15 @@
 ---
-title: FORM
+title: FORMS
 description: Pattern Detector code help page
 ---
 
-# [!DNL FORM] {#form}
+# [!DNL FORMS] {#forms}
 
 [!DNL Adobe Experience Manager Forms]
 
 ## Background {#background}
 
-`FORM` identifies potential issues related to migrating from Adobe Experience Manager Forms to Adobe Experience Manager Forms as a Cloud Service. Address these issues before migrating to Cloud Service.
+`FORMS` identifies potential issues related to migrating from Adobe Experience Manager Forms to Adobe Experience Manager Forms as a Cloud Service. Address these issues before migrating to Cloud Service.
 
 The following subtypes help you identify the different types of issues:
 
