@@ -1,15 +1,15 @@
 ---
-title: FORMS
+title: FORM
 description: Pattern Detector code help page
 ---
 
-# [!DNL FORMS] {#forms}
+# [!DNL FORMS] {#form}
 
 [!DNL Adobe Experience Manager Forms]
 
 ## Background {#background}
 
-`FORMS` identifies potential issues related to migrating from Adobe Experience Manager Forms to Adobe Experience Manager Forms as a Cloud Service. Address these issues before migrating to Cloud Service.
+`FORMS` Identifies potential issues related to migrating from [!DNL Adobe Experience Manager Forms] to [!DNL Adobe Experience Manager Form]s as a [!DNL Cloud Service]. Address these issues before migrating to [!DNL Cloud Service].
 
 The following subtypes help you identify the different types of issues:
 
@@ -22,25 +22,25 @@ See the [Possible implications and risks](#implications-and-risks) and [Possible
 
 ## Possible implications and risks {#implications-and-risks}
 
-Address the following issues, before migrating to Adobe Experience Manager Forms as a Cloud Service. When the below-listed implications and risks are not addressed, some features do not function as expected in the Cloud Service environment.
+Address the following issues, before migrating to [!DNL Adobe Experience Manager Forms as a Cloud Service]. When the below-listed implications and risks are not addressed, some features do not function as expected in the Cloud Service environment.
 
 * The code editor functionality of the rule editor feature is not available. (CODE_EDITOR)
 
 * Email support (SMTP port) is disabled, by default. (EMAIL_SERVICE_CONFIGURATION)
 
-* The **[!UICONTROL Email PDF]** submit action is not available.(EMAIL_PDF_SUBMIT_ACTION)
+* The **[!UICONTROL Email PDF]** Submit Action is not available.(EMAIL_PDF_SUBMIT_ACTION)
 
-* XDP-based adaptive forms are not yet supported. (XDP_BASED_FORM)
+* XFA-based Adaptive Forms are not supported yet. (XFA_BASED_FORM, XDP_BASED_FORM)
 
-* A submit action is invoked immediately on form submission instead of waiting for all signers to complete the signing. So, The adaptive form signature document (Adobe Sign agreement PDF sent to signers) is not available for submit actions to use or process. (FORM_SIGN_INTEGRATION)  
+* A Submit Action is invoked immediately on form submission instead of waiting for all signers to complete the signing. So, the Adobe Sign agreement PDF sent to signers is not available for Submit Actions to use or process. (FORM_SIGN_INTEGRATION)  
 
 * The Signature step is not available. (SIGNATURE_STEP)
 
 * The Verify step is not available. (VERIFY_STEP)
 
-* The Forms Portal feature and **[!UICONTROL Forms Portal submit action]** are not available. You cannot use Forms Portal to list forms, save drafts, or show submitted forms. You cannot send (use **[!UICONTROL Forms Portal submit action]** ) data submitted to an adaptive form to a Forms Portal. [!UICONTROL Save as draft] and [!UICONTROL Auto Save] an adaptive form features are not supported at present. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL, DRAFT_AUTO_SAVE, DRAFT_SAVE)
+* The Forms Portal feature and **[!UICONTROL Forms Portal Submit Action]** are not yet available. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL, DRAFT_AUTO_SAVE, DRAFT_SAVE)
 
-* The **[!UICONTROL Submit to Forms workflow]** submit action is not available. On AEM 6.5 Forms and previous versions, the submit action was used to submit adaptive form data to legacy AEM Forms on JEE Workflows and LiveCycle Workflows. (LC_WORKFLOW_SUBMISSION)
+* The **[!UICONTROL Submit to Forms Workflow]** Submit Action is not available. On [!DNL AEM 6.5 Forms] and previous versions, the Submit Action was used to submit adaptive form data to legacy [!DNL AEM Forms on JEE] Workflows and LiveCycle Workflows. (LC_WORKFLOW_SUBMISSION)
 
 * The Interactive Communications capability is not available.  (FP_PROFILE_INTERACTIVE_COMMUNICATIONS).
 
@@ -48,34 +48,42 @@ Address the following issues, before migrating to Adobe Experience Manager Forms
 
 * Metadata accordion is not available. (METADATA_ACCORDION_FORM_CONTAINER)
 
-* The CAPTCHA component now uses the Google reCAPTCHA service to validate CAPTCHA, by default. The option to use Adobe Experience Manager to validate CAPTCHA is not available. (FORMS_CAPTCHA)
+* The CAPTCHA component now uses the Google reCAPTCHA service to validate CAPTCHA, by default. The option to use Adobe Experience Manager to validate CAPTCHA is deprecated. (FORMS_CAPTCHA)
+
+* [!DNL AEM Forms] app is not available for [!DNL Cloud Services]. (AEM_FORMS_APP)
+
+* [Document Services](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology) steps are not available in AEM Workflows. (WORKFLOW_DOCSERVICES)
 
 ## Possible solutions {#solutions}
 
 * Use migration utility to convert all rule scripts on your environment to reusable functions. You can use the reusable functions with Visual Rule editor to continue obtaining results obtained with rule scripts. (CODE_EDITOR)
 
-* Contact the support team to enable email (open SMTP Port) functionality for your environment. Only outgoing HTTP and HTTPS connections are enabled, by default. (EMAIL_SERVICE_CONFIGURATION)
+* Contact the support team to enable email (open SMTP Port) functionality for your environment. Only outgoing HTTP and HTTPS connections are enabled, by default. (EMAIL_SERVICE_CONFIGURATION, Email step)
 
-* Use **[!UICONTROL Email]** submit action instead of **[!UICONTROL Email PDF]**. The **[!UICONTROL Email]** submit action provide options to send attachments and attach Document of Record (DoR) with email. (EMAIL_PDF_SUBMIT_ACTION)
+* Use **[!UICONTROL Email]** Submit Action instead of **[!UICONTROL Email PDF]**. The **[!UICONTROL Email]** Submit Action provide options to send attachments and attach Document of Record (DoR) with email. (EMAIL_PDF_SUBMIT_ACTION)
 
-* Do not migrate XDP based adaptive forms to a Cloud Service environment. Keep an eye on monthly release notes for the availability of the features. (XDP_BASED_FORM)
+* Submitted data contains Adobe Sign Agreement ID. You can use the Sign Agreement ID to retrieve a Sign Agreement PDF, if required.  (FORM_SIGN_INTEGRATION)
 
-* Submitted data contain Sign Agreement ID. You can use the Sign Agreement ID to retrieve a Sign Agreement PDF, if required.  (FORM_SIGN_INTEGRATION)
+* Remove the Signature step from an existing Adaptive Form. Configure your Adaptive Form to use [in-browser signing experience](https://medium.com/adobetech/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684). It displays Adobe Sign agreement to sign the agreement within browser on submission of an adaptive form. In-browser signing experience helps provide a faster signing experience and saves time for the signer. (SIGNATURE_STEP)
 
-* Replace the Signature step in your adaptive forms with the option to Sign an adaptive form post submission, in the same window. It helps you continue providing an [in-browser signing experience](https://medium.com/adobetech/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684). (SIGNATURE_STEP)
+* Remove the verify step from your existing Adaptive Forms before moving such forms to a [!DNL Cloud Service] environment. (VERIFY_STEP)
 
-* Remove the verify step from your existing adaptive forms before moving such forms to a Cloud Service environment. (VERIFY_STEP)
+* Modify your existing adaptive forms to use [Submit to REST endpoint](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint), [Send email](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email), [Submit using Form Data Model](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model), and [Invoke an AEM Workflow](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Submit Actions. Forms Portal and Forms Portal Submit Action are not available yet. Keep an eye on monthly release notes for the availability of the features. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL)
 
-* There is no alternative to **[!UICONTROL Forms Portal submit action]**. You can use this submit action once the Forms Portal feature is released for the Cloud Service. Keep an eye on monthly release notes for the availability of the features. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL)
+* You can develop an AEM Workflow and modify your existing adaptive forms to use [AEM Workflow](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Submit Action to send data to an AEM Workflow instead of using the **[!UICONTROL Submit to Forms Workflow]** Submit Action. You can develop a custom Submit Action to send data, attachments, or Document of Record (DoR) to a LiveCycle process instead of using the [!UICONTROL Submit to Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
 
-* There is no alternative submit action to **[!UICONTROL Submit to Forms workflow]** submit actions. You can develop a custom submit action to send data, attachments, or Document of Record (DoR) to a LiveCycle process. (LC_WORKFLOW_SUBMISSION)
+* Keep an eye on monthly release notes for the availability of the Interactive Communications feature. Do not migrate your Interactive Communications, Letters, and related Dictionaries to a Cloud Service environment until the feature is not available. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
-* Do not migrate your Interactive Communications, Letters, and related Dictionaries to a Cloud Service environment. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
-
-* Disable the **[!UICONTROL Save as draft]** and **[!UICONTROL Enable Auto Save]** option in your adaptive forms before migrating them to Cloud Service. You can enable these options once the Forms Portal feature is released for the Cloud Service. Keep an eye on monthly release notes for the availability of the features. (DRAFT_AUTO_SAVE, DRAFT_SAVE)
+* Disable the **[!UICONTROL Save as draft]** and **[!UICONTROL Enable Auto Save]** option in your Adaptive Forms before migrating them to Cloud Service. You can enable these options once the Forms Portal feature is released for the Cloud Service. Keep an eye on monthly release notes for the availability of the features. (DRAFT_AUTO_SAVE, DRAFT_SAVE)
 
 * There is no replacement for metadata accordion. Remove it from your forms before migrating them to Cloud Service.(METADATA_ACCORDION_FORM_CONTAINER)
 
 * Use the Google reCaptcha instead of the CAPTCHA service provided by Adobe Experience Manager. (FORMS_CAPTCHA)
+
+* Adaptive Forms offer a responsive design. These forms change the appearance, design, and interactivity based on the underlying device. You can continue using Adaptive Forms on mobile device while keeping a watch on monthly release notes for the availability of the [!DNL AEM Forms] app. (AEM_FORMS_APP)
+
+* Do not migrate a AEM Workflow model that uses a Document Services Workflow step. Also, do not migrate or update Adaptive Forms that send user data to a Workflow Model that uses Document Services Workflow steps or change the Submit Action to a [supported one](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html) before migrating the form. (WORKFLOW_DOCSERVICES)
+
+* Support for XFA-based Adaptive Forms is not available out of the box. If you intend to use XFA-based Adaptive Forms, contact Adobe Support with details of your use case and specific requirements.((XFA_BASED_FORM, XDP_BASED_FORM)
 
 Reach out to [Adobe Support](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
