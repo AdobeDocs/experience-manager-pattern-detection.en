@@ -1,8 +1,8 @@
 ---
 title: MSM
 description: Pattern Detector code help page
+exl-id: 47d3736f-146f-4674-a5e8-affad537c120
 ---
-
 # MSM {#msm}
 
 Multi Site Manager

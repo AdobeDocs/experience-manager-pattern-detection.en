@@ -1,8 +1,8 @@
 ---
 title: REP
 description: Pattern Detector code help page
+exl-id: e788deba-a301-404f-8e90-51f721409e69
 ---
-
 # [!DNL REP] {#rep}
 
 Replication Agent

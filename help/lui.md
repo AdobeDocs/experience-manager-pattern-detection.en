@@ -1,8 +1,8 @@
 ---
 title: LUI
 description: Pattern Detector code help page
+exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 ---
-
 # LUI {#lui}
 
 Legacy User Interface

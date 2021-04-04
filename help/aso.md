@@ -1,8 +1,8 @@
 ---
 title: ASO
 description: Pattern Detector code help page
+exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 ---
-
 # ASO {#aso}
 
 AEM System Overview

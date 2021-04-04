@@ -1,8 +1,8 @@
 ---
 title: CTEM
 description: Pattern Detector code help page
+exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 ---
-
 # CTEM {#ctem}
 
 Custom Template

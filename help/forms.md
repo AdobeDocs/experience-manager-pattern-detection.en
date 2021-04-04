@@ -1,8 +1,8 @@
 ---
 title: FORM
 description: Pattern Detector code help page
+exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 ---
-
 # [!DNL FORMS] {#form}
 
 [!DNL Adobe Experience Manager Forms]

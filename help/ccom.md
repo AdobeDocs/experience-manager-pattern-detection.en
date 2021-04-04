@@ -1,8 +1,8 @@
 ---
 title: CCOM
 description: Pattern Detector code help page
+exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 ---
-
 # CCOM {#ccom}
 
 Custom Component

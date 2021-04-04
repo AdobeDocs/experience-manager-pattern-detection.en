@@ -1,8 +1,8 @@
 ---
 title: URC
 description: Pattern Detector code help page
+exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
 ---
-
 # URC {#urc}
 
 Unsupported Runmode Configuration

@@ -1,8 +1,8 @@
 ---
 title: LOCP
 description: Pattern Detector code help page
+exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
 ---
-
 # LOCP {#locp}
 
 /libs Overwriting Custom Packages

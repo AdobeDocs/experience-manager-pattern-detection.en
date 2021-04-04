@@ -1,8 +1,8 @@
 ---
 title: CAV
 description: Pattern Detector code help page
+exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
 ---
-
 # CAV {#cav}
 
 Content Area Violation

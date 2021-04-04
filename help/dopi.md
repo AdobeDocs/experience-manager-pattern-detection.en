@@ -1,8 +1,8 @@
 ---
 title: DOPI
 description: Pattern Detector code help page
+exl-id: ae4df44d-43ca-438c-8373-11381b916af3
 ---
-
 # DOPI {#dopi}
 
 Deprecated Ordered Property Index

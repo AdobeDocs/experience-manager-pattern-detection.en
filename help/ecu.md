@@ -1,8 +1,8 @@
 ---
 title: ECU
 description: Pattern Detector code help page
+exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
 ---
-
 # ECU {#ecu}
 
 DEPRECATED: Extraneous Content Usage (replaced by CAV, Content Area Violation)

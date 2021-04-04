@@ -1,8 +1,8 @@
 ---
 title: URS
 description: Pattern Detector code help page
+exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 ---
-
 # URS {#urs}
 
 Unsupported Repository Structure

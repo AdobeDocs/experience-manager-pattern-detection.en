@@ -1,8 +1,8 @@
 ---
 title: NBCC
 description: Pattern Detector code help page
+exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
 ---
-
 # NBCC {#nbcc}
 
 Non-Backwards Compatible Changes

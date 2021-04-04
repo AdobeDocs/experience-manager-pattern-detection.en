@@ -1,8 +1,8 @@
 ---
 title: UMI
 description: Pattern Detector code help page
+exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 ---
-
 # UMI {#umi}
 
 Upgrade Misconfiguration Issue

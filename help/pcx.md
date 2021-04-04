@@ -1,8 +1,8 @@
 ---
 title: PCX
 description: Pattern Detector code help page
+exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 ---
-
 # PCX {#pcx}
 
 Page Complexity

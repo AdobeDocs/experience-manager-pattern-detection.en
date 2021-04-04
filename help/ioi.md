@@ -1,8 +1,8 @@
 ---
 title: IOI
 description: Pattern Detector code help page
+exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 ---
-
 # IOI {#ioi}
 
 Internal Oak Import

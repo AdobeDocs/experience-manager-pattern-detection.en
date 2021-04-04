@@ -1,8 +1,8 @@
 ---
 title: OAUI
 description: Pattern Detector code help page
+exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
 ---
-
 # OAUI {#oaui}
 
 OAuth Users Instance

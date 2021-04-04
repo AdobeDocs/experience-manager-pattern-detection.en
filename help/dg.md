@@ -1,8 +1,8 @@
 ---
 title: DG
 description: Pattern Detector code help page
+exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 ---
-
 # DG {#dg}
 
 Developer Guideline

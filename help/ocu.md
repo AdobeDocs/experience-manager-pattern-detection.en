@@ -1,8 +1,8 @@
 ---
 title: OCU
 description: Pattern Detector code help page
+exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
 ---
-
 # OCU {#ocu}
 
 Outdated Code Usage

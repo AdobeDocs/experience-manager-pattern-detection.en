@@ -1,8 +1,8 @@
 ---
 title: WRK
 description: Pattern Detector code help page
+exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
 ---
-
 # WRK {#wrk}
 
 Workflow

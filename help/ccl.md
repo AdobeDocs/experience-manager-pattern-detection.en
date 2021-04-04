@@ -1,8 +1,8 @@
 ---
 title: CCL
 description: Pattern Detector code help page
+exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
 ---
-
 # CCL {#ccl}
 
 Custom Client Library

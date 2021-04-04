@@ -1,8 +1,8 @@
 ---
 title: DM
 description: Pattern Detector code help page
+exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
 ---
-
 # DM {#dm}
 
 Dynamic Media
