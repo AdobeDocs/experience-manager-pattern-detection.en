@@ -9,7 +9,7 @@ Non-Backwards Compatible Changes
 
 ## Background {#background}
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id="aemcloud_bpa_nbcc_overview"
 >title="Non-Backwards Compatible Changes"
 >abstract="NBCC identifies to the situation in which some JCR nodes or bundles are changed in a non-compatible way. The customer may be not aware of this change before an upgrade."

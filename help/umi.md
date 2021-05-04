@@ -9,7 +9,7 @@ Upgrade Misconfiguration Issue
 
 ## Background {#background}
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_overview"
 >title="Upgrade Misconfiguration Issue"
 >abstract="UMI identifies modifications to certain OSGi configurations that will cause issues when upgrading, including a failed upgrade or reduced functionality."

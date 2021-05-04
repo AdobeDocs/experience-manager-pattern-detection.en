@@ -9,7 +9,7 @@ Replication Agent
 
 ## Background {#background}
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id="aemcloud_bpa_rep_overview"
 >title="Replication Agent"
 >abstract="REP identifies enabled replication agents. These are reported because of the potential for issues that should be addressed when upgrading to AEM as a Cloud Service. AEM as a Cloud Service uses Sling Content Distribution to distribute content from author to publish environments. This is done outside of the AEM runtime using the pipeline service of Adobe I/O. This is automatically configured in the provisioned AEM as a Cloud Service environment."

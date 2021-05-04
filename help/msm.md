@@ -9,7 +9,7 @@ Multi Site Manager
 
 ## Background {#background}
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_overview"
 >title="Multi Site Manager"
 >abstract="MSM identifies general information about the AEM Multi Site Manager feature. This in formation is provided to help characterize the system."

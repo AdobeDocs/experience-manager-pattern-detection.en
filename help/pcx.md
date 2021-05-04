@@ -9,7 +9,7 @@ Page Complexity
 
 ## Background {#background}
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_overview"
 >title="Page Complexity"
 >abstract="PCX identifies pages that contain a large number of nodes in their structure."

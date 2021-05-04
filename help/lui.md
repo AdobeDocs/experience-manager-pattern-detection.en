@@ -9,7 +9,7 @@ Legacy User Interface
 
 ## Background {#background}
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_overview"
 >title="Legacy User Interface"
 >abstract="LUI identifies the use of deprecated user interface elements that are not recommended or not supported in later versions of AEM and in AEM as a Cloud Service."

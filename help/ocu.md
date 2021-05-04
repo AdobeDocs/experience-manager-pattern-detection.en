@@ -9,7 +9,7 @@ Outdated Code Usage
 
 ## Background {#background}
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ocu_overview"
 >title="Outdated Code Usage"
 >abstract="OCU identifies the situation in which some JCR nodes, such as Sling or AEM components or API OSGi exports, are changed or removed in a non-compatible way. The customer may be not aware of this change before an upgrade. They might be upgraded to a non-compatible version or can be not available at all."
