@@ -28,7 +28,7 @@ Non-Backwards Compatible Changes
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_nbcc_guidance"
 >title="Implementation Guidance"
->abstract="Best practice is review custom code and ensure only backward compatible Sling components are overlaid or referenced. Reach out to Adobe Support for help & clarifications""
+>abstract="Best practice is review custom code and ensure only backward compatible Sling components are overlaid or referenced. Reach out to Adobe Support for help & clarifications"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html#platform" text="Overlays"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 

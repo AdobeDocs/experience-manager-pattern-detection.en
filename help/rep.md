@@ -32,7 +32,7 @@ AEM as a Cloud Service uses [Sling Content Distribution](https://sling.apache.or
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_rep_guidance"
 >title="Implementation Guidance"
->abstract="Best Practice is to Review, refactor, and optimize custom functionality directly dependent on replication agents and make it compatible with AEM as a Cloud Service. Reach out to Adobe Support for help & clarifications""
+>abstract="Best Practice is to Review, refactor, and optimize custom functionality directly dependent on replication agents and make it compatible with AEM as a Cloud Service. Reach out to Adobe Support for help & clarifications"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#replication" text="Replication - AEM as a Cloud Service"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 

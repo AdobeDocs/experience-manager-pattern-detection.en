@@ -45,7 +45,7 @@ Subtypes are used to identify the different types of detected violations:
 >title="Implementation Guidance"
 >abstract="Following AEM development guidelines & best practices, Customers should review their implementations on usage of Sling Commons Scheduler and restructure them to Sling Jobs, restructure their system maintenance tasks, review streaming of any binary data and refactor their code to be compliant with AEM as a Cloud Service."
 >additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Sling Jobs"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.htm" text="Maintenance Tasks in AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html" text="Maintenance Tasks in AEM as a Cloud Service"
 
 * `java.io.inputstream`
   * Use a direct-binary upload approach in which the binary is added to the datastore directly.
