@@ -12,9 +12,8 @@ Content Area Violation
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_overview"
 >title="Content Area Violation"
->abstract="CAV code identifies the pattern where different content areas are used in a way that violates the rules of the content classification. This violation would give you an overview on overlays, restricted content which might need changes once we move to AEM as a Cloud Service"
+>abstract="CAV code identifies the pattern where different content areas are used in a way that violates the rules of the content classification. This violation would give you an overview on overlays, restricted content which might need changes once we move to AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html#platform" text="Sling Resource Merger"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html" text="Sustainable Upgrades"
 
 `CAV` identifies the pattern where different content areas are used in a way that violates the rules of the content classification.
 
@@ -32,7 +31,7 @@ In order to make it safer and easier for customers to understand what areas of `
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"
 >title="Implementation Guidance"
->abstract="Patterns identified with CAS where different content area violation exist should be reviewed. Final and Internal content classication areas should be avoided. Reach out to Adobe Support for help & clarifications"
+>abstract="Patterns identified with CAS where different content area violation exist should be reviewed. Final and Internal content classication areas should be avoided. Reach out to Adobe Support for help & clarifications."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html" text="Sustainable Upgrades"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 

@@ -38,8 +38,7 @@ Subtypes are used to identify different types of information:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_guidance"
 >title="Implementation Guidance"
->abstract="Information exposed via ASO code provides general information for your AEM environments including version, product add-ons, system level information and this should be reviewed for any unsupported products or features in AEM as a Cloud Service. Reach out to Adobe Support for help & clarifications"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service - Release Notes"
+>abstract="Information exposed via ASO code provides general information for your AEM environments including version, product add-ons, system level information and this should be reviewed for any unsupported products or features in AEM as a Cloud Service. Reach out to Adobe Support for help & clarifications."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
 * AEM upgrades with unsupported products or features are not recommended and may not supported.
