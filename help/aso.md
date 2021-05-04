@@ -9,6 +9,12 @@ AEM System Overview
 
 ## Background {#background}
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_aso_overview"
+>title="AEM System Overview"
+>abstract="ASO code identifies general information about the AEM instance. Each finding provides one value of a particular type of system information that can help in your migration planning and refactoring effort."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service - Release Notes"
+
 `ASO` identifies general information about the AEM instance. Each finding provides one value of a particular type of system information.
 
 Subtypes are used to identify different types of information:
@@ -28,6 +34,12 @@ Subtypes are used to identify different types of information:
 * Upgrading with unsupported features may result in a failed upgrade and a non-functional application.
 
 ## Possible solutions {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_aso_guidance"
+>title="Implementation Guidance"
+>abstract="Information exposed via ASO code provides general information for your AEM environments including version, product add-ons, system level information and this should be reviewed for any unsupported products or features in AEM as a Cloud Service. Reach out to Adobe Support for help & clarifications."
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
 * AEM upgrades with unsupported products or features are not recommended and may not supported.
 * Review the [release notes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html) to learn about the latest changes in AEM as a Cloud Service.
