@@ -28,7 +28,7 @@ One subtype is used with this code:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_guidance"
 >title="Implementation Guidance"
->abstract="The client libraries added to AEM identified by CCL should be reviewed to ensure that there is no duplication and that the latest versions are used. Reach out to Adobe Support for help & clarifications""
+>abstract="The client libraries added to AEM identified by CCL should be reviewed to ensure that there is no duplication and that the latest versions are used. Reach out to Adobe Support for help & clarifications"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
 * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
