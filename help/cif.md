@@ -41,6 +41,6 @@ Subtypes are used to identify the different types of information:
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/migration.html" text="Migration guide for CIF"
 
 * For Experience Manager as a Cloud Service the CIF add-on is the only supported commerce integration solution for Adobe Commerce and 3rd party commerce solutions. The CIF add-on is deployed automatically for customers on Experience Manager as a Cloud Service, no manual deployment is needed. See [Getting started with AEM Commerce as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/storefront/getting-started.html).
-* To support projects deploying CIF Adobe provide [AEM CIF Core Components](https://github.com/adobe/aem-core-cif-components).
+* To support projects deploying CIF Adobe provides [AEM CIF Core Components](https://github.com/adobe/aem-core-cif-components).
 * CIF add-on is available for AEM 6.5 as well via the [Software Distribution portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html). It is compatible and provides the same features as the CIF add-on for Experience Manager as a Cloud Service - no adjustments are required.
 * Classic CIF with its dependencies is not available anymore. Code relying on this CIF version using com.adobe.cq.commerce.api Java APIs must be adjusted to the CIF add-on and its principles.
