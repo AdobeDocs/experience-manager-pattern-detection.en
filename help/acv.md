@@ -34,4 +34,5 @@ Subtypes are used to identify the different types of information:
 >abstract="Best practice is review content structure to help reduce in failures of Assets contents features that depends on property inheritance . Reach out to Adobe Support for help & clarifications"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
- * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
+* If you have folders having missing child node, please analyze why that would have happened, if the number of folders is manageable, child nodes can be created manually or using a script for large number of folders.
+* Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
