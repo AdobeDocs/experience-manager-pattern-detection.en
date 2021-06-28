@@ -12,15 +12,15 @@ Assets Content Validator
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_overview"
 >title="Assets Content Validator"
->abstract="ACV identifies missing mandatory nodes in assets content."
+>abstract="ACV identifies the missing mandatory nodes in assets content."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html" text="Notable Changes - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="Experience Manager as a Cloud Service - Release Notes"
 
-`ACV`  Assets Content Validator identifies missing mandatory nodes in asset content. This could lead to failure of certain Assets features on Experience Manager as a Cloud Service.
+`ACV`  Assets' Content Validator identifies the missing mandatory nodes in asset content. This could lead to failure of certain Assets features on Experience Manager as a Cloud Service.
 
 Subtypes are used to identify the different types of information, such as:
 
-* `assets.sanity.missing.jcrcontent`: Identify folders with missing mandatory jcr:content child node. This could lead to failure of certain Assets features on Experience Manager as a Cloud Service
+* `assets.sanity.missing.jcrcontent`: Identify the folders with missing mandatory nodes in the repository. Identifying any missing content in the repository helps prevent any broken features or use cases.
 
 ## Possible implications and risks {#implications-and-risks}
 
@@ -34,5 +34,5 @@ This could lead to failure of certain Assets features that depend on inherited p
 >abstract="Adobe recommends to review content structure to prevent broken workflows that depend on inherited properties. Contact Customer Care for help".
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
-* If folders have a missing child node, analyze the folders. If the number of folders is manageable, child nodes can be created manually or use a script for large number of folders.
+* Analyze a folder if it has a missing child node. Create the nodes manually if the number of folders is manageable, otherwise use a script.
 * Reach out to our [Experience Manager Customer Care Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
