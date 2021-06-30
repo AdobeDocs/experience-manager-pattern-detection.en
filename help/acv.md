@@ -9,7 +9,7 @@ Assets Content Validator
 
 ## Background {#background}
 
->[!CONTEXTUALHELP]
+>[!INFO]
 >id="aemcloud_bpa_acv_overview"
 >title="Assets Content Validator"
 >abstract="ACV identifies the missing mandatory nodes in assets content."
@@ -28,7 +28,7 @@ This could lead to failure of certain Assets features that depend on inherited p
 
 ## Possible solutions {#solutions}
 
->[!CONTEXTUALHELP]
+>[!INFO]
 >id="aemcloud_bpa_acv_guidance"
 >title="Implementation Guidance"
 >abstract="Adobe recommends to review content structure to prevent broken workflows that depend on inherited properties. Contact Customer Care for help".
