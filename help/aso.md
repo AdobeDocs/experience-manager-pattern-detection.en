@@ -21,8 +21,8 @@ Subtypes are used to identify different types of information:
 
 * `aem.version`: The AEM version.
 * `aem.product`: Detection of the use of an AEM product (Commerce, Forms, etc.).
-* `node.count`: The approximate node count of a certain type (Page, Asset, etc.).
-* `node.store`: The node store implementation type (SegmentNodeStore, DocumentNodeStore).
+* `node.count`: The approximate node count of a certain type (Page, Asset, etc.) and the grand total of nodes. 
+* `node.store`: The node store implementation type (SegmentNodeStore, DocumentNodeStore) and its size.
 * `data.store`: The data store implementation type (FileDataStore, S3DataStore, AzureDataStore).
 * `maintenance.task`: A maintenance task.
 * `slow.query`: A slow query.
