@@ -26,6 +26,7 @@ Subtypes are used to identify the specific types of repository issues that shoul
 * `node.location`: A node under `/etc` that has been modified since installation.
 * `workflow.location`: A workflow model or launcher under `/etc/workflow`.
 * `package.structure`: A package that contains both mutable and immutable content.
+* `node.name.length`: A node name with unsupported length.
 
 ## Possible implications and risks {#implications-and-risks}
 
