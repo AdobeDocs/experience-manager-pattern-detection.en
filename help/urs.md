@@ -10,14 +10,16 @@ Unsupported Repository Structure
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="Unsupported Repository Structure"
->abstract="URS identifies cases of unsupported repository structure. This surfaces information to avoid conflict between AEM product code and customer code, content being restructured out of /etc to other folders in the repository and more."
+>abstract="URS identifies cases of unsupported repository structure and node characteristics. This surfaces information to avoid conflict between AEM product code and customer code, content being restructured out of /etc to other folders in the repository and more."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html" text="Repository Restructuring"
 
 ## Background {#background}
 
-`URS` identifies cases of unsupported repository structure. Beginning in AEM 6.4, guidelines have been provided for the restructuring of repository content. By clearly delineating hierarchies for AEM product code and customer code and avoid conflict between them, content is being restructured out of `/etc` to other folders in the repository, adhering to the following high-level rules:
+`URS` identifies cases of unsupported repository structure and node characteristics. Beginning in AEM 6.4, guidelines have been provided for the restructuring of repository content. By clearly delineating hierarchies for AEM product code and customer code and avoid conflict between them, content is being restructured out of `/etc` to other folders in the repository, adhering to the following high-level rules:
 
-* AEM product code will always be placed in `/libs`, which must not be overwritten by custom code Custom code should be placed in `/apps`, `/content`, and `/conf`.
+* AEM product code will always be placed in `/libs`, which must not be overwritten by custom code. 
+* Custom code should be placed in `/apps`, `/content` and `/conf`.
+* AEM as a Cloud Service doesn’t support long node names (>150 bytes).
 * It is highly recommended that these guidelines are followed for AEM as a Cloud Service.
 
 Subtypes are used to identify the specific types of repository issues that should be addressed:
