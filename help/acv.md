@@ -37,4 +37,5 @@ Subtypes are used to identify the different types of information, such as:
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
 * Analyze a folder if it has a missing child node. Create the nodes manually if the number of folders is manageable, otherwise use a script.
+* For the assets missing the original rendition, either reupload the assets or delete them before migrating.
 * Reach out to our [Experience Manager Customer Care Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
