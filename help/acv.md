@@ -21,12 +21,12 @@ Assets Content Validator
 Subtypes are used to identify the different types of information, such as:
 
 * `missing.jcrcontent`: Identify the folders with missing mandatory nodes in the repository. Identifying any missing content in the repository helps prevent any broken features or use cases.
-* `missing.original.rendition`: Identify the assets with missing mandatory original rendition in the repository. Identifying any missing content in the repository helps prevent any broken features or use cases.
+* `missing.original.rendition`: Identify the assets with a missing mandatory original rendition in the repository.
 
 ## Possible implications and risks {#implications-and-risks}
 
 * This could lead to failure of certain Assets features that depend on inherited properties in Experience Manager as a Cloud Service.
-* AEM Assets depends on the existence of the original rendition and parts of the product fail if it is missing. The asset processing in Cloud Service will go in a loop if the original rendition is missing.
+* AEM Assets depends on the existence of the original rendition. The asset processing in Cloud Service will go in a loop if the original rendition is missing.
  
 ## Possible solutions {#solutions}
 
