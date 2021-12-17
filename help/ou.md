@@ -1,6 +1,7 @@
 ---
 title: OU
 description: Pattern Detector code help page
+exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
 ---
 # OU {#ou}
 

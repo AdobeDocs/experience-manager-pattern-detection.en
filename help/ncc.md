@@ -1,6 +1,7 @@
 ---
 title: NCC
 description: Pattern Detector code help page
+exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
 ---
 # NCC {#ncc}
 
