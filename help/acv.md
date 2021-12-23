@@ -33,7 +33,7 @@ Subtypes are used to identify the different types of information, such as:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"
 >title="Implementation Guidance"
->abstract="Adobe recommends to review content structure to prevent broken workflows that depend on inherited properties. Contact Customer Care for help".
+>abstract="Adobe recommends to review content structure to prevent broken workflows that depend on inherited properties. Contact Customer Care for help."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
 * Analyze a folder if it has a missing child node. Create the nodes manually if the number of folders is manageable, otherwise use a script.
