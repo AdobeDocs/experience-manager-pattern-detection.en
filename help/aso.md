@@ -26,10 +26,11 @@ Subtypes are used to identify different types of information:
 * `data.store`: The data store implementation type (FileDataStore, S3DataStore, AzureDataStore).
 * `maintenance.task`: A maintenance task.
 * `slow.query`: A slow query.
+* `group.membership`: The number of users and sub-groups ( direct/declared members only ) in a group. 
 
 ## Possible implications and risks {#implications-and-risks}
 
-* The AEM version, node counts, and node store and data store implementation types are provided for informational purposes.
+* The AEM version, node counts, group membership and node store and data store implementation types are provided for informational purposes.
 * The custom application may rely on products or features not available in AEM as a Cloud Service.
 * Upgrading with unsupported features may result in a failed upgrade and a non-functional application.
 

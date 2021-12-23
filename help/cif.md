@@ -1,7 +1,7 @@
 ---
 title: CIF
 description: Pattern Detector code help page
-exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
+exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
 ---
 # CIF {#cif}
 

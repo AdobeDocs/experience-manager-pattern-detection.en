@@ -1,7 +1,7 @@
 ---
 title: ACV
 description: Pattern Detector code help page
-exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a5
+exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 ---
 # ACV {#acv}
 
