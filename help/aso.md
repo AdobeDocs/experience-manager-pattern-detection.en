@@ -27,10 +27,14 @@ Subtypes are used to identify different types of information:
 * `maintenance.task`: A maintenance task.
 * `slow.query`: A slow query.
 * `group.membership`: The number of users and sub-groups ( direct/declared members only ) in a group. 
+* `cqtag.count`: The number of CQ tagged assets.
+* `smarttag.count`: The number of Smart tagged assets.
+* `ccom.version`: The version of Core Component package.
+* `instance.type`: The AEM instance type (author|publish).
 
 ## Possible implications and risks {#implications-and-risks}
 
-* The AEM version, node counts, group membership and node store and data store implementation types are provided for informational purposes.
+* The AEM version, node counts, group membership, node store, data store implementation types, CQ Tag Count, Smart Tag Count, Core Component version and AEM instance type are provided for informational purposes.
 * The custom application may rely on products or features not available in AEM as a Cloud Service.
 * Upgrading with unsupported features may result in a failed upgrade and a non-functional application.
 
