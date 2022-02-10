@@ -31,6 +31,7 @@ Subtypes are used to identify different types of information:
 * `smarttag.count`: The number of Smart tagged assets.
 * `ccom.version`: The version of Core Component package.
 * `instance.type`: The AEM instance type (author|publish).
+* `unprocessed.asset.count`: The number of unprocessed assets.
 
 ## Possible implications and risks {#implications-and-risks}
 
