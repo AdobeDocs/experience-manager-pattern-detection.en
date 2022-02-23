@@ -1,13 +1,21 @@
 ---
 title: DG
 description: Pattern Detector code help page
+exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 ---
-
 # DG {#dg}
 
 Developer Guideline
 
 ## Background {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_dg_overview"
+>title="Developer Guidelines"
+>abstract="DG code identifies deviations of selected development guidelines for AEM 6.5 and AEM as a Cloud Service. Following the best practices can improve the maintainability and performance of your system. Although some of these deviations might not be a problem in other application contexts, including with previous versions of AEM, they may cause problems when used with AEM as a Cloud Service."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html" text="AEM Development - Guidelines & Best Practices"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="AEM as a Cloud Service Development Guidelines"
+
 
 `DG` identifies deviations of selected development guidelines for [AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html) and [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html). Following the best practices can improve the maintainability and performance of your system. Although some of these deviations might not be a problem in other application contexts, including with previous versions of AEM, they may cause problems when used with AEM as a Cloud Service.
 
@@ -31,6 +39,13 @@ Subtypes are used to identify the different types of detected violations:
   * AEM as a Cloud Service development guidelines for [background tasks and long running jobs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#background-tasks-and-long-running-jobs) suggest that the code executed as a scheduled task must assume that the instance it is running on, can be brought down at any time. Therefore, the code must be resilient and resumable.
 
 ## Possible solutions {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_dg_guidance"
+>title="Implementation Guidance"
+>abstract="Following AEM development guidelines & best practices, Customers should review their implementations on usage of Sling Commons Scheduler and restructure them to Sling Jobs, restructure their system maintenance tasks, review streaming of any binary data and refactor their code to be compliant with AEM as a Cloud Service."
+>additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Sling Jobs"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html" text="Maintenance Tasks in AEM as a Cloud Service"
 
 * `java.io.inputstream`
   * Use a direct-binary upload approach in which the binary is added to the datastore directly.

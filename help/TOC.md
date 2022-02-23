@@ -10,10 +10,12 @@ role: Developer
 
 # Experience Manager Pattern Detection Guide {#table-of-contents}
 
++ [ACV](acv.md)
 + [ASO](aso.md)
 + [CAV](cav.md)
 + [CCL](ccl.md)
 + [CCOM](ccom.md)
++ [CIF](cif.md)
 + [CTEM](ctem.md)
 + [DG](dg.md)
 + [DM](dm.md)
@@ -26,9 +28,11 @@ role: Developer
 + [LUI](lui.md)
 + [MSM](msm.md)
 + [NBCC](nbcc.md)
++ [NCC](ncc.md)
 + [OAUI](oaui.md)
 + [OCU](ocu.md)
 + [OID](oid.md)
++ [OU](ou.md)
 + [PCX](pcx.md)
 + [[!DNL REP]](rep.md)
 + [UMI](umi.md)
