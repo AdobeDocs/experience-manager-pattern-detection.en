@@ -52,9 +52,9 @@ Address the following issues, before migrating to [!DNL Adobe Experience Manager
 
 * The CAPTCHA component now uses the Google reCAPTCHA service to validate CAPTCHA, by default. The option to use Adobe Experience Manager to validate CAPTCHA is deprecated. (FORMS_CAPTCHA)
 
-* [!DNL AEM Forms] app is not available for [!DNL Cloud Services]. (AEM_FORMS_APP)
-
 * [Document Services](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology) steps are not available in AEM Workflows. (WORKFLOW_DOCSERVICES)
+
+* [!DNL AEM Forms] app is not available for [!DNL Cloud Services]. (AEM_FORMS_APP)
 
 ## Possible solutions {#solutions}
 
@@ -86,10 +86,10 @@ Address the following issues, before migrating to [!DNL Adobe Experience Manager
 
 * Use the Google reCaptcha instead of the CAPTCHA service provided by Adobe Experience Manager. (FORMS_CAPTCHA)
 
-* Adaptive Forms offer a responsive design. These forms change the appearance, design, and interactivity based on the underlying device. You can continue using Adaptive Forms on mobile device. Look for monthly release notes for information on availability of the [!DNL AEM Forms] app. (AEM_FORMS_APP)
-
 * Do not migrate a AEM Workflow model that uses a Document Services Workflow step. Also, do not migrate or update Adaptive Forms that send user data to a Workflow Model that uses Document Services Workflow steps or change the Submit Action to a [supported one](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html) before migrating the form. (WORKFLOW_DOCSERVICES)
 
 * Support for XFA-based Adaptive Forms is not available out of the box. If you intend to use XFA-based Adaptive Forms, contact Adobe Support with details of your use case and specific requirements.(XFA_BASED_FORM, XDP_BASED_FORM)
+
+* Adaptive Forms offer a responsive design. These forms change the appearance, design, and interactivity based on the underlying device. You can continue using Adaptive Forms on mobile device. Look for monthly release notes for information on availability of the [!DNL AEM Forms] app. (AEM_FORMS_APP)
 
 Reach out to [Adobe Support](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
