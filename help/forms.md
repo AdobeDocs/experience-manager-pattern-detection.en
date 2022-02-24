@@ -21,8 +21,8 @@ The following subtypes help you identify the different types of issues:
 
 * `modified.feature`: These features, assets, or APIs were updated or modified for Cloud Service. Before migrating to the Cloud Service, run the migration utility to make these features and assets compatible with the Cloud Service.  
 * `unavailable.feature`: Your environment has features and assets that are not available or removed from Cloud Service. Do not migrate such features or assets to a Cloud Service environment.
-* `unsupported.feature`: Your environment uses some features yet unsupported on Cloud Service. Do not migrate such features or assets to a Cloud Service environment. Look for monthly release notes for information on availability of the features. 
-* `unsupported.api`: Your environment has some APIs yet unsupported on the Cloud Service. Before migrating to the Cloud Service, disable, replace, or remove these APIs from your code. Look for monthly release notes for information on availability of the features. 
+* `unsupported.feature`: Your environment uses some features yet unsupported on Cloud Service. Do not migrate such features or assets to a Cloud Service environment. Look for monthly release notes for information on availability of the features.
+* `unsupported.api`: Your environment has some APIs yet unsupported on the Cloud Service. Before migrating to the Cloud Service, disable, replace, or remove these APIs from your code. Look for monthly release notes for information on availability of the features.
 
 See the [Possible implications and risks](#implications-and-risks) and [Possible solutions](#solutions) sections for information about replacements and other actions required to make some features and APIs compatible with the Cloud Service
 
@@ -44,13 +44,9 @@ Address the following issues, before migrating to [!DNL Adobe Experience Manager
 
 * The Verify step is not available. (VERIFY_STEP)
 
-* The Forms Portal feature and **[!UICONTROL Forms Portal Submit Action]** are not yet available. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL, DRAFT_AUTO_SAVE, DRAFT_SAVE)
-
-* The **[!UICONTROL Submit to Forms Workflow]** Submit Action is not available. On [!DNL AEM 6.5 Forms] and previous versions, the Submit Action was used to submit adaptive form data to legacy [!DNL AEM Forms on JEE] Workflows and LiveCycle Workflows. (LC_WORKFLOW_SUBMISSION)
+* The **[!UICONTROL Submit to Forms Workflow]** Submit Action is not available. On AEM 6.5 Forms and previous versions, the Submit Action was used to submit adaptive form data to legacy AEM Forms on JEE Workflows and LiveCycle Workflows. (LC_WORKFLOW_SUBMISSION)
 
 * The Interactive Communications capability is not available.  (FP_PROFILE_INTERACTIVE_COMMUNICATIONS).
-
-* **[!UICONTROL Save as draft]** and **[!UICONTROL Auto Save]** an adaptive form features are not supported at present. (DRAFT_AUTO_SAVE, DRAFT_SAVE)
 
 * Metadata accordion is not available. (METADATA_ACCORDION_FORM_CONTAINER)
 
@@ -80,22 +76,20 @@ Address the following issues, before migrating to [!DNL Adobe Experience Manager
 
 * Remove the verify step from your existing Adaptive Forms before moving such forms to a [!DNL Cloud Service] environment. (VERIFY_STEP)
 
-* Modify your existing adaptive forms to use [Submit to REST endpoint](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint), [Send email](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email), [Submit using Form Data Model](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model), and [Invoke an AEM Workflow](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Submit Actions. Forms Portal and Forms Portal Submit Action are not available yet. Look for monthly release notes for information on availability of the features. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL)
+* Modify your existing adaptive forms to use [Submit to REST endpoint](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint), [Send email](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email), [Submit using Form Data Model](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model), and [Invoke an AEM Workflow](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Submit Actions.
 
 * You can develop an AEM Workflow and modify your existing adaptive forms to use [AEM Workflow](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Submit Action to send data to an AEM Workflow instead of using the **[!UICONTROL Submit to Forms Workflow]** Submit Action. You can develop a custom Submit Action to send data, attachments, or Document of Record (DoR) to a LiveCycle process instead of using the [!UICONTROL Submit to Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
 
 * Look for monthly release notes for information on availability of the Interactive Communications feature. Do not migrate your Interactive Communications, Letters, and related Dictionaries to a Cloud Service environment until the feature is not available. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
-* Disable the **[!UICONTROL Save as draft]** and **[!UICONTROL Enable Auto Save]** option in your Adaptive Forms before migrating them to Cloud Service. You can enable these options once the Forms Portal feature is released for the Cloud Service. Look for monthly release notes for information on availability of the features. (DRAFT_AUTO_SAVE, DRAFT_SAVE)
-
 * There is no replacement for metadata accordion. Remove it from your forms before migrating them to Cloud Service.(METADATA_ACCORDION_FORM_CONTAINER)
 
 * Use the Google reCaptcha instead of the CAPTCHA service provided by Adobe Experience Manager. (FORMS_CAPTCHA)
 
-* Adaptive Forms offer a responsive design. These forms change the appearance, design, and interactivity based on the underlying device. You can continue using Adaptive Forms on mobile device. Look for monthly release notes for information on availability of the [!DNL AEM Forms] app. (AEM_FORMS_APP)
-
 * Do not migrate a AEM Workflow model that uses a Document Services Workflow step. Also, do not migrate or update Adaptive Forms that send user data to a Workflow Model that uses Document Services Workflow steps or change the Submit Action to a [supported one](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html) before migrating the form. (WORKFLOW_DOCSERVICES)
 
-* Support for XFA-based Adaptive Forms is not available out of the box. If you intend to use XFA-based Adaptive Forms, contact Adobe Support with details of your use case and specific requirements.((XFA_BASED_FORM, XDP_BASED_FORM)
+* Adaptive Forms offer a responsive design. These forms change the appearance, design, and interactivity based on the underlying device. You can continue using Adaptive Forms on mobile device. Look for monthly release notes for information on availability of the [!DNL AEM Forms] app. (AEM_FORMS_APP)
+
+* Support for XFA-based Adaptive Forms is not available out of the box. If you intend to use XFA-based Adaptive Forms, contact Adobe Support with details of your use case and specific requirements.(XFA_BASED_FORM, XDP_BASED_FORM)
 
 Reach out to [Adobe Support](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
