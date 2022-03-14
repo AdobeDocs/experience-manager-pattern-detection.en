@@ -31,7 +31,7 @@ The following configurations are checked for modification:
   * Upgrade may get stuck (for example `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName` was missing but present in `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids`).
   * Authorization issues may come after upgrade (`org.apache.sling.engine.impl.auth.SlingAuthenticator`).
   * Certain functionality may not work as expected. For example changing `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` may result in some JSP files not being compiled, which ultimately will result in loss of functionality.
-  * The values of the externalizer config `com.day.cq.commons.impl.ExternalizerImpl` are set by cloud manager environment variables in AEM as a Cloud Services.
+  * The values of the externalizer config `com.day.cq.commons.impl.ExternalizerImpl` are set by cloud manager environment variables in AEM as a Cloud Service.
 
 ## Possible solutions {#solutions}
 
