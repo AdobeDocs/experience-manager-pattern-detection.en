@@ -19,7 +19,7 @@ Oak Index Definition
 
 Subtypes are used to identify the different types of information:
 
-* `custom.index.violation`: A custom Oak index incompatibility with AEM as a Cloud Service.
+* `index.rule.violation`: A custom Oak index incompatibility with AEM as a Cloud Service.
 * `standard.index.modification`: A modification to a standard Oak index.
 
 ## Possible implications and risks {#implications-and-risks}
