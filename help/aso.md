@@ -50,7 +50,7 @@ Subtypes are used to identify different types of information:
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
 * AEM upgrades with unsupported products or features are not recommended and may not supported.
-* The unprocessed assets needs to be processed so that state is set to "processed" or remove these assets from the migration set before migrating to AEMaaCS.
+* The unprocessed assets must be processed and the dam:assetState property on the jcr:content node of the Asset must be set to "processed" or remove these assets from the migration set before migrating to AEMaaCS.
 * Vanity URLs could be replaced with Apache Rewrites. 
 * Review the [release notes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html) to learn about the latest changes in AEM as a Cloud Service.
 * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
