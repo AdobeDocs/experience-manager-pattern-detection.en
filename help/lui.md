@@ -34,6 +34,11 @@ Subtypes are used to identify the different types of user interface elements tha
   "foundation/components".
 * `legacy.static.template`: Static Templates, should be upgraded to Editable Templates.
   * This is detected when the `jcr:primaryType` property value is "cq:Template".
+* `content.fragment.template`: Content Fragment Templates, should create fragment models to replace the fragment templates.
+  * Content fragment templates can be found at the following locations : 
+    * Out of the box content fragment templates are stored in "/libs/settings/dam/cfm/templates"
+    * They can be overlaid in  "/apps/settings/dam/cfm/templates"  or  "/conf/.../settings/dam/cfm/templates"  (... = global or <tenant>)
+  
 
 ## Possible implications and risks {#implications-and-risks}
 
@@ -45,6 +50,7 @@ Subtypes are used to identify the different types of user interface elements tha
 
 * The Classic UI is no longer available in AEM as a Cloud Service. The standard interface for authoring is the Touch-enabled UI.
 * Relying on legacy custom components may increase maintenance costs over time.
+* Content fragment templates were superseded by content fragment models in AEM 6.3. Migrating content fragments that are based on legacy templates to AEM as a Cloud Service will retain these fragments as functional, but it will not be possible to create new fragments based on the legacy template. It will also not be possible to deliver these fragments using AEM GraphQL, which requires content fragment models as schemas.
 
 ## Possible solutions {#solutions}
 
@@ -61,4 +67,5 @@ Subtypes are used to identify the different types of user interface elements tha
   * Static Templates and Column Control to Editable Templates & Responsive Grid
   * Designs & Design Dialogs to Editable Template Policies
 * Review your project's custom components library and transition, if possible, to the set of standardized [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) to accelerate the development time and reduce the maintenance cost of your applications.
+* It is recommended to create content fragment models with equivalent capabilities to the legacy templates and use those models for content fragment creation moving forward.
 * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
