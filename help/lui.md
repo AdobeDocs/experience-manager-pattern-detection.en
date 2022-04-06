@@ -36,10 +36,9 @@ Subtypes are used to identify the different types of user interface elements tha
   * This is detected when the `jcr:primaryType` property value is "cq:Template".
 * `content.fragment.template`: Content Fragment Templates, should create fragment models to replace the fragment templates.
   * Content fragment templates can be found at the following locations : 
-    * Out of the box content fragment templates are stored in "/libs/settings/dam/cfm/templates"
-    * They can be overlaid in  "/apps/settings/dam/cfm/templates"  or  "/conf/.../settings/dam/cfm/templates"  (... = global or <tenant>)
+    * Out of the box content fragment templates are stored in `/libs/settings/dam/cfm/templates`
+    * They can be overlaid in  `/apps/settings/dam/cfm/templates`  or  `/conf/.../settings/dam/cfm/templates`(... = global or "tenant")
   
-
 ## Possible implications and risks {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
