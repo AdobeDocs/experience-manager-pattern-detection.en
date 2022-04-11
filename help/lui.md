@@ -66,5 +66,5 @@ Subtypes are used to identify the different types of user interface elements tha
   * Static Templates and Column Control to Editable Templates & Responsive Grid
   * Designs & Design Dialogs to Editable Template Policies
 * Review your project's custom components library and transition, if possible, to the set of standardized [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) to accelerate the development time and reduce the maintenance cost of your applications.
-* It is recommended to create content fragment models with equivalent capabilities to the legacy templates and use those models for content fragment creation moving forward.
+* It is recommended to create content fragment models with equivalent capabilities to the legacy templates and use those models for content fragment creation moving forward.Refer to [Content Fragment Models](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=en) for more details.
 * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
