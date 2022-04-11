@@ -19,22 +19,22 @@ Legacy User Interface
 
 Subtypes are used to identify the different types of user interface elements that should or must be upgraded:
 
-* `legacy.dialog.classic`: Classic UI dialogs based on ExtJS, must be changed to Coral.
+* `legacy.dialog.classic`: Classic UI dialogs based on ExtJS must be changed to Coral.
   * This is detected when the dialog name is "dialog" or "design_dialog" and when
   the `jcr:primaryType` property value or the `xtype` property value is "cq:Dialog".
-* `legacy.dialog.coral2`: Coral 2 dialogs, should be updated to use Coral 3.
+* `legacy.dialog.coral2`: Coral 2 dialogs should be updated to use Coral 3.
   * This is detected when the dialog and its child content node names are "cq:dialog/content",
   "cq:design_dialog/content", "cq:dialog.coral2/content", or "cq:design_dialog.coral2/content"
   and the `sling:resourceType` property value does not contain
   "granite/ui/components/coral/foundation".
-* `legacy.custom.component`: Components that inherit from `foundation/components`, should be updated to use Core Components.
+* `legacy.custom.component`: Components that inherit from `foundation/components` should be updated to use Core Components.
   * This is detected when the `jcr:primaryType` property value is "cq:Component" and the
   `sling:resourceSuperType` property value contains "foundation/components" or any of the
   `sling:resourceSuperType` property values of the chain of supertype components contain
   "foundation/components".
-* `legacy.static.template`: Static Templates, should be upgraded to Editable Templates.
+* `legacy.static.template`: Static Templates should be upgraded to Editable Templates.
   * This is detected when the `jcr:primaryType` property value is "cq:Template".
-* `content.fragment.template`: Content Fragment Templates, should create fragment models to replace the fragment templates.
+* `content.fragment.template`: Content Fragment Templates should create fragment models to replace the fragment templates.
   * Content fragment templates can be found at the following locations : 
     * Out of the box content fragment templates are stored in `/libs/settings/dam/cfm/templates`
     * They can be overlaid in  `/apps/settings/dam/cfm/templates`  or  `/conf/.../settings/dam/cfm/templates`(... = global or "tenant")
