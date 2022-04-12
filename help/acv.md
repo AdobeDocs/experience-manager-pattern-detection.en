@@ -16,12 +16,13 @@ Assets Content Validator
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html" text="Notable Changes - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="Experience Manager as a Cloud Service - Release Notes"
 
-`ACV`  Assets' Content Validator identifies the missing mandatory nodes in asset content. This could lead to failure of certain Assets features on Experience Manager as a Cloud Service.
+`ACV`  Assets' Content Validator identifies the missing mandatory nodes & violations in asset content. This could lead to failure of certain Assets features on Experience Manager as a Cloud Service.
 
 Subtypes are used to identify the different types of information, such as:
 
 * `missing.jcrcontent`: Identify the folders with missing mandatory nodes in the repository. Identifying any missing content in the repository helps prevent any broken features or use cases.
 * `missing.original.rendition`: Identify the assets with a missing mandatory original rendition in the repository.
+* `metadata.descendants.violation`: Identify the assets with more than 100 descendants under metadata node of the asset in the repository.
 
 ## Possible implications and risks {#implications-and-risks}
 
