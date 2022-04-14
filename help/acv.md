@@ -28,6 +28,7 @@ Subtypes are used to identify the different types of information, such as:
 
 * This could lead to failure of certain Assets features that depend on inherited properties in Experience Manager as a Cloud Service.
 * AEM Assets depends on the existence of the original rendition. The asset processing in Cloud Service will go in a loop if the original rendition is missing.
+* High number of descendants under metadata node may slow down loading of folders consisting of assets that violate this.
  
 ## Possible solutions {#solutions}
 
