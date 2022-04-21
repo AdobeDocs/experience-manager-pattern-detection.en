@@ -18,6 +18,13 @@ Replication Agent
 
 `REP` identifies enabled replication agents. These are reported because of the potential for issues that should be addressed when upgrading to AEM as a Cloud Service.
 
+Subtypes are used to identify different types of information:
+
+* `forward.replication`: Identify the enabled forward replication agents.
+* `reverse.replication`: Identify the enabled reverse replication agents.
+* `standard.replication.agent.modification`: Identify the enabled standard replication agents which are modified.
+* `custom.replication.agent.detection`: Identify the enabled custom replication agents.
+
 AEM as a Cloud Service uses [Sling Content Distribution](https://sling.apache.org/documentation/bundles/content-distribution.html) to distribute content from author to publish environments. This is done outside of the AEM runtime using the pipeline service of Adobe I/O. This is automatically configured in the provisioned AEM as a Cloud Service environment.
 
 ## Possible implications and risks {#implications-and-risks}
