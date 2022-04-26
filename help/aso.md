@@ -36,7 +36,8 @@ Subtypes are used to identify different types of information:
 
 ## Possible implications and risks {#implications-and-risks}
 
-* The AEM version, node counts, group membership, node store, data store implementation types, CQ Tag Count, Smart Tag Count, Core Component version and AEM instance type are provided for informational purposes.
+* The AEM version, node counts, group membership, node store, data store implementation types, CQ Tag Count, Smart Tag Count, Core Component version, AEM instance type and Unprocessed asset count are provided for informational purposes.
+* The higher number of vanity URLs (>1000) may put a load on Dispatcher and the Publish servers with expensive queries.
 * The custom application may rely on products or features not available in AEM as a Cloud Service.
 * Upgrading with unsupported features may result in a failed upgrade and a non-functional application.
 
@@ -49,5 +50,7 @@ Subtypes are used to identify different types of information:
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
 * AEM upgrades with unsupported products or features are not recommended and may not supported.
+* The unprocessed assets must be processed and the dam:assetState property on the jcr:content node of the Asset must be set to "processed" or remove these assets from the migration set before migrating to AEMaaCS.
+* Vanity URLs could be replaced with Apache Rewrites. 
 * Review the [release notes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html) to learn about the latest changes in AEM as a Cloud Service.
 * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
