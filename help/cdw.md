@@ -1,7 +1,7 @@
 ---
 title: CDW
 description: Pattern Detector code help page
-exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
+
 ---
 # CDW {#cdw}
 
