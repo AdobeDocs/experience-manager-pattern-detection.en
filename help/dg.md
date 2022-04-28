@@ -40,7 +40,7 @@ Subtypes are used to identify the different types of detected violations:
   * AEM as a Cloud Service development guidelines for [background tasks and long running jobs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#background-tasks-and-long-running-jobs) suggest that the code executed as a scheduled task must assume that the instance it is running on, can be brought down at any time. Therefore, the code must be resilient and resumable.
 
 * `unsupported.asset.api`
-  * Following APIs of AssetManager are marked as deprecated on AEM as a Cloud Service.
+  * Following APIs of AssetManager are marked as unsupported on AEM as a Cloud Service.
     * createAssetForBinary
     * getAssetForBinary
     * removeAssetForBinary
@@ -68,5 +68,5 @@ Subtypes are used to identify the different types of detected violations:
   * Long running jobs should be avoided if possible.
 
 * `unsupported.asset.api`
-  * Please use [aem-upload](https://github.com/adobe/aem-upload) for the deprecated APIs of AssetManager.
+  * Instead of using the unsupported APIs of Asset Manager, please use [aem-upload](https://github.com/adobe/aem-upload).
 * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
