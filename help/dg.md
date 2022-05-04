@@ -24,6 +24,7 @@ Subtypes are used to identify the different types of detected violations:
 * `java.io.inputstream`: The use of `java.io.InputStream` in application code.
 * `maintenance.task.configuration`: The configuration of a certain periodic maintenance activity.
 * `sling.commons.scheduler`: The use of the Sling Commons Scheduler API for a scheduled task.
+* `unsupported.asset.api`: The use of unsupported Asset Manager APIs in application code.
 
 ## Possible implications and risks {#implications-and-risks}
 
@@ -37,6 +38,13 @@ Subtypes are used to identify the different types of detected violations:
 * `sling.commons.scheduler`
   * Applications dependent on background tasks using [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) might not work as expected because execution cannot be guaranteed in AEM as a Cloud Service.
   * AEM as a Cloud Service development guidelines for [background tasks and long running jobs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#background-tasks-and-long-running-jobs) suggest that the code executed as a scheduled task must assume that the instance it is running on, can be brought down at any time. Therefore, the code must be resilient and resumable.
+
+* `unsupported.asset.api`
+  * Following APIs of AssetManager are marked as unsupported on AEM as a Cloud Service.
+    * createAssetForBinary
+    * getAssetForBinary
+    * removeAssetForBinary
+    * createAsset
 
 ## Possible solutions {#solutions}
 
@@ -59,4 +67,6 @@ Subtypes are used to identify the different types of detected violations:
   * Replace the use of [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) with [Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), which have an at-least-once execution guarantee.
   * Long running jobs should be avoided if possible.
 
+* `unsupported.asset.api`
+  * Instead of using the unsupported APIs of Asset Manager, please use [aem-upload](https://github.com/adobe/aem-upload).
 * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
