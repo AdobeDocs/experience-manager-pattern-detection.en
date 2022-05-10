@@ -42,6 +42,10 @@ The following configurations are checked for modification:
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
 * Do not change or remove the four configurations mentioned above.
+  * Note :  
+  "Required properties for the OSGi configuration 'xyz-configuration' are missing: '[property-1,property-2...]'."  
+  Please validate if these are actual deletions as in some cases this could be reported if the OSGI configurations are OOTB and have never been modified/saved from the Config Manager.
+  
 * If configurations have been changed, they should be restored to their expected values. These values are indicated in the `UMI` messages.
 * For `com.day.cq.commons.impl.ExternalizerImpl`, please refer [documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/externalizer.html?lang=en) for setting externalizer config using cloud manager environment variables in AEM as a Cloud Service.
 * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
