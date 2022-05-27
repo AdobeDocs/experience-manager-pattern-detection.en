@@ -33,6 +33,6 @@ Subtypes are used to identify the different types of information, such as:
 >abstract="Contact Customer Care for help."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
-* Custom Classic Widgets should to be converted from ExtJS to [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html).
-* Custom Coral Widgets should be evaluated for update to CoralUI 3.
+* Custom Classic Dialog Widgets should to be converted from ExtJS to [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html).
+* Custom Coral Dialog Widgets should be evaluated for update to CoralUI 3.
 * Reach out to our [Experience Manager Customer Care Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
