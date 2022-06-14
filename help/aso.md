@@ -33,6 +33,7 @@ Subtypes are used to identify different types of information:
 * `instance.type`: The AEM instance type (author|publish).
 * `unprocessed.asset.count`: The number of unprocessed assets.
 * `vanity.url.count`: The number of vanity URLs.
+* `index.size`: Total Migratable Lucene index size.
 
 ## Possible implications and risks {#implications-and-risks}
 
