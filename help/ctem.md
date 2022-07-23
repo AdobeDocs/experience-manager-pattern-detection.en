@@ -38,7 +38,7 @@ Templates are identified by a primary type value of "cq:Template". A subtype is 
 >id="aemcloud_bpa_ctem_tools"
 >title="Tools & Resources"
 >abstract="With the help of AEM Modernization Suite, Customers can manipulate the structure of a page from a Static definition, to an Editable Template. The intent is to help customers move from the limited capabilities of the legacy features to the robust, modern AEM offerings. These tools are condfigurable, configuration-aware and extensible. Reach out to Adobe Support for help & clarifications"
->additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/page-structure.html" text="Page Structure Converter"
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/structure/about.html" text="Page Structure Converter"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
 * Leverage the [AEM Modernization Tools](https://opensource.adobe.com/aem-modernize-tools/) to migration Static Templates to Editable Templates.
