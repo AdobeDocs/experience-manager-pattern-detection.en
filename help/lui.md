@@ -56,8 +56,8 @@ Subtypes are used to identify the different types of user interface elements tha
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_tools"
 >title="Tools & Resources"
->abstract="With the help of AEM Modernization Suite, Customers can convert Classic(ExtJS) Dialogs to Coral Dialogs. The intent is to help customers move from the unsupported or legacy features to the robust, modern AEM offerings. These tools are condfigurable, configuration-aware and extensible. Also, explore replacement of custom components with the set of standardized Core Components to accelerate the development time and reduce the maintenance cost of your applications."
->additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/component.html" text="Component Convertor"
+>abstract="With the help of AEM Modernization Suite, Customers can convert Classic(ExtJS) Dialogs to Coral Dialogs. The intent is to help customers move from the unsupported or legacy features to the robust, modern AEM offerings. These tools are configurable, configuration-aware and extensible. Also, explore replacement of custom components with the set of standardized Core Components to accelerate the development time and reduce the maintenance cost of your applications."
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="Component Convertor"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Core Components"
 
 * Utilize [AEM Modernization Tools suite](https://opensource.adobe.com/aem-modernize-tools/) to reduce the effort needed to modernize your AEM Sites implementations. These tools include conversion of:
