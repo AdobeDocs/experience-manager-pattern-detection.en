@@ -38,6 +38,7 @@ Subtypes are used to identify the different types of user interface elements tha
   * Content fragment templates can be found at the following locations : 
     * Out of the box content fragment templates are stored in `/libs/settings/dam/cfm/templates`
     * They can be overlaid in  `/apps/settings/dam/cfm/templates`  or  `/conf/.../settings/dam/cfm/templates`(... = global or "tenant")
+* `translation.dictionary`: I18n dictionary present under /apps. Translation changes need to come from Git via the CI/CD pipeline in AEM as a cloud service.
   
 ## Possible implications and risks {#implications-and-risks}
 
@@ -50,6 +51,7 @@ Subtypes are used to identify the different types of user interface elements tha
 * The Classic UI is no longer available in AEM as a Cloud Service. The standard interface for authoring is the Touch-enabled UI.
 * Relying on legacy custom components may increase maintenance costs over time.
 * Content fragment templates were superseded by content fragment models in AEM 6.3. Migrating content fragments that are based on legacy templates to AEM as a Cloud Service will retain these fragments as functional, but it will not be possible to create new fragments based on the legacy template. It will also not be possible to deliver these fragments using AEM GraphQL, which requires content fragment models as schemas.
+* Translator.html would no longer be available in AEM as a cloud service and thus I18n dictionaries need to come from Git via the CI/CD pipeline.
 
 ## Possible solutions {#solutions}
 
@@ -67,4 +69,5 @@ Subtypes are used to identify the different types of user interface elements tha
   * Designs & Design Dialogs to Editable Template Policies
 * Review your project's custom components library and transition, if possible, to the set of standardized [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) to accelerate the development time and reduce the maintenance cost of your applications.
 * It is recommended to create content fragment models with equivalent capabilities to the legacy templates and use those models for content fragment creation moving forward.Refer to [Content Fragment Models](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=en) for more details.
+* I18n dictionaries need to come from Git via the CI/CD pipeline. [Documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes.html?lang=en#apps-libs-immutable)
 * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
