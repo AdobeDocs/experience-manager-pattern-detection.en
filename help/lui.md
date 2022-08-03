@@ -38,7 +38,7 @@ Subtypes are used to identify the different types of user interface elements tha
   * Content fragment templates can be found at the following locations : 
     * Out of the box content fragment templates are stored in `/libs/settings/dam/cfm/templates`
     * They can be overlaid in  `/apps/settings/dam/cfm/templates`  or  `/conf/.../settings/dam/cfm/templates`(... = global or "tenant")
-* `translation.dictionary`: I18n dictionary present under /apps. Translation changes need to come from Git via the CI/CD pipeline in AEM as a cloud service.
+* `translation.dictionary`: I18n dictionary present under /apps.
   
 ## Possible implications and risks {#implications-and-risks}
 
