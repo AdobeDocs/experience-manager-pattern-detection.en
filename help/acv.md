@@ -24,7 +24,7 @@ Subtypes are used to identify the different types of information, such as:
 * `missing.original.rendition`: Identify the assets with a missing mandatory original rendition in the repository. Kindly note previewing PDF's pages does not require subassets generation in AEMaaCS. Hence for PDF assets, reporting subassets missing original rendition is suppressed.
 * `metadata.descendants.violation`: Identify the assets with more than 100 descendants under metadata node of the asset in the repository.
 * `conflict.node`: Identify the presence of conflict nodes in the repository under /content/dam/ path.
-* `psb.file.large`: Identify the assets of type PSB having size greater than 2 gigabytes.
+* `psb.file.large`: Identify Large PSB Files [dc:format : application/vnd.3gpp.pic-bw-small] having size greater than 2 gigabytes.
 
 ## Possible implications and risks {#implications-and-risks}
 
