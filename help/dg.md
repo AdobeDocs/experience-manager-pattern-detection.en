@@ -74,7 +74,7 @@ Subtypes are used to identify the different types of detected violations:
 
 * `unsupported.asset.api`
   * Instead of using the unsupported APIs of Asset Manager, please use [aem-upload](https://github.com/adobe/aem-upload).
-  * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
 
 * `javax.jcr.observation.EventListener`
   * Instead of using the Event Listener, It is advised to refactor the event handling mechanism to [Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) as it provides the guarantee of processing.
+* Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
