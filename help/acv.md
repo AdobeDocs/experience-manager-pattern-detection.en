@@ -32,7 +32,7 @@ Subtypes are used to identify the different types of information, such as:
 * AEM Assets depends on the existence of the original rendition. The asset processing in Cloud Service will go in a loop if the original rendition is missing. Subassets generation is not supported in AEMaaCS.
 * High number of descendants under metadata node may slow down loading of folders consisting of assets that violate this.
 * Presence of conflict nodes could lead to ingestion failure on AEM as a Cloud Service.
-* For PSB files, on-premise AEM customers can install ImageMagik to process image renditions. When an image is added to the repository or is changed, a workflow processes that image to get various renditions. When ImageMagik is used with on-premise AEM, ImageMagik processes the image files using a large amount of available memory and might cause performance issues on AEM.
+* Experience Manager may not process very high-resolution PSB files. Customers using ImageMagick for processing large files might face an impact on the performance if proper benchmarking of the Experience Manager server is not done.
 
 ## Possible solutions {#solutions}
 
@@ -46,5 +46,5 @@ Subtypes are used to identify the different types of information, such as:
 * For the assets missing the original rendition, either reupload the assets or delete them before migrating. 
 * No action required for missing subassets original rendition.
 * In case of conflict nodes, either they should be resolved or they might need to be deleted before migrating to AEM as a Cloud Service.
-* Avoid uploading large PSB files to AEM.
+* Reach out to Adobe Customer Support if you plan to process lots of large PSD or PSB files. Experience Manager may not process very high-resolution PSB files that are more than 30000 x 23000 pixels. Please refer [documentation](https://experienceleague.adobe.com/docs/experience-manager-64/assets/extending/best-practices-for-imagemagick.html?lang=en).
 * Reach out to our [Experience Manager Customer Care Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
