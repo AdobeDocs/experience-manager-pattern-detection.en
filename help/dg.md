@@ -48,7 +48,7 @@ Subtypes are used to identify the different types of detected violations:
     * createAsset
 
 * `javax.jcr.observation.EventListener`
-  * Applications dependent on event listener might not work as expected because execution cannot be guaranteed in AEM as a Cloud Service.
+  * Applications dependent on event listener might not work as expected because execution cannot be guaranteed.
 
 
 ## Possible solutions {#solutions}
