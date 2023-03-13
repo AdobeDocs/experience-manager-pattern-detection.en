@@ -25,6 +25,7 @@ Subtypes are used to identify the different types of detected violations:
 * `maintenance.task.configuration`: The configuration of a certain periodic maintenance activity.
 * `sling.commons.scheduler`: The use of the Sling Commons Scheduler API for a scheduled task.
 * `unsupported.asset.api`: The use of unsupported Asset Manager APIs in application code.
+* `javax.jcr.observation.EventListener`: The use of Event Listener in application code.
 
 ## Possible implications and risks {#implications-and-risks}
 
@@ -45,6 +46,10 @@ Subtypes are used to identify the different types of detected violations:
     * getAssetForBinary
     * removeAssetForBinary
     * createAsset
+
+* `javax.jcr.observation.EventListener`
+  * Applications dependent on event listener might not work as expected because execution cannot be guaranteed.
+
 
 ## Possible solutions {#solutions}
 
@@ -69,4 +74,7 @@ Subtypes are used to identify the different types of detected violations:
 
 * `unsupported.asset.api`
   * Instead of using the unsupported APIs of Asset Manager, please use [aem-upload](https://github.com/adobe/aem-upload).
+
+* `javax.jcr.observation.EventListener`
+  * Instead of using the Event Listener, It is advised to refactor the event handling mechanism to [Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) as it provides the guarantee of processing.
 * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
