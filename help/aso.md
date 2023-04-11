@@ -34,6 +34,7 @@ Subtypes are used to identify different types of information:
 * `unprocessed.asset.count`: The number of unprocessed assets.
 * `vanity.url.count`: The number of vanity URLs.
 * `index.size`: Total Migratable Lucene index size.
+* `workflow.count`: The number of author workflows in running and stale state.
 
 ## Possible implications and risks {#implications-and-risks}
 
@@ -41,6 +42,7 @@ Subtypes are used to identify different types of information:
 * The higher number of vanity URLs (>1000) may put a load on Dispatcher and the Publish servers with expensive queries.
 * The custom application may rely on products or features not available in AEM as a Cloud Service.
 * Upgrading with unsupported features may result in a failed upgrade and a non-functional application.
+* A high number of author workflows in running or stale state could degrade performance.
 
 ## Possible solutions {#solutions}
 
