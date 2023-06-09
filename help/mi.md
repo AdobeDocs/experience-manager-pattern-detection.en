@@ -37,7 +37,7 @@ Subtypes are used to identify the different types of information, such as:
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
 * `sling.job.max.parallel`
-    * It is advisable to set the value to 0.5 in order to avail half of the available processors.
+  * It is advisable to set the value to 0.5 in order to avail half of the available processors.
 * `missing.maintenance.configuration`
   * Revision Clean Up: Please refer [Revision Clean Up](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html). The important part regarding the configuration is here: [Revision Cleanup - Configure Tail and Full compaction](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html#how-to-configure-full-and-tail-compaction).
   * Lucene Binaries Cleanup: Please refer [Operations Dashboard - Lucene Binaries Cleanup](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-dashboard.html#lucene-binaries-cleanup).
