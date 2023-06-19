@@ -83,5 +83,5 @@ Subtypes are used to identify the different types of detected violations:
   * Instead of using the Event Listener, It is advised to refactor the event handling mechanism to [Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) as it provides the guarantee of processing.
 
 * `custom.guava.cache`
-  * Caches, if required, should be created outside AEM. External caching solution like Redis might be considered.
+  * Caches, if required, should be created outside AEM. External caching solution might be considered.
 * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
