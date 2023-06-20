@@ -43,7 +43,7 @@ Subtypes are used to identify different types of information:
 * The custom application may rely on products or features not available in AEM as a Cloud Service.
 * Upgrading with unsupported features may result in a failed upgrade and a non-functional application.
 * A high number of author workflows in running or stale state could degrade performance.
-* Slow queries can degrade the performance of the system.
+* Slow queries may degrade the performance of the system.
 
 ## Possible solutions {#solutions}
 
