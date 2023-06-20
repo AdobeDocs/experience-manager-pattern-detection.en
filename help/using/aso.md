@@ -35,7 +35,7 @@ Subtypes are used to identify different types of information:
 * `vanity.url.count`: The number of vanity URLs.
 * `index.size`: Total Migratable Lucene index size.
 * `workflow.count`: The number of author workflows in running and stale state.
-* `jvm.arguments`: The JVM arguments with which AEM started.
+* `jvm.arguments`: The JVM arguments added to command line when starting AEM.
 
 ## Possible implications and risks {#implications-and-risks}
 
