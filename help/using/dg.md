@@ -26,6 +26,7 @@ Subtypes are used to identify the different types of detected violations:
 * `sling.commons.scheduler`: The use of the Sling Commons Scheduler API for a scheduled task.
 * `unsupported.asset.api`: The use of unsupported Asset Manager APIs in application code.
 * `javax.jcr.observation.EventListener`: The use of Event Listener in application code.
+* `custom.guava.cache`: The use of Guava Cache in application code.
 
 ## Possible implications and risks {#implications-and-risks}
 
@@ -49,6 +50,9 @@ Subtypes are used to identify the different types of detected violations:
 
 * `javax.jcr.observation.EventListener`
   * Applications dependent on event listener might not work as expected because execution cannot be guaranteed.
+  
+* `custom.guava.cache`
+  * Usage of Guava Cache may cause performance issues on AEM.
 
 
 ## Possible solutions {#solutions}
@@ -77,4 +81,7 @@ Subtypes are used to identify the different types of detected violations:
 
 * `javax.jcr.observation.EventListener`
   * Instead of using the Event Listener, It is advised to refactor the event handling mechanism to [Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) as it provides the guarantee of processing.
+
+* `custom.guava.cache`
+  * Caches, if required, should be created outside AEM. External caching solution might be considered.
 * Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
