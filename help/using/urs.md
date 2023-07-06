@@ -19,7 +19,6 @@ Unsupported Repository Structure
 
 * AEM product code will always be placed in `/libs`, which must not be overwritten by custom code. 
 * Custom code should be placed in `/apps`, `/content` and `/conf`.
-* AEM as a Cloud Service doesn’t support long node names (>150 bytes).
 * It is highly recommended that these guidelines are followed for AEM as a Cloud Service.
 
 Subtypes are used to identify the specific types of repository issues that should be addressed:
