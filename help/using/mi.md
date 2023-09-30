@@ -1,7 +1,7 @@
 ---
 title: MI
 description: Pattern Detector code help page
-
+exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 ---
 # MI {#mi}
 
