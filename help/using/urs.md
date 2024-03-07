@@ -19,7 +19,6 @@ Unsupported Repository Structure
 
 * AEM product code will always be placed in `/libs`, which must not be overwritten by custom code. 
 * Custom code should be placed in `/apps`, `/content` and `/conf`.
-* AEM as a Cloud Service doesn’t support long node names (>150 bytes).
 * It is highly recommended that these guidelines are followed for AEM as a Cloud Service.
 
 Subtypes are used to identify the specific types of repository issues that should be addressed:
@@ -28,7 +27,6 @@ Subtypes are used to identify the specific types of repository issues that shoul
 * `node.location`: A node under `/etc` that has been modified since installation.
 * `workflow.location`: A workflow model or launcher under `/etc/workflow`.
 * `package.structure`: A package that contains both mutable and immutable content.
-* `node.name.length`: A node name with unsupported length.
 * `node.size`: A node with unsupported size.
 
 ## Possible implications and risks {#implications-and-risks}

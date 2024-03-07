@@ -25,6 +25,7 @@ Subtypes are used to identify the different types of information, such as:
 * `metadata.descendants.violation`: Identify the assets with more than 100 descendants under metadata node of the asset in the repository.
 * `conflict.node`: Identify the presence of conflict nodes in the repository under /content/dam/ path.
 * `psb.file.large`: Identify Large PSB Files (dc:format : application/vnd.3gpp.pic-bw-small) having size greater than 2 gigabytes.
+* `invalid.asset.name`: Identify assets with invalid characters[* / : [ \ ] | # % { } ? &] in the name.
 
 ## Possible implications and risks {#implications-and-risks}
 
@@ -33,6 +34,7 @@ Subtypes are used to identify the different types of information, such as:
 * High number of descendants under metadata node may slow down loading of folders consisting of assets that violate this.
 * Presence of conflict nodes could lead to ingestion failure on AEM as a Cloud Service.
 * Experience Manager may not process very high-resolution PSB files. Customers using ImageMagick for processing large files might face an impact on the performance if proper benchmarking of the Experience Manager server is not done.
+* Invalid characters in the asset name might lead to failures while migrating to AEM as a Cloud Service.
 
 ## Possible solutions {#solutions}
 

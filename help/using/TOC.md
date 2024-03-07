@@ -28,6 +28,7 @@ role: Developer
 + [IOI](ioi.md)
 + [LOCP](locp.md)
 + [LUI](lui.md)
++ [MI](mi.md)
 + [MSM](msm.md)
 + [NBCC](nbcc.md)
 + [NCC](ncc.md)
