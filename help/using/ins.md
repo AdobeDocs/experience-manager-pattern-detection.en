@@ -1,7 +1,7 @@
 ---
 title: INS
 description: Pattern Detector code help page
-
+exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
 ---
 # INS {#ins}
 
