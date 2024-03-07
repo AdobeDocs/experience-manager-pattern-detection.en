@@ -22,8 +22,7 @@ Subtypes are used to identify the different types of information, such as:
 
 ## Possible implications and risks {#implications-and-risks}
 
-* `uri`
-    * Prevent replication of the content or copying it across envs (via /crx/packMgr or Content Copy).
+* Unable to replicate content (across tier) or copy content (across env - via `/crx/packMgr` or Content Copy).
 
 ## Possible solutions {#solutions}
 
