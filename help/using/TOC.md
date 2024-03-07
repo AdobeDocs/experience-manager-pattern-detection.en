@@ -23,6 +23,7 @@ role: Developer
 + [DOPI](dopi.md)
 + [ECU](ecu.md)
 + [[!DNL FORMS]](forms.md)
++ [INS](ins.md)
 + [INST](inst.md)
 + [IOI](ioi.md)
 + [LOCP](locp.md)
