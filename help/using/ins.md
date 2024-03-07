@@ -1,5 +1,5 @@
 ---
-title: MI
+title: INS
 description: Pattern Detector code help page
 
 ---
