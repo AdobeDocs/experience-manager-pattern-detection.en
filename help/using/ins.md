@@ -3,7 +3,7 @@ title: MI
 description: Pattern Detector code help page
 
 ---
-# MI {#mi}
+# INS {#ins}
 
 Invalid Namespace
 
