@@ -1,6 +1,6 @@
 ---
 title: CCL
-description: Pattern Detector code help page
+description: Pattern Detector code help page.
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
 ---
 # CCL {#ccl}
@@ -31,4 +31,4 @@ One subtype is used with this code:
 >abstract="The client libraries added to AEM identified by CCL should be reviewed to ensure that there is no duplication and that the latest versions are used. Reach out to Adobe Support for help & clarifications"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
-* Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
+* Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.

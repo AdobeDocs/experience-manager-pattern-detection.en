@@ -1,6 +1,6 @@
 ---
 title: OU
-description: Pattern Detector code help page
+description: Pattern Detector code help page.
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
 ---
 # OU {#ou}
@@ -35,4 +35,4 @@ As the old versions are not installed by default, the customer application might
 
 * Short-term: Installation of compatibility package might help.
 * Long-term: Adapt customer code to use the newest version of AEM components or APIs.
-* Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
+* Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.

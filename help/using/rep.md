@@ -1,6 +1,6 @@
 ---
 title: REP
-description: Pattern Detector code help page
+description: Pattern Detector code help page.
 exl-id: e788deba-a301-404f-8e90-51f721409e69
 ---
 # [!DNL REP] {#rep}
@@ -46,4 +46,4 @@ AEM as a Cloud Service uses [Sling Content Distribution](https://sling.apache.or
 * See the AEM as a Cloud Service [Development Guidelines](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#no-reverse-replication-agents) and release notes for [replication agents](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#replication-agents).
 * Review, refactor, and optimize functionality directly dependent on replication agents to perform business tasks.
 * See how [replication](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#replication) is affected by deployment in AEM as a Cloud Service.
-* Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
+* Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.

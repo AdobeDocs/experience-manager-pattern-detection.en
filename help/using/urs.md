@@ -1,6 +1,6 @@
 ---
 title: URS
-description: Pattern Detector code help page
+description: Pattern Detector code help page.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 ---
 # URS {#urs}
@@ -43,7 +43,7 @@ Subtypes are used to identify the specific types of repository issues that shoul
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html" text="AEM Project Structure Guidelines"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
-* Refer to [Repository Restructuring](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html) for guidance to prepare for AEM as a Cloud Service.
-* Also refer to [AEM Project Structure](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) to learn more about mutable and immutable areas of the repository.
-* Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
+* See [Repository Restructuring](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html) for guidance to prepare for AEM as a Cloud Service.
+* Also see [AEM Project Structure](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) to learn more about mutable and immutable areas of the repository.
+* Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.
 * Leverage the [Repository Modernizer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/repo-modernizer.html#refactoring-tools) to restructure existing project packages by separating content and code into discrete packages to be compatible with the project structure defined for Adobe Experience Manager as a Cloud Service.

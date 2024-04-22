@@ -1,6 +1,6 @@
 ---
 title: NBCC
-description: Pattern Detector code help page
+description: Pattern Detector code help page.
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
 ---
 # NBCC {#nbcc}
@@ -34,4 +34,4 @@ DEPRECATED: Non-Backwards Compatible Changes (replaced by NCC, Non-Compatible Ch
 
 * Overlay or reference only backward compatible Sling components.
 * Consider adapting resources which come from `/libs` or bundles after an AEM upgrade.
-* Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
+* Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.

@@ -1,6 +1,6 @@
 ---
 title: CDW
-description: Pattern Detector code help page
+description: Pattern Detector code help page.
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
 ---
 # CDW {#cdw}
@@ -33,4 +33,4 @@ Subtypes are used to identify the information, such as:
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
 * Custom Classic Dialog Widgets should to be converted from ExtJS to [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html).
-* Reach out to our [Experience Manager Customer Care Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
+* Contact the [Experience Manager Customer Care Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to address concerns.

@@ -1,6 +1,6 @@
 ---
 title: ASO
-description: Pattern Detector code help page
+description: Pattern Detector code help page.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 ---
 # ASO {#aso}
@@ -57,6 +57,6 @@ Subtypes are used to identify different types of information:
 * AEM upgrades with unsupported products or features are not recommended and may not supported.
 * The unprocessed assets must be processed and the dam:assetState property on the jcr:content node of the Asset must be set to "processed" or remove these assets from the migration set before migrating to AEMaaCS.
 * Vanity URLs could be replaced with Apache Rewrites. 
-* Please refer to [documentation](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html) for troubleshooting slow queries.
+* See [documentation](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html) for troubleshooting slow queries.
 * Review the [release notes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html) to learn about the latest changes in AEM as a Cloud Service.
-* Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
+* Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.

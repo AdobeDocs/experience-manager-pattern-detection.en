@@ -1,6 +1,6 @@
 ---
 title: DG
-description: Pattern Detector code help page
+description: Pattern Detector code help page.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 ---
 # DG {#dg}
@@ -66,7 +66,7 @@ Subtypes are used to identify the different types of detected violations:
 
 * `java.io.inputstream`
   * Use a direct-binary upload approach in which the binary is added to the datastore directly.
-  * For assets use cases, please use [aem-upload](https://github.com/adobe/aem-upload). For other types of binaries, custom upload logic can be modeled after this same pattern.
+  * For assets use cases, see [aem-upload](https://github.com/adobe/aem-upload). For other types of binaries, custom upload logic can be modeled after this same pattern.
 
 * `maintenance.task.configuration`
   * Review AEM as a Cloud Service [Maintenance Task](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html) documentation.
@@ -77,11 +77,11 @@ Subtypes are used to identify the different types of detected violations:
   * Long running jobs should be avoided if possible.
 
 * `unsupported.asset.api`
-  * Instead of using the unsupported APIs of Asset Manager, please use [aem-upload](https://github.com/adobe/aem-upload).
+  * Instead of using the unsupported APIs of Asset Manager, see [aem-upload](https://github.com/adobe/aem-upload).
 
 * `javax.jcr.observation.EventListener`
   * Instead of using the Event Listener, It is advised to refactor the event handling mechanism to [Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) as it provides the guarantee of processing.
 
 * `custom.guava.cache`
   * Caches, if required, should be created outside AEM. External caching solution might be considered.
-* Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
+* Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.

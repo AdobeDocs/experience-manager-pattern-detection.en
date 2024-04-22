@@ -1,6 +1,6 @@
 ---
 title: ACV
-description: Pattern Detector code help page
+description: Pattern Detector code help page.
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 ---
 # ACV {#acv}
@@ -48,5 +48,5 @@ Subtypes are used to identify the different types of information, such as:
 * For the assets missing the original rendition, either reupload the assets or delete them before migrating. 
 * No action required for missing subassets original rendition.
 * In case of conflict nodes, either they should be resolved or they might need to be deleted before migrating to AEM as a Cloud Service.
-* Reach out to Adobe Customer Support if you plan to process lots of large PSD or PSB files. Experience Manager may not process very high-resolution PSB files that are more than 30000 x 23000 pixels. Please refer [documentation](https://experienceleague.adobe.com/docs/experience-manager-65/assets/extending/best-practices-for-imagemagick.html).
-* Reach out to our [Experience Manager Customer Care Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
+* Reach out to Adobe Customer Support if you plan to process lots of large PSD or PSB files. Experience Manager may not process very high-resolution PSB files that are more than 30000 x 23000 pixels. See [documentation](https://experienceleague.adobe.com/docs/experience-manager-65/assets/extending/best-practices-for-imagemagick.html).
+* Contact the [Experience Manager Customer Care Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to address concerns.

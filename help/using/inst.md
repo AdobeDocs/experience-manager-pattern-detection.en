@@ -1,6 +1,6 @@
 ---
 title: INST
-description: Pattern Detector code help page
+description: Pattern Detector code help page.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
 ---
 # INST {#inst}
@@ -53,4 +53,4 @@ Subtypes are used to identify different types of information:
 * Review how to [embed third-party packages](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#embedding-3rd-party-packages) in your project for AEM as a Cloud Service.
 * Third-party packages must adhere to the AEM as a Cloud Service [development](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html) and [packaging](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html) guidelines.
 * Review [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) project and understand how [INST violations](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst) can be corrected and made compatible with AEM as a Cloud Service.
-* Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
+* Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.
