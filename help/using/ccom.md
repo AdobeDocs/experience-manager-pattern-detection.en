@@ -1,6 +1,6 @@
 ---
 title: CCOM
-description: Pattern Detector code help page
+description: Pattern Detector code help page.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 ---
 # CCOM {#ccom}
@@ -38,4 +38,4 @@ A subtype is used with this code to identify the category of component:
 
 * Find more information about Core Components at [Core Components Introduction](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html).
 * Find more information about the Style System at [Using the Style System](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=en#page-authoring).
-* Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
+* Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.

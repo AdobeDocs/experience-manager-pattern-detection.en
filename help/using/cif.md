@@ -1,6 +1,6 @@
 ---
 title: CIF
-description: Pattern Detector code help page
+description: Pattern Detector code help page.
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
 ---
 # CIF {#cif}

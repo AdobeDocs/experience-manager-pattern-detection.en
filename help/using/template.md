@@ -1,6 +1,6 @@
 ---
 title: TEMPLATE
-description: Template for Pattern Detector code help page
+description: Template for Pattern Detector code help page.
 ---
 
 # [!DNL TEMPLATE] {#template}
@@ -27,4 +27,4 @@ Answer the question: "What can I do about it?"
 
 * possible solution #1
 * possible solution #2
-* Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
+* Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.

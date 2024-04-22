@@ -1,6 +1,6 @@
 ---
 title: CTEM
-description: Pattern Detector code help page
+description: Pattern Detector code help page.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 ---
 # CTEM {#ctem}
@@ -43,4 +43,4 @@ Templates are identified by a primary type value of "cq:Template". A subtype is 
 
 * Leverage the [AEM Modernization Tools](https://opensource.adobe.com/aem-modernize-tools/) to migration Static Templates to Editable Templates.
 * Find more information about Editable Templates at [Templates](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html).
-* Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
+* Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.

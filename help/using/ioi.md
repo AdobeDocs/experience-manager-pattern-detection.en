@@ -1,6 +1,6 @@
 ---
 title: IOI
-description: Pattern Detector code help page
+description: Pattern Detector code help page.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 ---
 # IOI {#ioi}
@@ -33,4 +33,4 @@ Some of these are used by `com.adobe.granite.repository`, which sets up a reposi
 
 * Use the Sling Resource API (or the JCR API) instead of low-level access.
 * Avoid depending on internal packages that are not part of any public API or SPI.
-* Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
+* Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.

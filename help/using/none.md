@@ -1,6 +1,6 @@
 ---
 title: NONE
-description: Pattern Detector code help page
+description: Pattern Detector code help page.
 ---
 
 # [!DNL NONE] {#none}
@@ -13,4 +13,4 @@ The page should not have been reached.
 
 ## Possible solutions {#solutions}
 
-* Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to report the error.
+* Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) must report the error.

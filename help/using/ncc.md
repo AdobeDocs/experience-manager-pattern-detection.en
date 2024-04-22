@@ -1,6 +1,6 @@
 ---
 title: NCC
-description: Pattern Detector code help page
+description: Pattern Detector code help page.
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
 ---
 # NCC {#ncc}
@@ -34,4 +34,4 @@ Non-Compatible Changes
 
 * Overlay or reference only compatible Sling components.
 * Consider adapting resources which come from `/libs` or bundles after an AEM upgrade.
-* Please reach out to our [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) to get clarifications or to address concerns.
+* Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.
