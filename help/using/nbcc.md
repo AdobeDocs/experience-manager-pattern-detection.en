@@ -12,11 +12,11 @@ DEPRECATED: Non-Backwards Compatible Changes (replaced by NCC, Non-Compatible Ch
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_nbcc_overview"
 >title="Non-Backwards Compatible Changes"
->abstract="NBCC identifies to the situation in which some JCR nodes or bundles are changed in a non-compatible way. The customer may be not aware of this change before an upgrade."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="Notable Changes - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="Release Notes - AEM as a Cloud Service"
+>abstract="NBCC identifies to the situation in which some JCR nodes or bundles are changed in a non-compatible way. The customer may not be aware of this change before an upgrade."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Notable Changes - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Release Notes - AEM as a Cloud Service"
 
-`NBCC` identifies to the situation in which some JCR nodes or bundles are changed in a non-compatible way. The customer may be not aware of this change before an upgrade.
+NBCC identifies to the situation in which some JCR nodes or bundles are changed in a non-compatible way. The customer may not be aware of this change before an upgrade.
 
 ## Possible implications and risks {#implications-and-risks}
 
@@ -28,10 +28,10 @@ DEPRECATED: Non-Backwards Compatible Changes (replaced by NCC, Non-Compatible Ch
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_nbcc_guidance"
 >title="Implementation Guidance"
->abstract="Best practice is review custom code and ensure only backward compatible Sling components are overlaid or referenced. Reach out to Adobe Support for help & clarifications"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html#platform" text="Overlays"
+>abstract="Best practice is review custom code and ensure that only backward compatible Sling components are overlaid or referenced. Contact Adobe Support for help or clarifications."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="Overlays"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
-* Overlay or reference only backward compatible Sling components.
+* Overlay or reference only backward-compatible Sling components.
 * Consider adapting resources which come from `/libs` or bundles after an AEM upgrade.
 * Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.

@@ -31,7 +31,7 @@ To make it safer and easier for customers to understand what areas of `/libs` ar
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"
 >title="Implementation Guidance"
->abstract="Patterns identified with CAS where different content area violations exist should be reviewed. Final and Internal content classification areas should be avoided. Reach out to Adobe Support for help & clarifications."
+>abstract="Patterns identified with CAS where different content area violations exist should be reviewed. Final and Internal content classification areas should be avoided. Contact Adobe Support for help or clarifications.."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Sustainable Upgrades"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 

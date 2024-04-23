@@ -29,7 +29,7 @@ Subtypes are used to identify different types of information:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_guidance"
 >title="Implementation Guidance"
->abstract="Best Practice is to review all custom MSM rollout configurations and custom rollout actions and ensure they work on AEM as a Cloud Service. Reach out to Adobe Support for help & clarifications"
+>abstract="Best Practice is to review all custom MSM rollout configurations and custom rollout actions and ensure they work on AEM as a Cloud Service. Contact Adobe Support for help or clarifications."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
 * Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.

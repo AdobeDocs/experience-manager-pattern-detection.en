@@ -28,7 +28,7 @@ Some of these are used by `com.adobe.granite.repository`, which sets up a reposi
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_guidance"
 >title="Implementation Guidance"
->abstract="Customers should review their custom code to identify the usage of such APIs and refactor them to be compatible with AEM as a Cloud Service. Reach out to Adobe Support for help & clarifications"
+>abstract="Customers should review their custom code to identify the usage of such APIs and refactor them to be compatible with AEM as a Cloud Service. Contact Adobe Support for help or clarifications."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
 * Use the Sling Resource API (or the JCR API) instead of low-level access.
