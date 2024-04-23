@@ -41,7 +41,7 @@ The following configurations are checked for modification:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_guidance"
 >title="Implementation Guidance"
->abstract="Best practice is to review your current configurations and revert any changes made to mentioned configurations to avoid any future upgrade issues. Reach out to Adobe Support for help & clarifications"
+>abstract="Best practice is to review your current configurations and revert any changes made to mentioned configurations to avoid any future upgrade issues. Contact Adobe Support for help or clarifications."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
 * Do not change or remove the four configurations mentioned above.

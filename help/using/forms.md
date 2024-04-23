@@ -61,7 +61,7 @@ Address the following issues, before migrating to [!DNL Adobe Experience Manager
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_guidance"
 >title="Implementation Guidance"
->abstract="Information exposed via FORMS code can provide guidance about replacements and other actions required to make some features and APIs compatible with the Cloud Service. Reach out to Adobe Support for help & clarifications"
+>abstract="Information exposed via FORMS code can provide guidance about replacements and other actions required to make some features and APIs compatible with the Cloud Service. Contact Adobe Support for help or clarifications."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
 * Use migration utility to convert all rule scripts on your environment to reusable functions. You can use the reusable functions with Visual Rule editor to continue obtaining results obtained with rule scripts. (CODE_EDITOR)

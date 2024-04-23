@@ -28,7 +28,7 @@ LOCP identifies the detection of a custom package that delivers content to `/lib
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"
 >title="Implementation Guidance"
->abstract="Customers should review their custom code and packages to identify if content is delivered to /libs and refactor it to rely on overlay the content under /apps and make it compatible with AEM as a Cloud Service. Reach out to Adobe Support for help & clarifications"
+>abstract="Customers should review their custom code and packages to identify if content is delivered to /libs and refactor it to rely on overlay the content under /apps and make it compatible with AEM as a Cloud Service. Contact Adobe Support for help or clarifications."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Overlays"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 

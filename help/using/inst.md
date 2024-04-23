@@ -13,10 +13,10 @@ Installed Artifact
 >id="aemcloud_bpa_inst_overview"
 >title="Installed Artifact"
 >abstract="INST identifies custom and third-party packages and bundles that have been installed in AEM by the customer. These are reported to help characterize the state of the system the general scope of an upgrade effort. Any third-party package must adhere to the AEM as a Cloud Service development and packaging guidelines."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="Development Guidelines - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html" text="Packaging Guidelines - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Development Guidelines - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Packaging Guidelines - AEM as a Cloud Service"
 
-`INST` identifies custom and third-party packages and bundles that have been installed in AEM by the customer. These are reported to help characterize the state of the system the general scope of an upgrade effort.
+INST identifies custom and third-party packages and bundles that have been installed in AEM by the customer. These are reported to help characterize the state of the system the general scope of an upgrade effort.
 
 When multiple versions of a package have been installed, only the latest version is reported.
 
@@ -32,8 +32,8 @@ Subtypes are used to identify different types of information:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_guidance"
 >title="Implementation Guidance"
->abstract="Customers can't install thirdy-party packages using CRX Package Manager anymore. Customers should review these installed artifacts and need to be structure and optimize them to work with AEM as a Cloud Service. Any third-party package should be verified with its creator or Adobe for compatibility with AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#embeddeds" text="Embedding Sub-packages in the Container Package"
+>abstract="Customers can no longer install third-party packages using CRX Package Manager. Customers should review these installed artifacts that must be structured, and optimize them to work with AEM as a Cloud Service. Verify any third-party package with either its creator or with Adobe for compatibility with AEM as a Cloud Service."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embeddeds" text="Embedding Subpackages in the Container Package"
 
 
 * Installation of third-party packages using CRX Package Manager is not possible in AEM as a Cloud Service.
@@ -45,12 +45,12 @@ Subtypes are used to identify different types of information:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="Tools & Resources"
->abstract="Review WKND-legacy project to understand how INST violations can be made compatible with AEM Cloud Service. Also, Review INST Violation Example on Github to understand how this can be corrected and deployed in AEM as a Cloud Service."
+>abstract="Review WKND-legacy project to understand how INST violations can be made compatible with AEM Cloud Service. Also, Review INST Violation Example on GitHub to understand how this can be corrected and deployed in AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND-Legacy Project"
->additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="INST Violation Example - Github"
+>additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="INST Violation Example - GitHub"
 
-* Third-party packages should be deployed to AEM as a part of the project using the Cloud Manager [deployment process](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html#deployment-process).
-* Review how to [embed third-party packages](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#embedding-3rd-party-packages) in your project for AEM as a Cloud Service.
-* Third-party packages must adhere to the AEM as a Cloud Service [development](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html) and [packaging](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html) guidelines.
+* Third-party packages should be deployed to AEM as a part of the project using the Cloud Manager [deployment process](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deployment-process).
+* Review how to [embed third-party packages](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embedding-3rd-party-packages) in your project for AEM as a Cloud Service.
+* Third-party packages must adhere to the AEM as a Cloud Service [development](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) and [packaging](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package) guidelines.
 * Review [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) project and understand how [INST violations](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst) can be corrected and made compatible with AEM as a Cloud Service.
 * Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.

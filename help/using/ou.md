@@ -29,7 +29,7 @@ As the old versions are not installed by default, the customer application might
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ou_guidance"
 >title="Implementation Guidance"
->abstract="Best practice is to review and Adapt customer code to use the newest version of AEM components or APIs. Reach out to Adobe Support for help & clarifications."
+>abstract="Best practice is to review and Adapt customer code to use the newest version of AEM components or APIs. Contact Adobe Support for help or clarifications.."
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 

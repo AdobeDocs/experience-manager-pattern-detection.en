@@ -9,12 +9,12 @@ Template
 
 ## Background {#background}
 
-Provide a description of the issue that this code represents.
+Provide a description of one or more issues that this code represents.
 Answer the question: "What is this?"
 
 ## Possible implications and risks {#implications-and-risks}
 
-Provide a description of potential implications and risks that will arise if nothing is done about this.
+Provide a description of potential implications and risks that can arise if nothing is done about this.
 Answer the question: "Why should I care?"
 
 * implication or risk #1
@@ -22,7 +22,7 @@ Answer the question: "Why should I care?"
 
 ## Possible solutions {#solutions}
 
-Provide a description of possible steps that will mitigate or resolve the issue. Avoid duplicating information that can be found elsewhere--reference public Adobe documentation whenever possible.
+Provide a description of possible steps that mitigate or resolve the issue. Avoid duplicating information that can be found elsewhere&mdash;reference public Adobe documentation whenever possible.
 Answer the question: "What can I do about it?"
 
 * possible solution #1

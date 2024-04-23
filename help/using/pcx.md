@@ -32,7 +32,7 @@ Subtypes are used to identify the different types of information:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="Implementation Guidance"
->abstract="Best practice is review content structure to reduce page complexity which in turn would help improve page rendering performance. Reach out to Adobe Support for help & clarifications"
+>abstract="Best practice is review content structure to reduce page complexity which in turn would help improve page rendering performance. Contact Adobe Support for help or clarifications."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
 * Reduce the total number of nodes within a page by doing the following action:

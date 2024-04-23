@@ -30,7 +30,7 @@ An example is: `/home/users/ims/0001/R80w6XaUCBq3jHE47xDN/oauth`.
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_guidance"
 >title="Implementation Guidance"
->abstract="External users configured with OAuth are unable to log in on author/publish instances until they are reconfigured to be compatible with AEM as a Cloud Service. AEM as a Cloud Service offers IMS authentication support only for Author, Admin, and Dev users and SAML-based integration for the publish environments. Reach out to Adobe Support for help & clarifications"
+>abstract="External users configured with OAuth are unable to log in on author/publish instances until they are reconfigured to be compatible with AEM as a Cloud Service. AEM as a Cloud Service offers IMS authentication support only for Author, Admin, and Dev users and SAML-based integration for the publish environments. Contact Adobe Support for help or clarifications."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support" text="IMS Support - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="SAML Integration - Publish"
 
