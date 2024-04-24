@@ -14,7 +14,7 @@ Invalid Namespace
 >title="Invalid Namespace"
 >abstract="INS identifies namespace issues on AEM instance"
 
-`INS`  Invalid Namespace identifies namespace issues on AEM instance.
+`INS`  (Invalid Namespace) Identifies namespace issues on AEM instance.
 
 Subtypes are used to identify the different types of information, such as:
 
@@ -22,7 +22,7 @@ Subtypes are used to identify the different types of information, such as:
 
 ## Possible implications and risks {#implications-and-risks}
 
-* Unable to replicate content (across tier) or copy content (across env - via `/crx/packMgr` or Content Copy).
+* Unable to replicate content (across tier) or copy content (across `env`, by way of `/crx/packMgr`, or Content Copy).
 
 ## Possible solutions {#solutions}
 

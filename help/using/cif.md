@@ -15,7 +15,7 @@ Commerce Integration Framework Classic
 >abstract="CIF identifies the classic version of Commerce Integration Framework usage that is incompatible with AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/introduction" text=" Content and Commerce"
 
-CIF CIF identifies the classic version of Commerce Integration Framework usage that is incompatible with AEM as a Cloud Service. The message for each `CIF` finding identifies the usage and provide additional information.
+`CIF`  Identifies the classic version of Commerce Integration Framework usage that is incompatible with AEM as a Cloud Service. The message for each `CIF` finding identifies the usage and provide additional information.
 
 Subtypes are used to identify the different types of information:
 

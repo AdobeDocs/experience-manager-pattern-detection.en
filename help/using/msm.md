@@ -15,7 +15,7 @@ Multi-site Manager
 >abstract="MSM identifies general information about the AEM Multi-site Manager feature. This in formation is provided to help characterize the system."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Notable Changes - AEM as a Cloud Service"
 
-MSM identifies general information about the AEM Multi-site Manager feature. This information is provided to help characterize the system.
+`MSM`  Identifies general information about the AEM Multi-site Manager feature. This information is provided to help characterize the system.
 
 Subtypes are used to identify different types of information:
 

@@ -16,7 +16,7 @@ Non-Compatible Changes
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Notable Changes - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Release Notes - AEM as a Cloud Service"
 
-NCC identifies to the situation in which some JCR nodes or bundles are changed in a non-compatible way. The customer may not be aware of this change before an upgrade.
+`NCC`  Identifies to the situation in which some JCR nodes or bundles are changed in a non-compatible way. The customer may not be aware of this change before an upgrade.
 
 ## Possible implications and risks {#implications-and-risks}
 

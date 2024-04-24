@@ -16,7 +16,7 @@ Installed Artifact
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Development Guidelines - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Packaging Guidelines - AEM as a Cloud Service"
 
-INST identifies custom and third-party packages and bundles that have been installed in AEM by the customer. These are reported to help characterize the state of the system the general scope of an upgrade effort.
+`INST`  Identifies custom and third-party packages and bundles that have been installed in AEM by the customer. These are reported to help characterize the state of the system the general scope of an upgrade effort.
 
 When multiple versions of a package have been installed, only the latest version is reported.
 

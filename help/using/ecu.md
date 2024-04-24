@@ -9,7 +9,7 @@ DEPRECATED: Extraneous Content Usage (replaced by CAV, Content Area Violation)
 
 ## Background {#background}
 
-ECU identifies the pattern where different content areas are used in a way that violates the rules of the content classification.
+`ECU`  Identifies the pattern where different content areas are used in a way that violates the rules of the content classification.
 
 Sling request processing defines how the content of a resource, its `sling:resourceType` property in particular, is used to determine the script that is used to render the content. (See [Locating the script](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script) for more information.) Sling also provides techniques to access and merge resources through "Overlays" and "Overrides". These are described as part of the [Sling Resource Merger](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) and in [Overlays](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays).
 

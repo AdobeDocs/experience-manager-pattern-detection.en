@@ -15,7 +15,7 @@ Legacy User Interface
 >abstract="LUI identifies the use of deprecated user interface elements that are not recommended or not supported in later versions of AEM and in AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Notable Changes - AEM as a Cloud Service"
 
-LUI identifies the use of deprecated user interface elements that are not recommended or not supported in later versions of AEM and in AEM as a Cloud Service.
+`LUI`  Identifies the use of deprecated user interface elements that are not recommended or not supported in later versions of AEM and in AEM as a Cloud Service.
 
 Subtypes are used to identify the different types of user interface elements that should or must be upgraded:
 

@@ -16,7 +16,7 @@ Assets Content Validator
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" text="Notable Changes - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - Release Notes"
 
-ACV  Assets' Content Validator identifies the missing mandatory nodes & violations in asset content. This could lead to failure of certain Assets features on Experience Manager as a Cloud Service.
+`ACV` (Assets' Content Validator) Identifies the missing mandatory nodes & violations in asset content. This could lead to failure of certain Assets features on Experience Manager as a Cloud Service.
 
 Subtypes are used to identify the different types of information, such as:
 
@@ -48,5 +48,5 @@ Subtypes are used to identify the different types of information, such as:
 * For the assets missing the original rendition, either reupload the assets or delete them before migrating. 
 * No action required for missing subassets original rendition.
 * In there are conflict nodes, they should be resolved or deleted before migrating to AEM as a Cloud Service.
-* Reach out to Adobe Customer Support if you plan to process lots of large PSD or PSB files. Experience Manager may not process high-resolution PSB files that are more than 30000 x 23000 pixels. See [documentation](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
+* Contact Adobe Customer Support if you plan to process lots of large PSD or PSB files. Experience Manager may not process high-resolution PSB files that are more than 30000 x 23000 pixels. See [documentation](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
 * Contact the [Experience Manager Customer Care Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to address concerns.

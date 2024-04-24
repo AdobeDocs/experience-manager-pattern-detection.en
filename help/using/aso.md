@@ -15,7 +15,7 @@ AEM System Overview
 >abstract="ASO code identifies general information about the AEM instance. Each finding provides one value of a particular type of system information that can help in your migration planning and refactoring effort."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - Release Notes"
 
-ASO identifies general information about the AEM instance. Each finding provides one value of a particular type of system information.
+`ASO` Identifies general information about the AEM instance. Each finding provides one value of a particular type of system information.
 
 Subtypes are used to identify different types of information:
 

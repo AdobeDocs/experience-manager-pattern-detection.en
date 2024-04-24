@@ -14,7 +14,7 @@ Custom Component
 >title="Custom Component"
 >abstract="CCOM identifies custom components which have been installed on AEM. This information is provided for the purposes of best practices assessment"
 
-CCOM identifies custom components which have been installed on AEM. This information is provided for the purposes of best practices assessment.
+`CCOM` Identifies custom components which have been installed on AEM. This information is provided for the purposes of best practices assessment.
 
 A subtype is used with this code to identify the category of component:
 

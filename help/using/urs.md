@@ -15,7 +15,7 @@ Unsupported Repository Structure
 
 ## Background {#background}
 
-URS identifies cases of unsupported repository structure and node characteristics. Beginning in AEM 6.4, guidelines have been provided for the restructuring of repository content. By clearly delineating hierarchies for AEM product code and customer code and avoid conflict between them, content is being restructured out of `/etc` to other folders in the repository, adhering to the following high-level rules:
+`URS`  Identifies cases of unsupported repository structure and node characteristics. Beginning in AEM 6.4, guidelines have been provided for the restructuring of repository content. By clearly delineating hierarchies for AEM product code and customer code and avoid conflict between them, content is being restructured out of `/etc` to other folders in the repository, adhering to the following high-level rules:
 
 * AEM product code is always placed in `/libs`, which must not be overwritten by custom code. 
 * Custom code should be placed in `/apps`, `/content`, and `/conf`.

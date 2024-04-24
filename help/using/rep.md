@@ -16,7 +16,7 @@ Replication Agent
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="Notable Changes - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="Development Guidelines"
 
-REP identifies enabled replication agents. These are reported because of the potential for issues that should be addressed when upgrading to AEM as a Cloud Service.
+`REP`  Identifies enabled replication agents. These are reported because of the potential for issues that should be addressed when upgrading to AEM as a Cloud Service.
 
 Subtypes are used to identify different types of information:
 

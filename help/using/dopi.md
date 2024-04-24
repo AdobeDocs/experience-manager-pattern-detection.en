@@ -16,7 +16,7 @@ Deprecated Ordered Property Index
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="Ordered Index - Deprecated"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing" text="Indexing - AEM as a Cloud Service"
 
-DOPI identifies the use of ordered property index definitions (`primaryType=oak:QueryIndexDefinition` AND `type="ordered"`), which have been deprecated since 6.1 and were removed in 6.2.
+`DOPI`  Identifies the use of ordered property index definitions (`primaryType=oak:QueryIndexDefinition` AND `type="ordered"`), which have been deprecated since AEM 6.1 and were removed in AEM 6.2.
 
 ## Possible implications and risks {#implications-and-risks}
 
@@ -39,6 +39,6 @@ DOPI identifies the use of ordered property index definitions (`primaryType=oak:
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="WKND-Legacy Project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="DOPI Violation Example - GitHub"
 
-* Modify the index definition so that it becomes&mdash;or replaces the index with&mdash;a supported index definition. (See [Oak Queries and Indexing](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing)).
+* Edit the index definition so that it becomes&mdash;or replaces the index with&mdash;a supported index definition. (See [Oak Queries and Indexing](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing)).
 * Review [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi) project and understand how [DOPI violations](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi) can be corrected and made compatible with AEM as a Cloud Service.
 * Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.
