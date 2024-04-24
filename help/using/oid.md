@@ -15,7 +15,7 @@ Oak Index Definition
 >abstract="OID identifies issues related to Oak index definitions. It identifies modifications that have been made to standard Oak index definitions. It also identifies custom Oak index definitions that are incompatible with AEM as a Cloud Service. The message for each OID finding identifies the index and provide additional information."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing#how-to-use" text="Content Indexing Guidelines"
 
-OID identifies issues related to Oak index definitions. It identifies modifications that have been made to standard Oak index definitions. It also identifies custom Oak index definitions that are incompatible with AEM as a Cloud Service. The message for each `OID` finding identifies the index and provide additional information.
+`OID`  Identifies issues related to Oak index definitions. It identifies modifications that have been made to standard Oak index definitions. It also identifies custom Oak index definitions that are incompatible with AEM as a Cloud Service. The message for each `OID` finding identifies the index and provide additional information.
 
 Subtypes are used to identify the different types of information:
 

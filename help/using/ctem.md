@@ -14,7 +14,7 @@ Custom Template
 >title="Custom Template"
 >abstract="CTEM identifies custom components which have been installed on AEM. This information is provided for the purposes of best practices assessment"
 
-CTEM identifies custom templates which have been installed on AEM. This information is provided for the purposes of best practices assessment.
+`CTEM`  Identifies custom templates which have been installed on AEM. This information is provided for the purposes of best practices assessment.
 
 Templates are identified by a primary type value of `cq:Template`. A subtype is used with this code to identify the category of template:
 

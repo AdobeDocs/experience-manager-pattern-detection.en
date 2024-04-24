@@ -12,9 +12,9 @@ Internal Oak Import
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
 >title="Internal Oak Import"
->abstract="IOI code identifies customer use of internal Oak packages, importing them via OSGi. They are usually exported without any particular version and are intended for consumption only by other Oak bundles or low-level AEM services."
+>abstract="IOI code identifies customer use of internal Oak packages, importing them via OSGi. They are exported without any particular version and are intended for consumption only by other Oak bundles or low-level AEM services."
 
-`IOI` identifies customer use of internal Oak packages, importing them via OSGi. They are usually exported without any particular version and are intended for consumption only by other Oak bundles or low-level AEM services.
+`IOI`  Identifies customer use of internal Oak packages, importing them via OSGi. They are exported without any particular version and are intended for consumption only by other Oak bundles or low-level AEM services.
 
 Some of these are used by `com.adobe.granite.repository`, which sets up a repository for AEM during startup. Another example is the `com.adobe.granite.maintenance.oak` Adobe bundle, which wraps and provides Oak maintenance tasks.
 

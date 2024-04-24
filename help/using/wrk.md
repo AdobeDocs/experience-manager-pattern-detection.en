@@ -15,7 +15,7 @@ Workflow
 >abstract="WRK code identifies a finding related to a workflow model or launcher. These are reported because custom asset workflow models must be migrated when upgrading to AEM as a Cloud Service. With AEM as a Cloud Service, asset processing is now performed by asset microservices."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="Asset Microservices"
 
-WRK identifies a finding related to a workflow model or launcher. These are reported because custom asset workflow models must be migrated when upgrading to AEM as a Cloud Service.
+`WRK`  Identifies a finding related to a workflow model or launcher. These are reported because custom asset workflow models must be migrated when upgrading to AEM as a Cloud Service.
 
 A subtype is used to identify the type of workflow issue currently detected.
 

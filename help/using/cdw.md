@@ -14,7 +14,7 @@ Custom Dialog Widget
 >title="Custom Dialog Widget"
 >abstract="CDW identifies the Custom Dialog Widgets which should be updated for them to be compatible with AEM as a Cloud Service."
 
-`CDW`  Custom Dialog Widgets identifies the custom Classic dialog widgets. These should be updated for them to be compatible with AEM as a Cloud Service.
+`CDW`  (Custom Dialog Widgets) Identifies the custom Classic dialog widgets. These should be updated for them to be compatible with AEM as a Cloud Service.
 
 Subtypes are used to identify the information, such as:
 

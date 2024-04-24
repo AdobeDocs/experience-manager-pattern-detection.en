@@ -14,7 +14,7 @@ Misconfiguration Issue
 >title="Misconfiguration Issue"
 >abstract="MI identifies configuration issues on AEM instance"
 
-MI Misconfiguration Issue identifies configuration issues on AEM instance.
+`MI` (Misconfiguration Issue) Identifies configuration issues on AEM instance.
 
 Subtypes are used to identify the different types of information, such as:
 

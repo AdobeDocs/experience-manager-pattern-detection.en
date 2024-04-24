@@ -1,6 +1,6 @@
 ---
 title: OAUI
-description: Pattern Detector code help page..
+description: Pattern Detector code help page.
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
 ---
 # OAUI {#oaui}
@@ -15,7 +15,7 @@ OAuth Users Instance
 >abstract="OAUI code identifies the pattern where there is at least one OAuth-related configured user that requires correct migration. OAuth is configured for users when there is a subnode named oauth directly under a rep:AuthorizableId node in the form of /home/user-path/user-node/oauth"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - Release Notes"
 
-OAUI identifies the pattern where there is at least one OAuth-related configured user that requires correct migration.
+`OAUI`  Identifies the pattern where there is at least one OAuth-related configured user that requires correct migration.
 
 OAuth is configured for users when there is a subnode named `oauth` directly under a `rep:AuthorizableId` node in the form of `/home/user-path/user-node/oauth`.
 

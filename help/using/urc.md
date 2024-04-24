@@ -16,7 +16,7 @@ Unsupported Run mode Configuration
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="Supported Runmodes"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="Runmodes"
 
-URC identifies the use of configurations that are based on a run mode name that is not supported in AEM as a Cloud Service.
+`URC`  Identifies the use of configurations that are based on a run mode name that is not supported in AEM as a Cloud Service.
 
 ## Possible implications and risks {#implications-and-risks}
 

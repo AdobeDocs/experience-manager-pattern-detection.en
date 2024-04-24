@@ -14,9 +14,10 @@ Custom Client Library
 >title="Custom Client Library"
 >abstract="CCL identifies client libraries which have been installed on AEM. This information is provided for the purposes of best practices assessment."
 
-`CCL` identifies client libraries which have been installed on AEM. This information is provided for the purposes of best practices assessment.
+`CCL` Identifies client libraries which have been installed on AEM. This information is provided for the purposes of best practices assessment.
 
 One subtype is used with this code:
+
 * `custom.client.library`
 
 ## Possible implications and risks {#implications-and-risks}

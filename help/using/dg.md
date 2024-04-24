@@ -17,7 +17,7 @@ Developer Guideline
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service Development Guidelines"
 
 
-DG identifies deviations of selected development guidelines for [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) and [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). Following the best practices can improve the maintainability and performance of your system. Although some of these deviations might not be a problem in other application contexts, including with previous versions of AEM, they may cause problems when used with AEM as a Cloud Service.
+`DG`  Identifies deviations of selected development guidelines for [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) and [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). Following the best practices can improve the maintainability and performance of your system. Although some of these deviations might not be a problem in other application contexts, including with previous versions of AEM, they may cause problems when used with AEM as a Cloud Service.
 
 Subtypes are used to identify the different types of detected violations:
 

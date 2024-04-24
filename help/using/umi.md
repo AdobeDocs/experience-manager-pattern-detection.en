@@ -1,6 +1,6 @@
 ---
 title: UMI
-description: Pattern Detector code help page..
+description: Pattern Detector code help page.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 ---
 # UMI {#umi}
@@ -16,7 +16,7 @@ Upgrade Misconfiguration Issue
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Notable Changes - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - Release Notes"
 
-UMI identifies modifications to certain OSGi configurations that cause issues when upgrading, including a failed upgrade or reduced functionality.
+`UMI`  Identifies modifications to certain OSGi configurations that cause issues when upgrading, including a failed upgrade or reduced functionality.
 
 The following configurations are checked for modification:
 

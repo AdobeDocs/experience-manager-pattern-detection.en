@@ -16,7 +16,7 @@ Page Complexity
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Notable Changes - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - Release Notes"
 
-PCX identifies pages that contain many nodes in their structure.
+`PCX`  Identifies pages that contain many nodes in their structure.
 
 Subtypes are used to identify the different types of information:
 
