@@ -12,9 +12,9 @@ Custom Dialog Widget
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cdw_overview"
 >title="Custom Dialog Widget"
->abstract="CDW identifies the Custom Dialog Widgets which should be updated for them to be compatible with AEM as a Cloud Service."
+>abstract="CDW identifies the Custom Dialog Widgets that should be updated for them to be compatible with AEM as a Cloud Service."
 
-`CDW`  (Custom Dialog Widgets) Identifies the custom Classic dialog widgets. These should be updated for them to be compatible with AEM as a Cloud Service.
+`CDW`  (`Custom Dialog Widgets`) Identifies the custom Classic Dialog Widgets. These widgets should be updated for them to be compatible with AEM as a Cloud Service.
 
 Subtypes are used to identify the information, such as:
 
@@ -32,5 +32,5 @@ Subtypes are used to identify the information, such as:
 >abstract="Contact Customer Care for help."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
-* Custom Classic Dialog Widgets should to be converted from ExtJS to [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html).
+* Custom Classic Dialog Widgets should be converted from ExtJS to [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html).
 * Contact the [Experience Manager Customer Care Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to address concerns.
