@@ -44,7 +44,7 @@ Subtypes are used to identify different types of information:
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
->title="Tools & Resources"
+>title="Tools and Resources"
 >abstract="Review WKND-legacy project to understand how INST violations can be made compatible with AEM Cloud Service. Also, Review INST Violation Example on GitHub to understand how this can be corrected and deployed in AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND-Legacy Project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="INST Violation Example - GitHub"

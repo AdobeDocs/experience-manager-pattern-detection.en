@@ -39,7 +39,7 @@ Subtypes are used to identify the different types of information:
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_tools"
->title="Tools & Resources"
+>title="Tools and Resources"
 >abstract="Review WKND-legacy project to understand how OID violations can be resolved in your Project. Also, Review OID Violation Example on GitHub to understand how legacy indexes can be converted using the Index Converter tool and made compatible with AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid" text="WKND-Legacy Project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid" text="OID Violation Example - GitHub"

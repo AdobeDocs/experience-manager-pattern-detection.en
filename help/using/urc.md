@@ -33,7 +33,7 @@ Unsupported Run mode Configuration
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
->title="Tools & Resources"
+>title="Tools and Resources"
 >abstract="Review WKND-legacy project to understand how URC violations can be made compatible with AEM Cloud Service. Also, Review URC Violation Example on GitHub to understand how custom runmode-based OSGi configurations can be updated to adhere with AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="WKND-Legacy Project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="URC Violation Example - GitHub"

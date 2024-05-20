@@ -36,7 +36,7 @@ Subtypes are used to identify the different types of information:
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_tools"
->title="Tools & Resources"
+>title="Tools and Resources"
 >abstract="This guide helps identify the areas you must update for the Experience Manager Cloud Service migration."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/migration" text="Migration guide for CIF"
 
