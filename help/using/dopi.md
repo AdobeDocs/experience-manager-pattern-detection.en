@@ -12,11 +12,11 @@ Deprecated Ordered Property Index
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_overview"
 >title="Deprecated Ordered Property Index"
->abstract="DOPI code identifies the use of ordered property index definitions (`primaryType=oak:QueryIndexDefinition` AND type="ordered"), which have been deprecated since 6.1 and were removed in 6.2."
+>abstract="DOPI code identifies the use of Ordered Property Index definitions (`primaryType=oak:QueryIndexDefinition` AND `type="ordered"`). The definition were deprecated in AEM 6.1 and removed in AEM 6.2."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="Ordered Index - Deprecated"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing" text="Indexing - AEM as a Cloud Service"
 
-`DOPI`  Identifies the use of ordered property index definitions (`primaryType=oak:QueryIndexDefinition` AND `type="ordered"`), which have been deprecated since AEM 6.1 and were removed in AEM 6.2.
+`DOPI`  Identifies the use of Ordered Property Index definitions (`primaryType=oak:QueryIndexDefinition` AND `type="ordered"`). The definitions were deprecated in AEM 6.1 and removed in AEM 6.2.
 
 ## Possible implications and risks {#implications-and-risks}
 
@@ -35,7 +35,7 @@ Deprecated Ordered Property Index
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_tools"
 >title="Tools and Resources"
->abstract="Review WKND-legacy project to understand how DOPI violations can be made compatible with AEM Cloud Service. Also, Review DOPI Violation Example on GitHub to understand how legacy ordered indexes can be converted to Lucene based indexes which are supported in AEM as a Cloud Service."
+>abstract="Review WKND-legacy project to understand how DOPI violations can be made compatible with AEM Cloud Service. Also, review the DOPI Violation Example on GitHub. It can help you understand how legacy ordered indexes can be converted to Lucene based indexes that are supported in AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="WKND-Legacy Project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="DOPI Violation Example - GitHub"
 

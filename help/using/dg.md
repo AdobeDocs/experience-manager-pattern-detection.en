@@ -31,7 +31,7 @@ Subtypes are used to identify the different types of detected violations:
 ## Possible implications and risks {#implications-and-risks}
 
 * `java.io.inputstream`
-  * Streaming of binary data with `java.io.InputStream` can consume memory resources to the point of impacting performance. This is particularly an issue due to the limited memory available in containers used in AEM as a Cloud Service.
+  * Streaming of binary data with `java.io.InputStream` can consume memory resources to the point of impacting performance. This issue is due to the limited memory available in containers used in AEM as a Cloud Service.
 
 * `maintenance.task.configuration`
   * Some maintenance tasks that previously required explicit configuration are now automatically configured and managed within AEM as a Cloud Service.
@@ -42,14 +42,14 @@ Subtypes are used to identify the different types of detected violations:
   * Guidelines for [background tasks and long-running jobs](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs) suggest that code run as a scheduled task must also assume that the instance it is running on, can be brought down at any time. Therefore, the code must be resilient and resumable.
 
 * `unsupported.asset.api`
-  * Following APIs of AssetManager are marked as unsupported on AEM as a Cloud Service.
+  * The following APIs of AssetManager are marked as unsupported on AEM as a Cloud Service.
     * createAssetForBinary
     * getAssetForBinary
     * removeAssetForBinary
     * createAsset
 
 * `javax.jcr.observation.EventListener`
-  * Applications dependent on event listener might not work as expected because execution cannot be guaranteed.
+  * Applications dependent on Event Listener might not work as expected because execution cannot be guaranteed.
   
 * `custom.guava.cache`
   * Usage of Guava Cache may cause performance issues on AEM.

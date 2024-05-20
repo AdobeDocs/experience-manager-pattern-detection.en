@@ -12,11 +12,11 @@ Dynamic Media
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_overview"
 >title="Dynamic Media"
->abstract="DM code identifies usage of AEM Assets Dynamic Media in your current implementation. The Dynamic Media mode is detected by the run mode."
+>abstract="DM code identifies usage of AEM Assets Dynamic Media in your current implementation. The run mode detects the Dynamic Media mode."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM Development - Guidelines and Best Practices"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service Development Guidelines"
 
-`DM` (Dynamic Media) Identifies use of AEM Assets Dynamic Media. Dynamic Media mode is detected by the run mode.
+`DM` (Dynamic Media) Identifies use of AEM Assets Dynamic Media. The run mode detects the Dynamic Media mode.
 
 A subtype is used with this code:
 
@@ -34,7 +34,7 @@ A subtype is used with this code:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_guidance"
 >title="Implementation Guidance"
->abstract="AEM as a Cloud Service only support dynamicmedia_scene7 run mode. Review the current settings and reach out to Adobe Support Team for help and clarifications."
+>abstract="AEM as a Cloud Service only support dynamicmedia_scene7 run mode. Review the current settings and reach out to the Adobe Support Team for help and clarifications."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media" text="Setting up Dynamic Media"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 

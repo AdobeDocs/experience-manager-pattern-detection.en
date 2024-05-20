@@ -12,11 +12,11 @@ Installed Artifact
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_overview"
 >title="Installed Artifact"
->abstract="INST identifies custom and third-party packages and bundles that have been installed in AEM by the customer. These are reported to help characterize the state of the system the general scope of an upgrade effort. Any third-party package must adhere to the AEM as a Cloud Service development and packaging guidelines."
+>abstract="INST identifies custom and third-party packages and bundles installed in AEM by the customer. Such packages and bundles are reported to help characterize the state of the system and the general scope of an upgrade effort. Any third-party package must adhere to the AEM as a Cloud Service development and packaging guidelines."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Development Guidelines - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Packaging Guidelines - AEM as a Cloud Service"
 
-`INST`  Identifies custom and third-party packages and bundles that have been installed in AEM by the customer. These are reported to help characterize the state of the system the general scope of an upgrade effort.
+`INST`  Identifies custom and third-party packages and bundles installed in AEM by the customer. Such packages and bundles are reported to help characterize the state of the system and the general scope of an upgrade effort.
 
 When multiple versions of a package have been installed, only the latest version is reported.
 
@@ -45,7 +45,7 @@ Subtypes are used to identify different types of information:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="Tools and Resources"
->abstract="Review WKND-legacy project to understand how INST violations can be made compatible with AEM Cloud Service. Also, Review INST Violation Example on GitHub to understand how this can be corrected and deployed in AEM as a Cloud Service."
+>abstract="Review WKND-legacy project to understand how INST violations can be made compatible with AEM Cloud Service. Also, review the INST Violation Example on GitHub to understand how this issue can be corrected and deployed in AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND-Legacy Project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="INST Violation Example - GitHub"
 
