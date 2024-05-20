@@ -34,7 +34,7 @@ Deprecated Ordered Property Index
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_tools"
->title="Tools & Resources"
+>title="Tools and Resources"
 >abstract="Review WKND-legacy project to understand how DOPI violations can be made compatible with AEM Cloud Service. Also, Review DOPI Violation Example on GitHub to understand how legacy ordered indexes can be converted to Lucene based indexes which are supported in AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="WKND-Legacy Project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="DOPI Violation Example - GitHub"

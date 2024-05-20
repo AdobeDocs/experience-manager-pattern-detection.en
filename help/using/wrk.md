@@ -37,8 +37,8 @@ A subtype is used to identify the type of workflow issue currently detected.
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_tools"
->title="Tools & Resources"
->abstract="Review & plan to run the Asset Workflow Migration Tool once a custom asset workflow model or launcher is identified. Contact Adobe Support for help or clarifications."
+>title="Tools and Resources"
+>abstract="Review and plan to run the Asset Workflow Migration Tool once a custom asset workflow model or launcher is identified. Contact Adobe Support for help or clarifications."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/asset-workflow-migration-tool" text="Asset Workflow Migration Tool"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
