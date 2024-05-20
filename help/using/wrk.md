@@ -12,10 +12,10 @@ Workflow
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_overview"
 >title="Workflow"
->abstract="WRK code identifies a finding related to a workflow model or launcher. These are reported because custom asset workflow models must be migrated when upgrading to AEM as a Cloud Service. With AEM as a Cloud Service, asset processing is now performed by asset microservices."
+>abstract="WRK code identifies a finding related to a workflow model or launcher. These identifications are reported because custom asset workflow models must be migrated when upgrading to AEM as a Cloud Service. With AEM as a Cloud Service, asset microservices performs the asset processing."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="Asset Microservices"
 
-`WRK`  Identifies a finding related to a workflow model or launcher. These are reported because custom asset workflow models must be migrated when upgrading to AEM as a Cloud Service.
+`WRK`  Identifies a finding related to a workflow model or launcher. These identifications are reported because custom asset workflow models must be migrated when upgrading to AEM as a Cloud Service.
 
 A subtype is used to identify the type of workflow issue currently detected.
 
@@ -26,10 +26,10 @@ A subtype is used to identify the type of workflow issue currently detected.
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_guidance"
 >title="Implementation Guidance"
->abstract="Standard asset workflows are automatically supported my asset microservices. Therefore, Best Practice is to review all custom asset workflow models or Launcher to see if they are needed after you transition to AEM as a Cloud Service. Customizations to asset workflows require migration to work with AEM as a Cloud Service with help of Asset Workflow Migration Tool"
+>abstract="Standard asset workflows are automatically supported my asset microservices. Therefore, Best Practice is to review all custom asset workflow models or Launcher. When reviewing, you can see if they are needed after your transition to AEM as a Cloud Service. Customizations to asset workflows require migration to work with AEM as a Cloud Service with the help of Asset Workflow Migration Tool"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-microservices-configure-and-use" text="Getting Started - Asset Microservices"
 
-* Asset processing has traditionally been performed with asset workflows executing on the AEM Author instance. With AEM as a Cloud Service, asset processing is now performed by asset microservices. See the [asset microservices overview](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview) for more information.
+* Asset processing has traditionally been performed with asset workflows executing on the AEM Author instance. With AEM as a Cloud Service, asset microservices performs the asset processing. See the [asset microservices overview](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview) for more information.
 * Standard asset workflows are automatically supported my asset microservices.
 * Customizations to asset workflows require migration to work with AEM as a Cloud Service.
 

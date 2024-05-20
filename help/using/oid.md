@@ -40,7 +40,7 @@ Subtypes are used to identify the different types of information:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_tools"
 >title="Tools and Resources"
->abstract="Review WKND-legacy project to understand how OID violations can be resolved in your Project. Also, Review OID Violation Example on GitHub to understand how legacy indexes can be converted using the Index Converter tool and made compatible with AEM as a Cloud Service."
+>abstract="Review WKND-legacy project to understand how OID violations can be resolved in your Project. Also, review the OID Violation Example on GitHub. It can help you understand how legacy indexes can be converted using the Index Converter tool and made compatible with AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid" text="WKND-Legacy Project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid" text="OID Violation Example - GitHub"
 
@@ -49,4 +49,4 @@ Subtypes are used to identify the different types of information:
 * Customized AEM standard indexes and new custom Oak index definitions should follow the [content indexing guidelines](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing#preparing-the-new-index-definition) for AEM as a Cloud Service.
 * Review [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid) project and understand how [OID violations](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid) can be corrected and made compatible with AEM as a Cloud Service.
 * Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.
-* Use the [Index Converter](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools) to migrate existing Custom Oak Index Definitions to AEM as a Cloud Service compatible Custom Oak Index Definitions.
+* Use the [Index Converter](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools) to migrate existing Custom Oak index definitions to AEM as a Cloud Service compatible Custom Oak index definitions.

@@ -11,10 +11,10 @@ Unsupported Run mode Configuration
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_overview"
->title="Unsupported Runmode Configuration"
+>title="Unsupported Run mode Configuration"
 >abstract="URC identifies the use of configurations that are based on a run mode name that is not supported in AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="Supported Runmodes"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="Runmodes"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="Supported Run modes"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="Run modes"
 
 `URC`  Identifies the use of configurations that are based on a run mode name that is not supported in AEM as a Cloud Service.
 
@@ -23,8 +23,8 @@ Unsupported Run mode Configuration
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_guidance"
 >title="Implementation Guidance"
->abstract="Best Practice is to review if all run modes used in your application are supported and ensure they follow the runmode resolution guidelines"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#deploying" text="Runmode Resolution Guidelines"
+>abstract="Best Practice is to review if all run modes used in your application are supported. And, ensure that they follow the run mode resolution guidelines"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#deploying" text="Run mode Resolution Guidelines"
 
 * The set of names that may be used for running various modes in AEM as a Cloud Service is limited.
 * Configurations that are based on unsupported run mode names, have no effect when deployed to AEM as a Cloud Service.
@@ -34,7 +34,7 @@ Unsupported Run mode Configuration
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
 >title="Tools and Resources"
->abstract="Review WKND-legacy project to understand how URC violations can be made compatible with AEM Cloud Service. Also, Review URC Violation Example on GitHub to understand how custom runmode-based OSGi configurations can be updated to adhere with AEM as a Cloud Service."
+>abstract="Review WKND-legacy project to understand how URC violations can be made compatible with AEM Cloud Service. Also, Review URC Violation Example on GitHub to understand how custom run mode-based OSGi configurations can be updated to adhere with AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="WKND-Legacy Project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="URC Violation Example - GitHub"
 
