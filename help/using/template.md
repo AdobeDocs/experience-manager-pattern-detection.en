@@ -14,7 +14,7 @@ Answer the question: "What is this?"
 
 ## Possible implications and risks {#implications-and-risks}
 
-Provide a description of potential implications and risks that can arise if nothing is done about this.
+Provide a description of the potential implications and risks that can arise if nothing is done about them.
 Answer the question: "Why should I care?"
 
 * implication or risk #1

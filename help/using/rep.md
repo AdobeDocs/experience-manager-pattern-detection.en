@@ -12,27 +12,30 @@ Replication Agent
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_rep_overview"
 >title="Replication Agent"
->abstract="REP identifies enabled replication agents. These are reported because of the potential for issues that should be addressed when upgrading to AEM as a Cloud Service. AEM as a Cloud Service uses Sling Content Distribution to distribute content from author to publish environments. This is done outside of the AEM runtime using the pipeline service of Adobe I/O Runtime on Adobe Developer. This is automatically configured in the provisioned AEM as a Cloud Service environment."
+>abstract="REP identifies enabled replication agents. These agents are reported because of the potential for issues that should be addressed when upgrading to AEM as a Cloud Service. AEM as a Cloud Service uses Sling Content Distribution to distribute content from author to publish environments. This distribution is done outside of the AEM runtime using the pipeline service of Adobe I/O Runtime on Adobe Developer. This workflow is automatically configured in the provisioned AEM as a Cloud Service environment."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="Notable Changes - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="Development Guidelines"
 
-`REP`  Identifies enabled replication agents. These are reported because of the potential for issues that should be addressed when upgrading to AEM as a Cloud Service.
+`REP`  Identifies enabled replication agents. These agents are reported because of the potential for issues that should be addressed when upgrading to AEM as a Cloud Service.
 
 Subtypes are used to identify different types of information:
 
 * `forward.replication`: Identify the enabled forward replication agents.
 * `reverse.replication`: Identify the enabled reverse replication agents.
-* `standard.replication.agent.modification`: Identify the enabled standard replication agents which are modified.
+* `standard.replication.agent.modification`: Identify the enabled standard replication agents that are modified.
 * `custom.replication.agent.detection`: Identify the enabled custom replication agents.
 
-AEM as a Cloud Service uses [Sling Content Distribution](https://sling.apache.org/documentation/bundles/content-distribution.html) to distribute content from author to publish environments. This is done outside of the AEM runtime using the pipeline service of Adobe I/O Runtime on Adobe Developer. This is automatically configured in the provisioned AEM as a Cloud Service environment.
+AEM as a Cloud Service uses [Sling Content Distribution](https://sling.apache.org/documentation/bundles/content-distribution.html) to distribute content from author to publish environments. This distribution is done outside of the AEM runtime using the pipeline service of Adobe I/O Runtime on Adobe Developer. This workflow is automatically configured in the provisioned AEM as a Cloud Service environment.
 
 ## Possible implications and risks {#implications-and-risks}
 
-* The configuration of replication has changed with AEM as a Cloud Service. All current replication agents should be reviewed to see which are replaced by standard capability, which configurations must be moved to code, and which are not supported.
+* The configuration of replication has changed with AEM as a Cloud Service. All current replication agents should be reviewed. The review helps you to see:
+  * which ones that standard capability can replace,
+  * which configurations must be moved to code,
+  * and which are not supported.
 * Any use of replication agents in custom code or workflows should be reviewed while upgrading to AEM as a Cloud Service.
 * Reverse replication is not initially supported in AEM as a Cloud Service.
-* There is no need to configure a separate Dispatcher flush agent. This is automatically configured in the AEM as a Cloud Service environment.
+* There is no need to configure a separate Dispatcher flush agent. Instead, it is automatically configured in the AEM as a Cloud Service environment.
 
 ## Possible solutions {#solutions}
 
@@ -45,5 +48,5 @@ AEM as a Cloud Service uses [Sling Content Distribution](https://sling.apache.or
 
 * See the AEM as a Cloud Service [Development Guidelines](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents) and release notes for [replication agents](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents).
 * Review, refactor, and optimize functionality directly dependent on replication agents to perform business tasks.
-* See how [replication](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#replication) is affected by deployment in AEM as a Cloud Service.
+* See how [replication](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#replication) is affected through deployment in AEM as a Cloud Service.
 * Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.

@@ -12,9 +12,9 @@ Custom Client Library
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_overview"
 >title="Custom Client Library"
->abstract="CCL identifies client libraries which have been installed on AEM. This information is provided for the purposes of best practices assessment."
+>abstract="CCL identifies client libraries that have been installed on AEM. This information is provided for the purposes of best practices assessment."
 
-`CCL` Identifies client libraries which have been installed on AEM. This information is provided for the purposes of best practices assessment.
+`CCL` Identifies client libraries that have been installed on AEM. This information is provided for the purposes of best practices assessment.
 
 One subtype is used with this code:
 
@@ -22,7 +22,7 @@ One subtype is used with this code:
 
 ## Possible implications and risks {#implications-and-risks}
 
-* The client libraries which have been added to AEM should be reviewed to ensure that there is no duplication and that the latest versions are used.
+* The client libraries that have been added to AEM should be reviewed to ensure that there is no duplication and that the latest versions are used.
 
 ## Possible solutions {#solutions}
 
