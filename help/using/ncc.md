@@ -12,11 +12,11 @@ Non-Compatible Changes
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_overview"
 >title="Non-Compatible Changes"
->abstract="NCC identifies to the situation in which some JCR nodes or bundles are changed in a non-compatible way. The customer may not be aware of this change before an upgrade."
+>abstract="NCC identifies the situation in which some JCR nodes or bundles are changed in a non-compatible way. The customer may not be aware of this change before an upgrade."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Notable Changes - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Release Notes - AEM as a Cloud Service"
 
-`NCC`  Identifies to the situation in which some JCR nodes or bundles are changed in a non-compatible way. The customer may not be aware of this change before an upgrade.
+`NCC`  Identifies the situation in which some JCR nodes or bundles are changed in a non-compatible way. The customer may not be aware of this change before an upgrade.
 
 ## Possible implications and risks {#implications-and-risks}
 
@@ -33,5 +33,5 @@ Non-Compatible Changes
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
 * Overlay or reference only compatible Sling components.
-* Consider adapting resources which come from `/libs` or bundles after an AEM upgrade.
+* Consider adapting resources that come from `/libs` or bundles after an AEM upgrade.
 * Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.

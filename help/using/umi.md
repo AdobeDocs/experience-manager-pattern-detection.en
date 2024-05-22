@@ -25,15 +25,15 @@ The following configurations are checked for modification:
 * `org.apache.sling.engine.impl.auth.SlingAuthenticator`
 * `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory`
 * `com.day.cq.commons.impl.ExternalizerImpl`
-* `org.apache.sling.commons.log.LogManager.factory.config` :  Identify whether the `org.apache.sling.commons.log.file` property of the custom loggers is pointing to something other than `logs/error.log` file.
+* `org.apache.sling.commons.log.LogManager.factory.config` : Identify whether the `org.apache.sling.commons.log.file` property of the custom loggers is pointing to something other than `logs/error.log` file.
 
 ## Possible implications and risks {#implications-and-risks}
 
-* Changing or removing configurations may cause below issues:
+* Changing or removing configurations may cause the following issues:
   * Upgrade may get stuck (for example `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName` was missing but present in `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids`).
   * Authorization issues may come after upgrade (`org.apache.sling.engine.impl.auth.SlingAuthenticator`).
   * Certain functionality may not work as expected. For example changing `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` may result in some JSP files not being compiled, which ultimately results in loss of functionality.
-  * The values of the Externalizer config `com.day.cq.commons.impl.ExternalizerImpl` are set by cloud manager environment variables in AEM as a Cloud Service.
+  * The values of the Externalizer config `com.day.cq.commons.impl.ExternalizerImpl` are set with cloud manager environment variables in AEM as a Cloud Service.
   * AEM as a Cloud Services does not support custom log files. Logs written to custom-named logs are not accessible from AEM as a Cloud Service.
 
 ## Possible solutions {#solutions}

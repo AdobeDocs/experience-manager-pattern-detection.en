@@ -19,14 +19,14 @@ Misconfiguration Issue
 Subtypes are used to identify the different types of information, such as:
 
 * `sling.job.max.parallel`: Identify the sling jobs where max parallel configuration is set to -1.
-* `missing.maintenance.configuration`: Identify missing maintenance task configurations.
+* `missing.maintenance.configuration`: Identify missing Maintenance Task configurations.
 
 ## Possible implications and risks {#implications-and-risks}
 
 * `sling.job.max.parallel`
-  * A value of -1 is substituted with the number of available processors. This might cause performance issues on AEM instance.
+  * A value of -1 is substituted with the number of available processors. As such, it might cause performance issues on an AEM instance.
 * `missing.maintenance.configuration`
-  * Missing maintenance task configurations may cause loss of performance or instance corruption.
+  * Missing Maintenance Task configurations may cause loss of performance or instance corruption.
 
 ## Possible solutions {#solutions}
 

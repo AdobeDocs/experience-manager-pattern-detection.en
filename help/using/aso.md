@@ -26,7 +26,7 @@ Subtypes are used to identify different types of information:
 * `data.store`: The data store implementation type (FileDataStore, S3DataStore, AzureDataStore).
 * `maintenance.task`: A maintenance task.
 * `slow.query`: A slow query.
-* `group.membership`: The number of users and subgroups ( direct/declared members only ) in a group. 
+* `group.membership`: The number of users and subgroups (direct / declared members only) in a group. 
 * `cqtag.count`: The number of CQ tagged assets.
 * `smarttag.count`: The number of Smart tagged assets.
 * `ccom.version`: The version of Core Component package.
@@ -40,10 +40,10 @@ Subtypes are used to identify different types of information:
 ## Possible implications and risks {#implications-and-risks}
 
 * The AEM version, node counts, group membership, node store, data store implementation types, CQ Tag Count, Smart Tag Count, Core Component version, AEM instance type, and Unprocessed asset count are provided for informational purposes.
-* The higher number of vanity URLs (>1000) may put a load on Dispatcher and the Publish servers with expensive queries.
+* The higher number of vanity URLs (>1000) may put a load on the Dispatcher and the Publish servers with expensive queries.
 * The custom application may rely on products or features not available in AEM as a Cloud Service.
 * Upgrading with unsupported features may result in a failed upgrade and a non-functional application.
-* A high number of author workflows in running or stale state could degrade performance.
+* A high number of author workflows in a running or stale state could degrade performance.
 * Slow queries may degrade the performance of the system.
 
 ## Possible solutions {#solutions}
@@ -55,7 +55,7 @@ Subtypes are used to identify different types of information:
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
 * AEM upgrades with unsupported products or features are not recommended and may not be supported.
-* The unprocessed assets must be processed and the `dam:assetState` property on the `jcr:content` node of the Asset must be set to "processed". Or, you should remove these assets from the migration set before migrating to AEMaaCS.
+* The unprocessed assets must be processed and the `dam:assetState` property on the `jcr:content` node of the Asset must be set to "processed." Or, you should remove these assets from the migration set before migrating to AEMaaCS.
 * Vanity URLs could be replaced with Apache Rewrites. 
 * See [documentation](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) for troubleshooting slow queries.
 * See the [release notes](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) if you want to learn more about the latest changes in AEM as a Cloud Service.
