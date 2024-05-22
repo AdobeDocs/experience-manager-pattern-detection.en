@@ -12,7 +12,7 @@ exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_overview"
 >title="FORMS"
->abstract="FORMS code identifies potential issues related to migrating from Adobe Experience Manager Forms to Adobe Experience Manager Forms as a Cloud Service. Review possible implications and risks associated and address these issues before migrating to Cloud Service."
+>abstract="FORMS code identifies potential issues related to migrating from AEM (Adobe Experience Manager) Forms to AEM Forms as a Cloud Service. Review possible implications and risks associated and address these issues before migrating to Cloud Service."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="Possible implications and risks"
 
 `FORMS`  Identifies potential issues related to migrating from [!DNL Adobe Experience Manager Forms] to [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]. Address these issues before migrating to [!DNL Cloud Service].
@@ -44,7 +44,7 @@ Address the following issues, before migrating to [!DNL Adobe Experience Manager
 
 * The Verify step is not available. (VERIFY_STEP)
 
-* The **[!UICONTROL Submit to Forms Workflow]** Submit Action is not available. On AEM 6.5 Forms and previous versions, the Submit Action was used to submit adaptive form data to legacy AEM Forms on JEE Workflows and LiveCycle Workflows. (LC_WORKFLOW_SUBMISSION)
+* The **[!UICONTROL Submit to Forms Workflow]** Submit Action is not available. On AEM 6.5 Forms and previous versions, the Submit Action was used to submit Adaptive Form data to legacy AEM Forms on JEE Workflows and LiveCycle Workflows. (LC_WORKFLOW_SUBMISSION)
 
 * The Interactive Communications capability is not available. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS).
 
@@ -64,7 +64,7 @@ Address the following issues, before migrating to [!DNL Adobe Experience Manager
 >abstract="Information exposed via FORMS code can provide guidance about replacements and other actions required to make some features and APIs compatible with the Cloud Service. Contact Adobe Support for help or clarifications."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
-* Use migration utility to convert all rule scripts on your environment to reusable functions. You can use the reusable functions with Visual Rule editor to continue obtaining results obtained with rule scripts. (CODE_EDITOR)
+* Use a migration utility to convert all rule scripts in your environment to reusable functions. You can use the reusable functions with Visual Rule Editor to continue obtaining results obtained with rule scripts. (CODE_EDITOR)
 
 * Contact the support team so they can enable email (open SMTP Port) functionality for your environment. Only outgoing HTTP and HTTPS connections are enabled by default. (EMAIL_SERVICE_CONFIGURATION, Email step)
 
@@ -72,7 +72,7 @@ Address the following issues, before migrating to [!DNL Adobe Experience Manager
 
 * Submitted data contains Adobe Sign Agreement ID. You can use the Sign Agreement ID to retrieve a Sign Agreement PDF, if necessary. (FORM_SIGN_INTEGRATION)
 
-* Remove the Signature step from an existing Adaptive Form. Configure your Adaptive Form to use [in-browser signing experience](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684). It displays Adobe Sign agreement to sign the agreement within browser on submission of an adaptive form. In-browser signing experience helps provide a faster signing experience and saves time for the signer. (SIGNATURE_STEP)
+* Remove the Signature step from an existing Adaptive Form. Configure your Adaptive Form to use an [in-browser signing experience](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684). It displays Adobe Sign agreement to sign the agreement within the browser on submission of an Adaptive Form. In-browser signing experience helps provide a faster signing experience and saves time for the signer. (SIGNATURE_STEP)
 
 * Remove the verifying step from your existing Adaptive Forms before moving such forms to a [!DNL Cloud Service] environment. (VERIFY_STEP)
 
@@ -86,9 +86,9 @@ Address the following issues, before migrating to [!DNL Adobe Experience Manager
 
 * Use the Google reCAPTCHA instead of the CAPTCHA service provided by Adobe Experience Manager. (FORMS_CAPTCHA)
 
-* Do not migrate a AEM Workflow model that uses a document services Workflow step. Also, do not migrate or update Adaptive Forms that send user data to a Workflow Model that uses document services Workflow steps or change the `Submit Action` to a [supported one](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions) before migrating the form. (WORKFLOW_DOCSERVICES)
+* Do not migrate to a AEM Workflow model that uses a document services Workflow step. Also, do not migrate or update Adaptive Forms that send user data to a Workflow Model that uses document services Workflow steps or change the `Submit Action` to a [supported one](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions) before migrating the form. (WORKFLOW_DOCSERVICES)
 
-* Adaptive Forms offer a responsive design. These forms change the appearance, design, and interactivity based on the underlying device. You can continue using Adaptive Forms on mobile device. Look for monthly release notes for information on availability of the [!DNL AEM Forms] app. (AEM_FORMS_APP)
+* Adaptive Forms offer a responsive design. These forms change the appearance, design, and interactivity based on the underlying device. You can continue using Adaptive Forms on a mobile device. Look for monthly release notes for information on the availability of the [!DNL AEM Forms] app. (AEM_FORMS_APP)
 
 * Support for XFA-based Adaptive Forms is not available out of the box. If you intend to use XFA-based Adaptive Forms, contact Adobe Support with details of your use case and specific requirements.(XFA_BASED_FORM, XDP_BASED_FORM)
 
