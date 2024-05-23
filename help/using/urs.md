@@ -10,14 +10,14 @@ Unsupported Repository Structure
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="Unsupported Repository Structure"
->abstract="URS identifies cases of unsupported repository structure and node characteristics. This surfaces information to avoid conflict between AEM product code and customer code, content being restructured out of /etc to other folders in the repository and more."
+>abstract="URS identifies cases of URS (Unsupported Repository Structure) and node characteristics. This surfaces information to avoid conflict between AEM product code and customer code, content being restructured out of `/etc` to other folders in the repository and more."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="Repository Restructuring"
 
 ## Background {#background}
 
-`URS`  Identifies cases of unsupported repository structure and node characteristics. Beginning in AEM 6.4, guidelines have been provided for the restructuring of repository content. By clearly delineating hierarchies for AEM product code and customer code and avoid conflict between them, content is being restructured out of `/etc` to other folders in the repository, adhering to the following high-level rules:
+`URS`  Identifies cases of URS (Unsupported Repository Structure) and node characteristics. Beginning in AEM 6.4, guidelines have been provided for the restructuring of repository content. By clearly delineating hierarchies for AEM product code, and customer code, and avoiding conflict between them all, content is being restructured out of `/etc` to other folders in the repository. Doing so adhere to the following high-level rules:
 
-* AEM product code is always placed in `/libs`, which must not be overwritten by custom code. 
+* AEM product code is always placed in `/libs` that custom code must not overwrite. 
 * Custom code should be placed in `/apps`, `/content`, and `/conf`.
 * It is highly recommended that these guidelines are followed for AEM as a Cloud Service.
 
@@ -40,7 +40,7 @@ Subtypes are used to identify the specific types of repository issues that shoul
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"
 >title="Implementation Guidance"
->abstract="Best practice is to review your code project. Make sure it adheres to the AEM project structure guidelines and avoid code relying on older/unsupported repository paths that may cause undesired behavior in AEM as a Cloud Service. Contact Adobe Support for help or clarifications."
+>abstract="Best practice is to review your code project. Make sure it adheres to the AEM project structure guidelines and avoid code relying on older or unsupported repository paths that may cause undesired behavior in AEM as a Cloud Service. Contact Adobe Support for help or clarifications."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="AEM Project Structure Guidelines"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
