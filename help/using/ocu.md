@@ -33,6 +33,6 @@ As the old versions are not installed by default, the customer application might
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud Support"
 
-* Short term: Installation of compatibility package might help.
+* Short term: Installation of a compatibility package might help.
 * Long term: Adapt customer code to use the newest version of AEM components or APIs.
 * Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.

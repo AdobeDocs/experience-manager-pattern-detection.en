@@ -12,7 +12,7 @@ Multi-site Manager
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_overview"
 >title="Multi-site Manager"
->abstract="MSM identifies general information about the AEM Multi-site Manager feature. This in formation is provided to help characterize the system."
+>abstract="MSM identifies general information about the AEM Multi-site Manager feature. This information is provided to help characterize the system."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Notable Changes - AEM as a Cloud Service"
 
 `MSM`  Identifies general information about the AEM Multi-site Manager feature. This information is provided to help characterize the system.

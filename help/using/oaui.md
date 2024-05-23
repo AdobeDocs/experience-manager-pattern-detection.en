@@ -12,7 +12,7 @@ OAuth Users Instance
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_overview"
 >title="OAuth Users Instance"
->abstract="OAUI code identifies the pattern where there is at least one OAuth-related configured user that requires correct migration. OAuth is configured for users when there is a subnode named oauth directly under a rep:AuthorizableId node in the form of /home/user-path/user-node/oauth"
+>abstract="OAUI code identifies the pattern where there is at least one OAuth-related configured user that requires correct migration. OAuth is configured for users when there is a subnode named OAuth directly under a rep:AuthorizableId node in the form of /home/user-path/user-node/oauth"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - Release Notes"
 
 `OAUI`  Identifies the pattern where there is at least one OAuth-related configured user that requires correct migration.
