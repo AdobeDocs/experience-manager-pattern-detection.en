@@ -40,6 +40,10 @@ Subtypes are used to identify different types of information:
 * Applications dependent on third-party packages might not work as expected until deployed correctly to work with AEM as a Cloud Service.
 * Third-party vendor packages, if not optimized for AEM as a Cloud service, may result in undesired behavior.
 
+Also, consider paying attention to these particular subtypes:
+
+* `guava.bundle` - Guava is not supported out of the box on AEM 6.5 LTS and the bundle will not be available after the upgrade.
+
 ## Possible solutions {#solutions}
 
 >[!CONTEXTUALHELP]
@@ -54,3 +58,4 @@ Subtypes are used to identify different types of information:
 * Third-party packages must adhere to the AEM as a Cloud Service [development](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) and [packaging](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package) guidelines.
 * Review [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) project and understand how [INST violations](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst) can be corrected and made compatible with AEM as a Cloud Service.
 * Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.
+* For the `guava.bundle` subtype, either install Guava or remove usage if Guava is used in your custom code. 
