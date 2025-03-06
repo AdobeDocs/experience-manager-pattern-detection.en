@@ -27,6 +27,10 @@ Subtypes are used to identify the different types of detected violations:
 * `unsupported.asset.api`: The use of unsupported Asset Manager APIs in application code.
 * `javax.jcr.observation.EventListener`: The use of Event Listener in application code.
 * `custom.guava.cache`: The use of Guava Cache in application code.
+* `java.api`: Some Java APIs were removed from Java 11 to Java 17.
+* `configuration.admin`: Custom code which is accessing configurations will be flagged.
+* `guava.api`: Guava is not suppoerted Out of the Box on AEM 6.5 LTS.
+* `com.day.cq.dam.scene7.api.model`: There is major version change for `package com.day.cq.dam.scene7.api.model`.
 
 ## Possible implications and risks {#implications-and-risks}
 
@@ -53,6 +57,18 @@ Subtypes are used to identify the different types of detected violations:
   
 * `custom.guava.cache`
   * Usage of Guava Cache may cause performance issues on AEM.
+
+* `java.api`
+  * With AEM 6.5 LTS on JRE17, these removed Java APIs won't be available and their usage will fail.
+
+* `configuration.admin`
+  * You should look at your usage to make sure you are not using any unsupported configs like social.
+
+* `guava.api`
+  * As Guava is not supported in AEM 6.5 LTS, the custom code is using guava won't be active.
+
+* `com.day.cq.dam.scene7.api.model`
+  * Imported package `com.day.cq.dam.scene7.api.model` in custom bundles will not resolve due to a major version change.
 
 
 ## Possible solutions {#solutions}
@@ -85,3 +101,12 @@ Subtypes are used to identify the different types of detected violations:
 * `custom.guava.cache`
   * Caches, if necessary, should be created outside AEM. External caching solution might be considered.
 * Contact the [AEM Support Team](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) for clarifications or to have concerns addressed.
+
+* `configuration.admin`
+  * Remove any config usage of non supported features like Social.
+
+* `guava.api`
+  * Either install Guava or remove usage if Guava is used in your custom code. 
+
+* `com.day.cq.dam.scene7.api.model`
+  * Update the version range for the imported package `com.day.cq.dam.scene7.api.model` to **3.0.4**.

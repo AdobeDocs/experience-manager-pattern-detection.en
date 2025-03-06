@@ -44,3 +44,16 @@ Subtypes are used to identify the different types of information:
 * To support projects deploying CIF, Adobe provides [AEM CIF Core Components](https://github.com/adobe/aem-core-cif-components).
 * CIF add-on is available for AEM 6.5 as well by way of the [Software Distribution portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html). It is compatible and provides the same features as the CIF add-on for Experience Manager as a Cloud Service - no adjustments are required.
 * Classic CIF with its dependencies is not available anymore. Code relying on this CIF version using com.adobe.cq.commerce.api Java&trade; APIs must be adjusted to the CIF add-on and its principles.
+
+Also, find the possible solutions for the different subtypes below:
+
+* `commerce.bundles.detected` - These bundles will be uninstalled during upgrade
+* `commerce.packages.detected` - These packages  will be deleted during upgrade
+* `commerce.packages.dependency` - Remove any dependency on Commerce from custom packages
+* `commerce.nodes.detected` - Update custom code to not create CQ Commerce nodes
+* `commerce.configs.detected` - Do not use CQ Commerce config properties in custom code
+* `commerce.users.detected` - Do not use CQ Commerce service users in custom code
+* `commerce.overlays.detected` - Remove CQ Commerce overlays usage
+* `commerce.paths.detected` - Remove commerce paths after making sure that these paths are not being used on AEM
+* `commerce.resource.type.detected` - Remove commerce resource type usage
+* `commerce.usage` - Remove CQ Commerce APIs in your custom code.

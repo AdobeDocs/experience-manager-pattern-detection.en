@@ -10,6 +10,7 @@ role: Developer
 
 # Experience Manager Pattern Detection Guide {#table-of-contents}
 
++ [AC](ac.md)
 + [ACV](acv.md)
 + [ASO](aso.md)
 + [CAV](cav.md)
@@ -38,7 +39,11 @@ role: Developer
 + [OU](ou.md)
 + [PCX](pcx.md)
 + [[!DNL REP]](rep.md)
++ [SCR](scr.md)
++ [SIF](sif.md)
++ [SPI](spi.md)
 + [UMI](umi.md)
 + [URC](urc.md)
 + [URS](urs.md)
++ [WRF](wrf.md)
 + [WRK](wrk.md)
