@@ -1,6 +1,7 @@
 ---
 title: SPI
 description: Pattern Detector code help page.
+exl-id: 39f2d04e-c6e4-4da6-b000-0115bc2b87bf
 ---
 # SPI {#spi}
 

@@ -1,6 +1,7 @@
 ---
 title: AC
 description: Pattern Detector code help page.
+exl-id: 4c6ac075-5ba6-4511-97c6-a9b496d4677a
 ---
 # AC {#ac}
 

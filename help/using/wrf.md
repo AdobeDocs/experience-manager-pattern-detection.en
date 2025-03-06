@@ -1,6 +1,7 @@
 ---
 title: WRF
 description: Pattern Detector code help page.
+exl-id: 36578498-d5b2-46d1-a274-a1646ceaa764
 ---
 # WRF {#wrf}
 

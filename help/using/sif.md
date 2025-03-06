@@ -1,6 +1,7 @@
 ---
 title: SIF
 description: Pattern Detector code help page.
+exl-id: c0a5c565-16e7-407b-befc-5a2966089da1
 ---
 # SIF {#sif}
 

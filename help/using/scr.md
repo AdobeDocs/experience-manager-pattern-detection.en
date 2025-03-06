@@ -1,6 +1,7 @@
 ---
 title: SCR
 description: Pattern Detector code help page.
+exl-id: 13b14cc2-f70b-45ff-a62d-dee647311d84
 ---
 # SCR {#scr}
 
