@@ -41,6 +41,7 @@ role: Developer
 + [[!DNL REP]](rep.md)
 + [SCR](scr.md)
 + [SIF](sif.md)
++ [SPI](spi.md)
 + [UMI](umi.md)
 + [URC](urc.md)
 + [URS](urs.md)
