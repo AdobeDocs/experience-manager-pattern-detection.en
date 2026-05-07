@@ -20,3 +20,4 @@ Find the possible solutions for the different subtypes below:
 * `asset.overlays.detected` - Overlays created on Assets Rating and Catalog components need to be removed.
 * `asset.resource.type.detected` - Remove any usage of the Assets rating component resourcetype in your custom code.
 * `asset.paths.detected` - Move any customer content present under these paths and remove these paths after making sure that they are not being used in AEM.
+
