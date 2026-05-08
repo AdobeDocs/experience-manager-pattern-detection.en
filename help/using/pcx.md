@@ -9,7 +9,6 @@ Page Complexity
 
 ## Background {#background}
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_overview"
 >title="Page Complexity"
@@ -29,7 +28,6 @@ Subtypes are used to identify the different types of information:
 * Many nodes within a page may affect its rendering performance.
 
 ## Possible solutions {#solutions}
-
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"

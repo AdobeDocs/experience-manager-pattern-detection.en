@@ -9,7 +9,6 @@ Misconfiguration Issue
 
 ## Background {#background}
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_mi_overview"
 >title="Misconfiguration Issue"
@@ -30,7 +29,6 @@ Subtypes are used to identify the different types of information, such as:
   * Missing Maintenance Task configurations may cause loss of performance or instance corruption.
 
 ## Possible solutions {#solutions}
-
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_mi_guidance"

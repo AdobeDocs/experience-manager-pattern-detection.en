@@ -9,7 +9,6 @@ Outdated Usage
 
 ## Background {#background}
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ou_overview"
 >title="Outdated Usage"
@@ -26,7 +25,6 @@ As the old versions are not installed by default, the customer application might
 * Some features of the customer application or some AEM functionality may not work properly or might not be active after an upgrade.
 
 ## Possible solutions {#solutions}
-
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ou_guidance"

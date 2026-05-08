@@ -9,7 +9,6 @@ Assets Content Validator
 
 ## Background {#background}
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_overview"
 >title="Assets Content Validator"
@@ -38,7 +37,6 @@ Subtypes are used to identify the different types of information, such as:
 * Invalid characters in the asset name might lead to failures while migrating to AEM as a Cloud Service.
 
 ## Possible solutions {#solutions}
-
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"

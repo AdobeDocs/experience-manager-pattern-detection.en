@@ -9,7 +9,6 @@ Upgrade Misconfiguration Issue
 
 ## Background {#background}
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_overview"
 >title="Upgrade Misconfiguration Issue"
@@ -38,7 +37,6 @@ The following configurations are checked for modification:
   * AEM as a Cloud Services does not support custom log files. Logs written to custom-named logs are not accessible from AEM as a Cloud Service.
 
 ## Possible solutions {#solutions}
-
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_guidance"
