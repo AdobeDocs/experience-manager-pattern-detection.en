@@ -9,7 +9,6 @@ Custom Component
 
 ## Background {#background}
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_overview"
 >title="Custom Component"
@@ -29,7 +28,6 @@ A subtype is used with this code to identify the category of component:
 * Best Practice is to minimize the number of custom components, use Core Components, and use Core Components with the Style System so you can reduce technical debt.
 
 ## Possible solutions {#solutions}
-
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_guidance"

@@ -9,7 +9,6 @@ Internal Oak Import
 
 ## Background {#background}
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
 >title="Internal Oak Import"
@@ -24,7 +23,6 @@ Some of these areas are used by `com.adobe.granite.repository`, which sets up a 
 * API in internal exports might change.
 
 ## Possible solutions {#solutions}
-
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_guidance"

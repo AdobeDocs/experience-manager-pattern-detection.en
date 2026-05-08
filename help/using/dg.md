@@ -9,7 +9,6 @@ Developer Guideline
 
 ## Background {#background}
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dg_overview"
 >title="Developer Guidelines"
@@ -73,7 +72,6 @@ Subtypes are used to identify the different types of detected violations:
 
 
 ## Possible solutions {#solutions}
-
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dg_guidance"

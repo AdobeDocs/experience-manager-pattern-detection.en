@@ -9,7 +9,6 @@ Dynamic Media
 
 ## Background {#background}
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_overview"
 >title="Dynamic Media"
@@ -31,7 +30,6 @@ A subtype is used with this code:
   * There may be upgrade issues related to Dynamic Media.
 
 ## Possible solutions {#solutions}
-
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_guidance"

@@ -9,7 +9,6 @@ Multi-site Manager
 
 ## Background {#background}
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_overview"
 >title="Multi-site Manager"
@@ -26,7 +25,6 @@ Subtypes are used to identify different types of information:
 
 
 ## Possible solutions {#solutions}
-
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_guidance"

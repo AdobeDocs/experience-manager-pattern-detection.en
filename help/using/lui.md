@@ -9,7 +9,6 @@ Legacy User Interface
 
 ## Background {#background}
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_overview"
 >title="Legacy User Interface"
@@ -46,7 +45,6 @@ Subtypes are used to identify the different types of user interface elements tha
   
 ## Possible implications and risks {#implications-and-risks}
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_guidance"
 >title="Implementation Guidance"
@@ -59,7 +57,6 @@ Subtypes are used to identify the different types of user interface elements tha
 * /apps is immutable at runtime and translator.html would no longer be available in AEM as a cloud service. Thus, `I18n` dictionaries must come from Git by way of the CI / CD pipeline.
 
 ## Possible solutions {#solutions}
-
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_tools"

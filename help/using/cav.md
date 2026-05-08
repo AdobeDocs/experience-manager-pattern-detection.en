@@ -9,7 +9,6 @@ Content Area Violation
 
 ## Background {#background}
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_overview"
 >title="Content Area Violation"
@@ -35,7 +34,6 @@ Each classification implies rules about how the content may be user, inherited, 
 * Security updates are not effective.
   
 ## Possible solutions {#solutions}
-
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"

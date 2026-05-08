@@ -9,7 +9,6 @@ AEM System Overview
 
 ## Background {#background}
 
-
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_overview"
 >title="AEM System Overview"
@@ -48,7 +47,6 @@ Subtypes are used to identify different types of information:
 * Slow queries may degrade the performance of the system.
 
 ## Possible solutions {#solutions}
-
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_guidance"
