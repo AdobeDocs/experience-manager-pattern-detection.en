@@ -9,6 +9,7 @@ exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
 
 ## Background {#background}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_overview"
 >title="/libs Overwriting Custom Packages"
@@ -24,6 +25,7 @@ exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
 * Sometimes the new content might not be installed properly.
 
 ## Possible solutions {#solutions}
+
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"

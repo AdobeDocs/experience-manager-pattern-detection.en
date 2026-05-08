@@ -9,6 +9,7 @@ Commerce Integration Framework Classic
 
 ## Background {#background}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_overview"
 >title="Commerce Integration Framework Classic"
@@ -24,6 +25,7 @@ Subtypes are used to identify the different types of information:
 
 ## Possible implications and risks {#implications-and-risks}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_guidance"
 >title="Implementation Guidance"
@@ -33,6 +35,7 @@ Subtypes are used to identify the different types of information:
 * The classic version of Commerce Integration Framework is no longer supported on AEM as a Cloud Service. It would block the upgrade to AEM as a Cloud Service.
 
 ## Possible solutions {#solutions}
+
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_tools"

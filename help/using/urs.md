@@ -7,6 +7,7 @@ exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 
 Unsupported Repository Structure
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="Unsupported Repository Structure"
@@ -36,6 +37,7 @@ Subtypes are used to identify the specific types of repository issues that shoul
 * Packages containing both mutable and immutable content can likely cause problems during deployment.
 
 ## Possible solutions {#solutions}
+
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"

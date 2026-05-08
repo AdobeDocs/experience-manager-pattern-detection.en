@@ -9,6 +9,7 @@ Non-Compatible Changes
 
 ## Background {#background}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_overview"
 >title="Non-Compatible Changes"
@@ -24,6 +25,7 @@ Non-Compatible Changes
 * Some features of the customer application or some AEM functionality may not work properly after an upgrade.
 
 ## Possible solutions {#solutions}
+
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_guidance"

@@ -9,6 +9,7 @@ Custom Client Library
 
 ## Background {#background}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_overview"
 >title="Custom Client Library"
@@ -25,6 +26,7 @@ One subtype is used with this code:
 * The client libraries that have been added to AEM should be reviewed to ensure that there is no duplication and that the latest versions are used.
 
 ## Possible solutions {#solutions}
+
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_guidance"

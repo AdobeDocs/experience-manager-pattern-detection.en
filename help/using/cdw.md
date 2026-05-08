@@ -9,6 +9,7 @@ Custom Dialog Widget
 
 ## Background {#background}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cdw_overview"
 >title="Custom Dialog Widget"
@@ -25,6 +26,7 @@ Subtypes are used to identify the information, such as:
 * The Classic UI is no longer available in AEM as a Cloud Service. The standard interface for authoring is the Touch-enabled UI.
  
 ## Possible solutions {#solutions}
+
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cdw_guidance"

@@ -9,6 +9,7 @@ Installed Artifact
 
 ## Background {#background}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_overview"
 >title="Installed Artifact"
@@ -29,6 +30,7 @@ Subtypes are used to identify different types of information:
 
 ## Possible implications and risks {#implications-and-risks}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_guidance"
 >title="Implementation Guidance"
@@ -45,6 +47,7 @@ Also, consider paying attention to these particular subtypes:
 * `guava.bundle` - Guava is not supported out of the box on AEM 6.5 LTS and the bundle will not be available after the upgrade.
 
 ## Possible solutions {#solutions}
+
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"

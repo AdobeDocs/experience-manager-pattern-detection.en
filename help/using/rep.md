@@ -9,6 +9,7 @@ Replication Agent
 
 ## Background {#background}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_rep_overview"
 >title="Replication Agent"
@@ -38,6 +39,7 @@ AEM as a Cloud Service uses [Sling Content Distribution](https://sling.apache.or
 * There is no need to configure a separate Dispatcher flush agent. Instead, it is automatically configured in the AEM as a Cloud Service environment.
 
 ## Possible solutions {#solutions}
+
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_rep_guidance"
