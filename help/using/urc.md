@@ -9,6 +9,7 @@ Unsupported Run mode Configuration
 
 ## Background {#background}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_overview"
 >title="Unsupported Run mode Configuration"
@@ -20,6 +21,7 @@ Unsupported Run mode Configuration
 
 ## Possible implications and risks {#implications-and-risks}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_guidance"
 >title="Implementation Guidance"
@@ -30,6 +32,7 @@ Unsupported Run mode Configuration
 * Configurations that are based on unsupported run mode names, have no effect when deployed to AEM as a Cloud Service.
 
 ## Possible solutions {#solutions}
+
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"

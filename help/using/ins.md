@@ -9,6 +9,7 @@ Invalid Namespace
 
 ## Background {#background}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ins_overview"
 >title="Invalid Namespace"
@@ -25,6 +26,7 @@ Subtypes are used to identify the different types of information, such as:
 * Unable to replicate content (across tier) or copy content (across `env`, by way of `/crx/packMgr`, or Content Copy).
 
 ## Possible solutions {#solutions}
+
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ins_guidance"

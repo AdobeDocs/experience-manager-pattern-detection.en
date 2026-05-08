@@ -9,6 +9,7 @@ OAuth Users Instance
 
 ## Background {#background}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_overview"
 >title="OAuth Users Instance"
@@ -26,6 +27,7 @@ An example is: `/home/users/ims/0001/R80w6XaUCBq3jHE47xDN/oauth`.
 * External users configured with OAuth are unable to log in on author/publish instances until they are reconfigured with the below procedure.
 
 ## Possible solutions {#solutions}
+
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_guidance"

@@ -9,6 +9,7 @@ Custom Template
 
 ## Background {#background}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_overview"
 >title="Custom Template"
@@ -23,6 +24,7 @@ Templates have a primary type value of `cq:Template`, which helps in their ident
 
 ## Possible implications and risks {#implications-and-risks}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_guidance"
 >title="Implementation Guidance"
@@ -33,6 +35,7 @@ Templates have a primary type value of `cq:Template`, which helps in their ident
 * Best Practice is to move all Static Templates to Editable Templates.
 
 ## Possible solutions {#solutions}
+
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_tools"

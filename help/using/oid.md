@@ -9,6 +9,7 @@ Oak Index Definition
 
 ## Background {#background}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_overview"
 >title="Oak Index Definition"
@@ -24,6 +25,7 @@ Subtypes are used to identify the different types of information:
 
 ## Possible implications and risks {#implications-and-risks}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_guidance"
 >title="Implementation Guidance"
@@ -36,6 +38,7 @@ Subtypes are used to identify the different types of information:
 * All Oak index definitions should follow the naming convention and other rules for Oak indexes in AEM as a Cloud Service. Otherwise, it can cause undesired behavior.
 
 ## Possible solutions {#solutions}
+
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_tools"

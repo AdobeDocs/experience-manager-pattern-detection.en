@@ -9,6 +9,7 @@ DEPRECATED: Non-Backwards Compatible Changes (replaced by NCC, Non-Compatible Ch
 
 ## Background {#background}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_nbcc_overview"
 >title="Non-Backwards Compatible Changes"
@@ -24,6 +25,7 @@ DEPRECATED: Non-Backwards Compatible Changes (replaced by NCC, Non-Compatible Ch
 * Some features of the customer application or some AEM functionality may not work properly after an upgrade.
 
 ## Possible solutions {#solutions}
+
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_nbcc_guidance"

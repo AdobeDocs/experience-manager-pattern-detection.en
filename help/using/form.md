@@ -9,6 +9,7 @@ exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 
 ## Background {#background}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_overview"
 >title="FORMS"
@@ -57,6 +58,7 @@ Address the following issues, before migrating to [!DNL Adobe Experience Manager
 * [Document services](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/install-aem-forms/osgi-installation/install-configure-document-services#deployment-topology) steps are not available in AEM Workflows. (WORKFLOW_DOCSERVICES)
 
 ## Possible solutions {#solutions}
+
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_guidance"

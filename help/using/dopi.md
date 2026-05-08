@@ -9,6 +9,7 @@ Deprecated Ordered Property Index
 
 ## Background {#background}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_overview"
 >title="Deprecated Ordered Property Index"
@@ -19,6 +20,7 @@ Deprecated Ordered Property Index
 `DOPI`  Identifies the use of Ordered Property Index definitions (`primaryType=oak:QueryIndexDefinition` AND `type="ordered"`). The definitions were deprecated in AEM 6.1 and removed in AEM 6.2.
 
 ## Possible implications and risks {#implications-and-risks}
+
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_guidance"
@@ -31,6 +33,7 @@ Deprecated Ordered Property Index
 * Traversal warnings or even errors and significant performance penalties as the deprecated indexes have no effect.
 
 ## Possible solutions {#solutions}
+
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_tools"

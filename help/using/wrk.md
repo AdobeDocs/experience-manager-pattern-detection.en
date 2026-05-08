@@ -9,6 +9,7 @@ Workflow
 
 ## Background {#background}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_overview"
 >title="Workflow"
@@ -23,6 +24,7 @@ A subtype is used to identify the type of workflow issue currently detected.
 
 ## Possible implications and risks {#implications-and-risks}
 
+
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_guidance"
 >title="Implementation Guidance"
@@ -34,6 +36,7 @@ A subtype is used to identify the type of workflow issue currently detected.
 * Customizations to asset workflows require migration to work with AEM as a Cloud Service.
 
 ## Possible solutions {#solutions}
+
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_tools"
