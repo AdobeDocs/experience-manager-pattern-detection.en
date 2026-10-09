@@ -2,6 +2,12 @@
 title: SIF
 description: Pattern Detector code help page.
 exl-id: c0a5c565-16e7-407b-befc-5a2966089da1
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # SIF {#sif}
 

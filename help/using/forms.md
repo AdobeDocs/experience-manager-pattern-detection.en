@@ -2,6 +2,12 @@
 title: FORM
 description: Pattern Detector code help page.
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # [!DNL FORMS] {#form}
 

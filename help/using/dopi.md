@@ -2,6 +2,12 @@
 title: DOPI
 description: Pattern Detector code help page.
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # DOPI {#dopi}
 
