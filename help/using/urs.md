@@ -2,6 +2,12 @@
 title: URS
 description: Pattern Detector code help page.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # URS {#urs}
 

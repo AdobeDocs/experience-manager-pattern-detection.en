@@ -2,6 +2,12 @@
 title: INS
 description: Pattern Detector code help page.
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # INS {#ins}
 

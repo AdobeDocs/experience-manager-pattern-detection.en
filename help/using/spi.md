@@ -2,6 +2,12 @@
 title: SPI
 description: Pattern Detector code help page.
 exl-id: 39f2d04e-c6e4-4da6-b000-0115bc2b87bf
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # SPI {#spi}
 
